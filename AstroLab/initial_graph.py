@@ -27,7 +27,20 @@ for result in list_of_results:
         elif i == 2:
             err_vert.append(float(datum[i]))
 
+trundles = [i ** 3 for i in range(1, 11)]
+
+# fptr2 = open("cyg_ucmag.txt", "w")
+
+# print(y_vals)
+# for item in y_vals:
+#     fptr2.write(str(item) + "\n")
+
+# fptr2.close()
+
 fptr.close()
+
+
+
 
 # plt.errorbar(x_vals, y_vals, err_vert, fmt = "r+", capsize = 3, elinewidth = 0.8, markeredgewidth = 0.8, LineStyle = "none")
 plt.plot(x_vals, y_vals, 'r+')
