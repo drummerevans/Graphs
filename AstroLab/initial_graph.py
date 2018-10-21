@@ -29,13 +29,13 @@ for result in list_of_results:
 
 trundles = [i ** 3 for i in range(1, 11)]
 
-# fptr2 = open("cyg_ucmag.txt", "w")
+fptr2 = open("cyg_ucerrors.txt", "w")
 
-# print(y_vals)
-# for item in y_vals:
-#     fptr2.write(str(item) + "\n")
+print(err_vert)
+for item in err_vert:
+    fptr2.write(str(item) + "\n")
 
-# fptr2.close()
+fptr2.close()
 
 fptr.close()
 
