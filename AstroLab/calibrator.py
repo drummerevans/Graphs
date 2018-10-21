@@ -27,18 +27,21 @@ for result in list_of_results:
         elif i == 3:
             Cal3.append(str(datum[i]))
 
+XX_Cyg_Vals = []
+for num in XX_Cyg:
+    XX_Cyg_Vals.append(float(num))
+
 def calibrate(uncal, cal_val):
     A1 = []
     for num in uncal:
         if num != "INDEF":
-            num = float(num) - cal_val # calibrating the values of the observed magnitudes for the calibration stars
+            num = float(num) - cal_val # finding the calibrated values from the observed magnitudes for the calibration stars
         A1.append(num)
     return A1
 
 F_vals = calibrate(Cal1, 10.886)
 G_vals = calibrate(Cal2, 13.183)
 H_vals = calibrate(Cal3, 10.406)
-
 
 average = []
 
@@ -59,7 +62,12 @@ for i in range(0, len(F_vals)):
         average.append(av)
     else:
         average.append(np.nan)
-    
-print(average)
+
+XX_Cyg_Vector = np.array(XX_Cyg_Vals)
+average_vector = np.array(average)
+
+XX_Cyg_Calibrated = XX_Cyg_Vector - average_vector
+
+print(XX_Cyg_Calibrated)
 
 fptr.close()
