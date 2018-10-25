@@ -10,7 +10,7 @@ y_vals = []
 err_horiz = [] 
 err_vert = [] 
 
-fptr = open("initial_results.txt", "r", newline=None)
+fptr = open("calibrated_mags.txt", "r", newline=None)
 
 list_of_results = fptr.readlines()
 
@@ -41,11 +41,11 @@ fptr.close()
 plt.rcParams["font.family"] = "Times New Roman" 
 plt.rcParams["axes.linewidth"] = 1.0
 
-plt.title("XX Cygni Uncalibrated Magnitudes", fontsize = 12, fontweight = "bold")
+plt.title("XX Cygni Calibrated Magnitudes", fontsize = 12, fontweight = "bold")
 plt.xlabel("Time/hours", fontsize = 12)
 plt.ylabel("Apparent Magnitude", fontsize = 12)
 # plt.legend(loc = "upper right", title = "Legend", fontsize = 10)
-plt.axis([0, 2.5, 14.0, 11.5])
+plt.axis([0, 2.5, 12.4, 11.4])
 # plt.xlim(-0.5, 3.0)
 # plt.gca().xaxis.set_major_locator(matplotlib.ticker.MultipleLocator(0.5))
 # plt.ylim(12.5, 11.5)
@@ -53,7 +53,7 @@ plt.axis([0, 2.5, 14.0, 11.5])
 plt.gca().tick_params(width = 1.0, labelsize = 10)
 
 
-plt.errorbar(x_vals, y_vals, err_vert, fmt = "r+", capsize = 3, elinewidth = 0.8, markeredgewidth = 0.8, LineStyle = "none")
+plt.errorbar(x_vals, y_vals, err_vert, fmt = "b+", capsize = 3, elinewidth = 0.8, markeredgewidth = 0.8, LineStyle = "none")
 
 # plt.plot(x_vals2, y_vals2, 'b+')
-plt.savefig("Uncalibrated_Graph.pdf") # change the name of the output graph pdf file here!
+plt.savefig("Calibrated_Graph.pdf") # change the name of the output graph pdf file here!
