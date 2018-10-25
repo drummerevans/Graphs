@@ -79,4 +79,12 @@ print(np.sqrt(np.abs(XX_Cyg_Calibrated_Errs)))
 
 final_array_errors_result = np.sqrt(np.abs(XX_Cyg_Calibrated_Errs))
 
+fptr2 = open("XX_cal_errs.txt", "w")
+
+# print(err_vert)
+for item in final_array_errors_result:
+    fptr2.write(str(item) + "\n")
+
+fptr2.close()
+
 fptr.close()

@@ -70,4 +70,12 @@ XX_Cyg_Calibrated = XX_Cyg_Vector - average_vector
 
 print(XX_Cyg_Calibrated)
 
+fptr2 = open("XX_cal_mags.txt", "w")
+
+# print(err_vert)
+for item in XX_Cyg_Calibrated:
+    fptr2.write(str(item) + "\n")
+
+fptr2.close()
+
 fptr.close()
