@@ -68,7 +68,7 @@ print(y_vals2)
 plt.rcParams["font.family"] = "Times New Roman" 
 plt.rcParams["axes.linewidth"] = 1.0
 
-plt.title("XX Cygni Magnitudes", fontsize = 12, fontweight = "bold")
+# plt.title("XX Cygni Magnitudes", fontsize = 12, fontweight = "bold")
 plt.xlabel("Time/hours", fontsize = 12)
 plt.ylabel("Apparent Magnitude", fontsize = 12)
 
