@@ -18,8 +18,7 @@ python calibrated_graph.py
 
 ## combo_graph.py
 
-This program plots a graph of the calibrated magnitudes for XX Cygni for the Astro01 experiment.
-It also displays a graph of the uncalibrated magnitudes for XX Cygni on the same plot for comparision.
+This program plots a graph of the uncalibrated magnitudes for XX Cygni for the Astro01 experiment against the calibration stars.
 
 To run:
 ```
