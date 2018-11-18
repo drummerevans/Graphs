@@ -3,14 +3,14 @@ import numpy as np
 import matplotlib.pyplot as plt
 import matplotlib.ticker
 import statistics
-from LS_Poly import least_squares_fit
+from LS_Poly2 import least_squares_fit
 
 x_vals = []
 y_vals = []
 err_horiz = [] 
 err_vert = [] 
 
-fptr = open("blue_data.txt", "r", newline=None)
+fptr = open("red_data.txt", "r", newline=None)
 
 list_of_results = fptr.readlines()
 
@@ -31,7 +31,6 @@ for result in list_of_results:
 fptr.close()
 
 print(x_vals)
-print(err_horiz)
 
 # x_vals = np.array([0, 1, 2, 3, 4, 5])
 # y_vals = np.array([0, 0.8, 0.9, 0.1, -0.8, -1])

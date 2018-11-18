@@ -4,7 +4,7 @@ import matplotlib.pyplot as plt
 import matplotlib.ticker
 import statistics
 
-def least_squares_fit(x, y, err_x, err_y):
+def least_squares_fit(x, y, err_y):
     plt.rc('font', family = 'serif', serif = 'cmr10') 
     plt.rcParams["axes.linewidth"] = 1.0 
 
@@ -15,25 +15,25 @@ def least_squares_fit(x, y, err_x, err_y):
     p = np.polyfit(x, y, 1) # finds the coefficients for the 'best' fitting function
   
     f = np.polyval(p, x) # these are the 'y-values' of the fitting function
-    sigma = statistics.stdev(f - y) # standard deviation of quantity 'f - y'
+    sigma = statistics.stdev(f - y) # standard deviation of quantity 'f - y' amount of (vertical) deviation between the model and the data points
 
     # plt.figure(figsize = (8, 6))
-    plt.errorbar(x, y, err_y, err_x, fmt = "k+", capsize = 1, elinewidth = 0.6, MarkerSize = 2, markeredgewidth = 0.6, LineStyle = "none")
+    plt.errorbar(x, y, err_y, fmt = "k+", capsize = 1, elinewidth = 0.6, MarkerSize = 2, markeredgewidth = 0.6, LineStyle = "none")
     # the last argument for the two lines below, is for the legend
     # plt.plot(x, y, Marker = "+", MarkerSize = 4, MarkerEdgeColor = "k", MarkerFaceColor = "k", LineWidth = 0.8, LineStyle = "none")
-    plt.plot(x, f, LineWidth = 0.6, Linestyle = "-", Color = "b", label = "Model") # 'line of best fit'
+    plt.plot(x, f, LineWidth = 0.6, Linestyle = "-", Color = "g", label = "Model") # 'line of best fit'
 
     # plt.title("Least Squares Fit", fontsize = 12, fontweight = "bold")
-    plt.xlabel('$\\sqrt{d^2 + \\ell^2}/mm$', fontsize = 10)
-    plt.ylabel("$\\ell/mm$", fontsize = 10)
-    plt.axis([350, 850, 100, 250])
+    plt.xlabel(r"$\left(\frac{1}{2^2}\right) - \left(\frac{1}{n^2}\right)$", fontsize = 10)
+    plt.ylabel("$E/eV$", fontsize = 10)
+    # plt.axis([400, 900, 150, 350])
     # plt.xlim(-1, 6)
     # ax.xaxis.set_major_locator(matplotlib.ticker.MultipleLocator(1))
     # plt.ylim(-2, 2)
     # ax.yaxis.set_major_locator(matplotlib.ticker.MultipleLocator(1))
     plt.gca().tick_params(width = 1.0, labelsize = 8)
   
-    plt.savefig("Blue_Plot.pdf")
+    plt.savefig("Rydberg_plot.pdf")
 
     print("Gradient is: {:f}" .format(p[0]))
     print("y-intercept is: {:f}" .format(p[1]))
