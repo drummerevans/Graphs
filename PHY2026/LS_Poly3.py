@@ -5,7 +5,8 @@ import matplotlib.ticker
 import statistics
 
 def least_squares_fit(x, y, err_y):
-    plt.rc('font', family = 'serif', serif = 'cmr10') 
+    plt.rc('font', family = 'serif', serif = 'cmr10')
+    plt.rcParams['mathtext.fontset'] = "cm" 
     plt.rcParams["axes.linewidth"] = 1.0 
 
     arr_size = int(len(x))
