@@ -25,8 +25,8 @@ def least_squares_fit(x, y, err_x, err_y):
     plt.plot(x, f, LineWidth = 0.6, Linestyle = "-", Color = "r", label = "Model") # 'line of best fit'
 
     # plt.title("Least Squares Fit", fontsize = 12, fontweight = "bold")
-    plt.xlabel('$\\sqrt{d^2 + l^2}/mm$', fontsize = 10)
-    plt.ylabel("$l/mm$", fontsize = 10)
+    plt.xlabel('$\\sqrt{d^2 + l^2}(mm)$', fontsize = 10)
+    plt.ylabel("$l(mm)$", fontsize = 10)
     plt.axis([400, 900, 150, 350])
     # plt.xlim(-1, 6)
     # ax.xaxis.set_major_locator(matplotlib.ticker.MultipleLocator(1))

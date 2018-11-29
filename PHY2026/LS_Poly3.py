@@ -25,8 +25,8 @@ def least_squares_fit(x, y, err_y):
     plt.plot(x, f, LineWidth = 0.6, Linestyle = "-", Color = "g", label = "Model") # 'line of best fit'
 
     # plt.title("Least Squares Fit", fontsize = 12, fontweight = "bold")
-    plt.xlabel(r"$\left(\frac{1}{2^2}\right) - \left(\frac{1}{n^2}\right)$", fontsize = 10)
-    plt.ylabel("$E/eV$", fontsize = 10)
+    plt.xlabel(r"$\left(\frac{1}{2^2} - \frac{1}{n^2}\right)$", fontsize = 10)
+    plt.ylabel("$E(eV)$", fontsize = 10)
     # plt.axis([400, 900, 150, 350])
     # plt.xlim(-1, 6)
     # ax.xaxis.set_major_locator(matplotlib.ticker.MultipleLocator(1))
