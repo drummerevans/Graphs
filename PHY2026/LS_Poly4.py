@@ -19,10 +19,10 @@ def least_squares_fit(x, y, err_y):
     sigma = statistics.stdev(f - y) # standard deviation of quantity 'f - y' amount of (vertical) deviation between the model and the data points
 
     # plt.figure(figsize = (8, 6))
-    plt.errorbar(x, y, err_y, fmt = "k+", capsize = 1, elinewidth = 0.6, MarkerSize = 2, markeredgewidth = 0.6, LineStyle = "none")
+    plt.errorbar(x, y, err_y, fmt = "r+", capsize = 3, elinewidth = 0.6, MarkerSize = 2, markeredgewidth = 0.6, LineStyle = "none")
     # the last argument for the two lines below, is for the legend
-    # plt.plot(x, y, Marker = "+", MarkerSize = 4, MarkerEdgeColor = "k", MarkerFaceColor = "k", LineWidth = 0.8, LineStyle = "none")
-    plt.plot(x, f, LineWidth = 0.6, Linestyle = "-", Color = "g", label = "Model") # 'line of best fit'
+    plt.plot(x, y, Marker = "+", MarkerSize = 4, MarkerEdgeColor = "r", MarkerFaceColor = "r", LineWidth = 0.6, LineStyle = "none")
+    plt.plot(x, f, LineWidth = 0.6, Linestyle = "-", Color = "b", label = "Model") # 'line of best fit'
 
     # plt.title("Least Squares Fit", fontsize = 12, fontweight = "bold")
     plt.xlabel(r"$\nu$(Hz)" , fontsize = 10)
@@ -32,6 +32,8 @@ def least_squares_fit(x, y, err_y):
     # ax.xaxis.set_major_locator(matplotlib.ticker.MultipleLocator(1))
     # plt.ylim(-2, 2)
     # ax.yaxis.set_major_locator(matplotlib.ticker.MultipleLocator(1))
+    plt.gca().xaxis.set_major_formatter(matplotlib.ticker.FormatStrFormatter('%.1e'))
+    plt.gca().yaxis.set_major_formatter(matplotlib.ticker.FormatStrFormatter('%.1e'))
     plt.gca().tick_params(width = 1.0, labelsize = 8)
   
     plt.savefig("Electron_plot.pdf")
