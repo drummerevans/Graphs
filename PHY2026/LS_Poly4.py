@@ -27,7 +27,7 @@ def least_squares_fit(x, y, err_y):
     # plt.title("Least Squares Fit", fontsize = 12, fontweight = "bold")
     plt.xlabel(r"$\nu$(Hz)" , fontsize = 10)
     plt.ylabel("$B$(T)", fontsize = 10)
-    # plt.axis([400, 900, 150, 350])
+    plt.axis([0, 140e6, 0, 5e-3])
     # plt.xlim(-1, 6)
     # ax.xaxis.set_major_locator(matplotlib.ticker.MultipleLocator(1))
     # plt.ylim(-2, 2)

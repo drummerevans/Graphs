@@ -14,15 +14,15 @@ int main() {
 
 if(fptr != NULL) {
     for(int i = 0; i < 22; i++) {
-    printf("Enter a value for magnetic field, current error: \n");
-    scanf("%le %lf", &B, &I);
+    printf("Enter a value for the current error: \n");
+    scanf("%lf", &I);
 
     err_I = pow(I, 2);
     // printf("%lf", err_I);
     double init_val = err_I + 0.00871;
     printf("Init val: %lf\n", init_val);
     printf("%le\n", B);
-    err_B = B * sqrt(init_val);
+    err_B = 3.836485e-3 * sqrt(init_val);
     printf("Error in B is: %le\n", err_B);
     fprintf(fptr, "%le\n", err_B);
     I = 0;
