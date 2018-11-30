@@ -32,8 +32,9 @@ def least_squares_fit(x, y, err_y):
     # ax.xaxis.set_major_locator(matplotlib.ticker.MultipleLocator(1))
     # plt.ylim(-2, 2)
     # ax.yaxis.set_major_locator(matplotlib.ticker.MultipleLocator(1))
-    plt.gca().xaxis.set_major_formatter(matplotlib.ticker.FormatStrFormatter('%.1e'))
-    plt.gca().yaxis.set_major_formatter(matplotlib.ticker.FormatStrFormatter('%.1e'))
+    # plt.gca().ticklabel_format(axis='y',style='sci',scilimits=(1,4))
+    # plt.gca().xaxis.set_major_formatter(matplotlib.ticker.FormatStrFormatter('%.1e'))
+    # plt.gca().yaxis.set_major_formatter(matplotlib.ticker.FormatStrFormatter('%.1e'))
     plt.gca().tick_params(width = 1.0, labelsize = 8)
   
     plt.savefig("Electron_plot.pdf")
