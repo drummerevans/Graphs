@@ -5,7 +5,9 @@ import matplotlib.ticker
 import statistics
 
 def least_squares(funct, x, y, x_errors, y_errors, w_initial):
-    plt.rcParams["font.family"] = "Times New Roman" 
+    plt.rc('font', family = 'serif', serif = 'cmr10')
+    plt.rcParams['mathtext.fontset'] = "cm" 
+    # plt.rcParams["font.family"] = "Times New Roman" 
     plt.rcParams["axes.linewidth"] = 1.0
 
     ls_arr = optimization.curve_fit(funct, x, y, w_initial) # there is no argument for sigma here as using the LS method

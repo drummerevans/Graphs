@@ -9,7 +9,7 @@ x_vals = []
 y_vals = []
 err_vert = [] 
 
-fptr = open("magnetic.txt", "r", newline=None)
+fptr = open("magnetic1.txt", "r", newline=None)
 
 list_of_results = fptr.readlines()
 

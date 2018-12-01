@@ -5,7 +5,9 @@ import matplotlib.ticker
 import statistics
 
 def chi_squared(funct, x, y, x_errors, y_errors, w_initial):
-    plt.rcParams["font.family"] = "Times New Roman" 
+    plt.rc('font', family = 'serif', serif = 'cmr10')
+    plt.rcParams['mathtext.fontset'] = "cm" 
+    # plt.rcParams["font.family"] = "Times New Roman" 
     plt.rcParams["axes.linewidth"] = 1.0
 
     chi_arr = optimization.curve_fit(funct, x, y, w_initial, y_errors) # produces the coefficient values for the 'best fit' line to data points
