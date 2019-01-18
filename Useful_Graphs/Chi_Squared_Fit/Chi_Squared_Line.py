@@ -59,6 +59,10 @@ def chi_squared(funct, x, y, x_errors, y_errors, w_initial):
     print("\nThe value of Chi Squared is:", end = " ")
     print(Chi_Squared_Value)
 
+    print("Best fit parameters and covariance matrix: " )
+    print(chi_arr)
+
+
     # plt.figure(figsize = (8, 6))
     plt.errorbar(x, y, y_errors, x_errors, fmt = "r+", capsize = 3, elinewidth = 0.8, markeredgewidth = 0.8, LineStyle = "none")
     # the last argument for the two lines below, is for the legend
