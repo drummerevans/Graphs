@@ -55,9 +55,9 @@ plt.gca().tick_params(width = 1.0, labelsize = 9)
 
 
 plt.errorbar(x_vals, y_vals, err_vert, fmt = "r.", capsize = 6, elinewidth = 0.8, markeredgewidth = 0.3, markerfacecolor = "k", markersize = 4.5, LineStyle = "none")
-plt.gca().xaxis.set_major_formatter(matplotlib.ticker.FormatStrFormatter('%.2f'))
+plt.gca().xaxis.set_major_formatter(matplotlib.ticker.FormatStrFormatter('%.1f'))
 # plt.plot(x_vals2, y_vals2, 'b+')
 plt.savefig("five_ohm_pump.pdf") # change the name of the output graph pdf file here!
 
 print("The work done is: ")
-print(np.trapz(y_vals, dx = 11.25)) # input array of y values, and intervals at which they were taken
+print(np.trapz(y_vals, dx = 15)) # input array of y values, and intervals at which they were taken
