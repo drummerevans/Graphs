@@ -46,7 +46,7 @@ plt.rcParams["axes.linewidth"] = 1.0
 plt.xlabel("Time (s)", fontsize = 12)
 plt.ylabel("Power (W)", fontsize = 12)
 # plt.legend(loc = "upper right", title = "Legend", fontsize = 10)
-# plt.axis([-0.1, 2.5, 12.4, 11.4])
+plt.axis([-5, 65, 16, 19])
 # plt.xlim(-0.5, 3.0)
 # plt.gca().xaxis.set_major_locator(matplotlib.ticker.MultipleLocator(0.5))
 # plt.ylim(12.5, 11.5)

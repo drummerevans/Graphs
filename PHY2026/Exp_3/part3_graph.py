@@ -54,6 +54,7 @@ plt.axis([0, 12, 2e-6, 12e-6])
 # plt.gca().yaxis.set_major_locator(matplotlib.ticker.MultipleLocator(0.5))
 plt.gca().tick_params(width = 1.0, labelsize = 9)
 plt.gca().ticklabel_format(style='sci', axis='y', scilimits=(0,0))
+plt.gca().xaxis.set_major_formatter(matplotlib.ticker.FormatStrFormatter('%.1f'))
 # plt.gca().yaxis.set_major_formatter(matplotlib.ticker.FormatStrFormatter('%.2f'))
 
 

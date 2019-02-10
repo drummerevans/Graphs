@@ -63,7 +63,7 @@ plt.errorbar(x_vals, y_vals, err_vert, fmt = "r.", capsize = 6, elinewidth = 0.8
 plt.savefig("five_ohm1.pdf") # change the name of the output graph pdf file here!
 
 print("The work done is: ")
-print(np.trapz(y_vals, dx = (240/17))) # input array of y values, and intervals at which they were taken
+print(np.trapz(y_vals, dx = (15))) # input array of y values, and intervals at which they were taken
 
 print("The error in the work is: ")
 

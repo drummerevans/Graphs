@@ -5,7 +5,7 @@ x_vals = []
 y_vals = []
 err_vert = [] 
 
-fptr = open("five_ohm.txt", "r", newline=None)
+fptr = open("five_ohm_pump.txt", "r", newline=None)
 
 list_of_results = fptr.readlines()
 

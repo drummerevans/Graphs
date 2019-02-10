@@ -4,7 +4,7 @@ import matplotlib.pyplot as plt
 import matplotlib.ticker
 import statistics
 
-def chi_squared(funct, x, y, x_errors, y_errors, w_initial):
+def chi_squared3(funct, x, y, x_errors, y_errors, w_initial):
     plt.rc('font', family = 'serif', serif = 'cmr10')
     plt.rcParams['mathtext.fontset'] = "cm" 
     # plt.rcParams["font.family"] = "Times New Roman" 
@@ -65,15 +65,16 @@ def chi_squared(funct, x, y, x_errors, y_errors, w_initial):
 
     # plt.figure(figsize = (8, 6))
     plt.errorbar(x, y, y_errors, x_errors, fmt = "r+", capsize = 2, elinewidth = 0.6, MarkerSize = 1.5, markeredgewidth = 0.6, LineStyle = "none")
+    # plt.errorbar(x_vals, y_vals, err_vert, fmt = "r.", capsize = 6, elinewidth = 0.8, markeredgewidth = 0.3, markerfacecolor = "k", markersize = 4.5, LineStyle = "none")
     # the last argument for the two lines below, is for the legend
-    plt.plot(x, y, Marker = "+", MarkerSize = 4, MarkerEdgeColor = "r", MarkerFaceColor = "r", markeredgewidth = 0.6, LineStyle = "none", label = "Data Set 1")
+    plt.plot(x, y, Marker = "+", MarkerSize = 4, MarkerEdgeColor = "r", MarkerFaceColor = "r", markeredgewidth = 0.6, LineStyle = "none")
     # plt.plot(x_vals, f_vals, LineWidth = 0.9, LineStyle = "-", Color = "b", label = "Least Squares Fit") # 'least sqaures line of best fit
-    plt.plot(x, g_vals, LineWidth = 0.8, LineStyle = "-", Color = "b", label = "Data Set 1 Model") # 'chi squared line of best fit'
+    plt.plot(x, g_vals, LineWidth = 0.8, LineStyle = "-", Color = "b") # 'chi squared line of best fit'
     # plt.title("Least Squares Fit vs Chi Squared Fit", fontsize = 12, fontweight = "bold")
-    plt.xlabel('Temperautre Difference $\\Delta$ T(K)', fontsize = 10)
-    plt.ylabel("Output Voltage(V)", fontsize = 12)
-    plt.legend(loc = "lower right", fontsize = 10)
-    plt.axis([5, 35, 0.2, 2.0])
+    plt.xlabel('Temperature Difference $T^4 - {T_0}^4$(K$^4$)', fontsize = 10)
+    plt.ylabel("Irradiance $M_B'$(Wm$^{-2}$)", fontsize = 12)
+    # plt.legend(loc = "lower right", fontsize = 10)
+    plt.axis([-0.2e11, 3e11, -25, 400])
     # plt.xlim(0, 6)
     # plt.gca().xaxis.set_major_locator(matplotlib.ticker.MultipleLocator(1))
     # plt.ylim(0, 14)
@@ -81,4 +82,4 @@ def chi_squared(funct, x, y, x_errors, y_errors, w_initial):
 
     plt.gca().tick_params(width = 1.0, labelsize = 10)
   
-    plt.savefig("Chi_Squared_Fit.pdf")
+    plt.savefig("radiation.pdf")
