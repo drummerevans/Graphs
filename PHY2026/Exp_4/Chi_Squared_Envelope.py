@@ -5,7 +5,7 @@ import matplotlib.pyplot as plt
 import matplotlib.ticker
 import statistics
 
-def chi_squared(funct, x, y, x_errors, y_errors, w_initial):
+def chi_squared2(funct, x, y, x_errors, y_errors, w_initial):
     plt.rc('font', family = 'serif', serif = 'cmr10')
     plt.rcParams['mathtext.fontset'] = "cm" 
     # plt.rcParams["font.family"] = "Times New Roman"
@@ -24,7 +24,7 @@ def chi_squared(funct, x, y, x_errors, y_errors, w_initial):
     def misfit_gvals(x_results):
         g_results = []
         for x_result in x_results:
-            g = (np.sinc((0.04e-3 * x_result) / (u[0] * 0.5)))**2 * (np.cos((np.pi * 0.5e-3 * x_result) / (u[0] * 0.5)))**2 # input slit width and separation here!
+            g = (np.sinc((0.04e-3 * x_result) / (u[0] * 0.5)))**2 # input slit width and separation here!
             g_results.append(g)
         return g_results
 
@@ -74,13 +74,13 @@ def chi_squared(funct, x, y, x_errors, y_errors, w_initial):
     plt.errorbar(x, y, y_errors, x_errors, fmt = "r.", capsize = 4, elinewidth = 0.1, markeredgewidth = 0.3, markerfacecolor = "none", markersize = 7, LineStyle = "none")
     # the last argument for the two lines below, is for the legend
     plt.plot(x, y, Marker = ".", MarkerSize = 0.5, MarkerEdgeColor = "r", MarkerFaceColor = "r", markeredgewidth = 0.3, LineStyle = "none")
+    plt.plot(x, g_vals, LineWidth = 0.9, LineStyle = "--", Color = "k") #, label = "Chi Squared Fit") # 'chi squared line of best fit'
     # plt.plot(x_vals, f_vals, LineWidth = 0.9, LineStyle = "-", Color = "b", label = "Least Squares Fit") # 'least sqaures line of best fit
-    plt.plot(x, g_vals, LineWidth = 0.4, LineStyle = "-", Color = "b") #, label = "Chi Squared Fit") # 'chi squared line of best fit
     # plt.title("Least Squares Fit vs Chi Squared Fit", fontsize = 12, fontweight = "bold")
     plt.xlabel("Position $x$ (m)", fontsize = 12)
     plt.ylabel("Intensity $I$", fontsize = 12)
     # plt.legend(loc = "lower right", title = "Legend", fontsize = 10)
-    plt.axis([-0.1, 0.1, 0.00, 1.05])
+    plt.axis([-0.09, 0.09, 0.00, 1.05])
     # plt.xlim(-0.08, 0.08)
     # plt.gca().xaxis.set_major_locator(matplotlib.ticker.MultipleLocator(0.01))
     # plt.ylim(-0.1, 0.40)

@@ -15,7 +15,7 @@ def chi_squared(funct, x, y, x_errors, y_errors, w_initial):
     chi_arr = optimization.curve_fit(funct, x, y, w_initial, y_errors) # produces the coefficient values for the 'best fit' line to data points
     u = chi_arr[0]
     print("The first coefficient of the chi squared fit is:", end = " ")
-    print("{:f}" .format(u[0]))
+    print("{:e}" .format(u[0]))
     # print("The second coefficient of the chi squared fit is:", end = " ")
     # print("{:f}" .format(u[1]))
     # print("The third coefficient of the chi squared fit is:", end = " ")
@@ -24,7 +24,7 @@ def chi_squared(funct, x, y, x_errors, y_errors, w_initial):
     def misfit_gvals(x_results):
         g_results = []
         for x_result in x_results:
-            g = (np.sinc(u[0] * (0.04e-3 / 0.5) * x_result))**2
+            g = (np.sinc(((0.02e-3 * x_result) / (u[0] * 0.5))))**2 # change the slit width here!
             g_results.append(g)
         return g_results
 
@@ -66,20 +66,19 @@ def chi_squared(funct, x, y, x_errors, y_errors, w_initial):
     print("\nThe value of Chi Squared is:", end = " ")
     print(Chi_Squared_Value)
 
-
-
     # plt.figure(figsize = (8, 6))
     # plt.errorbar(x, y, y_errors, x_errors, fmt = "r.", capsize = 3, elinewidth = 0.3, markeredgewidth = 0.3, LineStyle = "none")
     plt.errorbar(x, y, y_errors, x_errors, fmt = "r.", capsize = 4, elinewidth = 0.1, markeredgewidth = 0.3, markerfacecolor = "none", markersize = 7, LineStyle = "none")
+    # plt.errorbar(x, y, y_errors, x_errors, fmt = "r+", capsize = 2, elinewidth = 0.6, MarkerSize = 1.5, markeredgewidth = 0.6, LineStyle = "none")
     # the last argument for the two lines below, is for the legend
     plt.plot(x, y, Marker = ".", MarkerSize = 0.5, MarkerEdgeColor = "r", MarkerFaceColor = "r", markeredgewidth = 0.3, LineStyle = "none")
     # plt.plot(x_vals, f_vals, LineWidth = 0.9, LineStyle = "-", Color = "b", label = "Least Squares Fit") # 'least sqaures line of best fit
     plt.plot(x, g_vals, LineWidth = 0.9, LineStyle = "-", Color = "b") #, label = "Chi Squared Fit") # 'chi squared line of best fit'
     # plt.title("Least Squares Fit vs Chi Squared Fit", fontsize = 12, fontweight = "bold")
-    plt.xlabel("Position (m)", fontsize = 12)
-    plt.ylabel("Intensity", fontsize = 12)
+    plt.xlabel("Position $x$ (m)", fontsize = 12)
+    plt.ylabel("Intensity $I$", fontsize = 12)
     # plt.legend(loc = "lower right", title = "Legend", fontsize = 10)
-    plt.axis([-0.08, 0.08, 0.00, 1.05])
+    plt.axis([-0.1, 0.1, 0.00, 1.05])
     # plt.xlim(-0.08, 0.08)
     # plt.gca().xaxis.set_major_locator(matplotlib.ticker.MultipleLocator(0.01))
     # plt.ylim(-0.1, 0.40)
