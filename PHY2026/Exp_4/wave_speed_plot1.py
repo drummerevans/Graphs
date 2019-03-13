@@ -4,7 +4,7 @@ import matplotlib.pyplot as plt
 import matplotlib.ticker
 import statistics
 
-def chi_squared(funct, x, y, y_errors, w_initial):
+def chi_squared2(funct, x, y, y_errors, w_initial):
     plt.rc('font', family = 'serif', serif = 'cmr10')
     plt.rcParams['mathtext.fontset'] = "cm" 
     # plt.rcParams["font.family"] = "Times New Roman" 
@@ -64,16 +64,16 @@ def chi_squared(funct, x, y, y_errors, w_initial):
 
 
     # plt.figure(figsize = (8, 6))
-    plt.errorbar(x, y, y_errors, fmt = "r+", capsize = 3, elinewidth = 0.8, markeredgewidth = 0.8, LineStyle = "none")
+    plt.errorbar(x, y, y_errors, fmt = "r.", capsize = 3, elinewidth = 0.5, markeredgewidth = 0.5, LineStyle = "none", Label = "Data Points")
     # the last argument for the two lines below, is for the legend
-    plt.plot(x, y, Marker = "+", MarkerSize = 10, MarkerEdgeColor = "r", MarkerFaceColor = "r", markeredgewidth = 0.8, LineStyle = "none")
+    plt.plot(x, y, Marker = ".", MarkerSize = 0.2, MarkerEdgeColor = "r", MarkerFaceColor = "r", markeredgewidth = 0.5, LineStyle = "none")
     # plt.plot(x_vals, f_vals, LineWidth = 0.9, LineStyle = "-", Color = "b", label = "Least Squares Fit") # 'least sqaures line of best fit
-    plt.plot(x, g_vals, LineWidth = 0.9, LineStyle = "-", Color = "b") # 'chi squared line of best fit'
+    plt.plot(x, g_vals, LineWidth = 0.5, LineStyle = "-", Color = "b", label = "Data Model") # 'chi squared line of best fit'
     # plt.title("Least Squares Fit vs Chi Squared Fit", fontsize = 12, fontweight = "bold")
     plt.xlabel("Time $1/f$ (s)", fontsize = 12)
     plt.ylabel("Wavelength $\\lambda$ (cm)", fontsize = 12)
-    # plt.legend(loc = "lower right", title = "Legend", fontsize = 10)
-    plt.axis([0.04, 0.065, 0.7, 1.4])
+    plt.legend(loc = "lower right", title = "Legend", fontsize = 10)
+    plt.axis([0.04, 0.065, 0.7, 1.5])
     # plt.xlim(0, 6)
     # plt.gca().xaxis.set_major_locator(matplotlib.ticker.MultipleLocator(1))
     # plt.ylim(0, 14)
