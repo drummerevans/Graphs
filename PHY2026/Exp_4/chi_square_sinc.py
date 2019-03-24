@@ -6,7 +6,7 @@ y_vals = []
 x_err = []
 y_err = [] 
 
-fptr = open("single_0.3mm_0.02.txt", "r", newline = None)
+fptr = open("single_1.0mm_0.04.txt", "r", newline = None)
 
 list_of_results = fptr.readlines()
 
@@ -28,7 +28,7 @@ fptr.close()
 
 def func(x, a): # the model function that we pass into curve_fit() - in this case a straight line
         # return a * (x ** 2) + b * x + c
-        return (np.sinc( ((0.02e-3 * x) / (a * 0.5))))**2 # change the slit width here!
+        return (np.sinc( ((0.04e-3 * x) / (a * 0.5))))**2 # change the slit width here!
 
 # Initial guess.
 wini = np.array([650e-9])

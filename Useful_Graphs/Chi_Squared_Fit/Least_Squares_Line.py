@@ -1,3 +1,4 @@
+import numpy as np
 import scipy.optimize as optimization
 from scipy.interpolate import *
 import matplotlib.pyplot as plt
@@ -7,11 +8,12 @@ import statistics
 def least_squares(funct, x, y, x_errors, y_errors, w_initial):
     plt.rc('font', family = 'serif', serif = 'cmr10')
     plt.rcParams['mathtext.fontset'] = "cm" 
-    # plt.rcParams["font.family"] = "Times New Roman" 
+    # plt.rcParams["font.family"] = "Times New Roman"
+    plt.rcParams['axes.unicode_minus'] = False # ensures that minus signs appear on the axes scales  
     plt.rcParams["axes.linewidth"] = 1.0
 
-    ls_arr = optimization.curve_fit(funct, x, y, w_initial) # there is no argument for sigma here as using the LS method
-    w = ls_arr[0]
+    ls_arr, ls_cov = optimization.curve_fit(funct, x, y, w_initial, absolute_sigma=True) # there is no argument for sigma here as using the LS method
+    w = ls_arr
     print("\nThe gradient of the least squares fit is:", end = " ")
     print("{:f}" .format(w[0]))
     print("The y-intercept of the least squares fit is:", end = " ")
@@ -41,6 +43,10 @@ def least_squares(funct, x, y, x_errors, y_errors, w_initial):
     # The next two lines are for linear i.e. straight line fits only
     grad_err = (2 * sigma) / (x[N] - x[0])
     print("Gradient error for least squares fit is: {:f}\n" .format(grad_err))
+
+    print("The best fitting parameters and covariance matrix are: \n", ls_arr)
+    print("The covariance matrix is: \n", ls_cov)
+    print("The resulting errors on the fitting parameters are: \n", np.sqrt(np.diag(ls_cov)))
 
     # plt.figure(figsize = (8, 6))
     plt.errorbar(x, y, y_errors, x_errors, fmt = "r+", capsize = 3, elinewidth = 0.8, markeredgewidth = 0.8, LineStyle = "none")

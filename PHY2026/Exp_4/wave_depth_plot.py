@@ -1,3 +1,4 @@
+import numpy as np
 import scipy.optimize as optimization
 from scipy.interpolate import *
 import matplotlib.pyplot as plt
@@ -10,8 +11,8 @@ def chi_squared(funct, x, y, x_errors, y_errors, w_initial):
     # plt.rcParams["font.family"] = "Times New Roman" 
     plt.rcParams["axes.linewidth"] = 1.0
 
-    chi_arr = optimization.curve_fit(funct, x, y, w_initial, y_errors) # produces the coefficient values for the 'best fit' line to data points
-    u = chi_arr[0]
+    chi_arr, chi_cov = optimization.curve_fit(funct, x, y, w_initial, y_errors, absolute_sigma=True) # produces the coefficient values for the 'best fit' line to data points
+    u = chi_arr
     print("The gradient of the chi squared fit is:", end = " ")
     print("{:f}" .format(u[0]))
     print("The y-intercept of the chi squared fit is:", end = " ")
@@ -23,9 +24,10 @@ def chi_squared(funct, x, y, x_errors, y_errors, w_initial):
             g = u[0] * x_result + u[1]
             g_results.append(g)
         return g_results
-
+    
     g_vals = misfit_gvals(x)
     # print(g_vals) # printing the chi squared 'y' values that lie on the straight line model
+    print(g_vals)
 
     g_nums = []
     for i in range(0, len(g_vals)):
@@ -41,13 +43,15 @@ def chi_squared(funct, x, y, x_errors, y_errors, w_initial):
     # The next two lines are for linear i.e. straight line fits only
     grad_err = (2 * sigma) / (x[N] - x[0])
     print("Gradient error for chi squared fit is: {:f}\n" .format(grad_err))
+
     
     def misfit_chivals(y_results, g_results, sigma_results):
 
         chi_vals = []
         for i in range(0, len(y_results)):
-            chi_vals.append(((y_results[i] - g_results[i]) / sigma_results[i]) ** 2)
+            chi_vals.append((y_results[i] - g_results[i]) **2 / ((sigma_results[i]) **2))
             print("Value of chi squared for data point",  i + 1,  "is", chi_vals[i])
+
         
         chi_squared = 0
         for i in range(0, len(chi_vals)):
@@ -59,8 +63,9 @@ def chi_squared(funct, x, y, x_errors, y_errors, w_initial):
     print("\nThe value of Chi Squared is:", end = " ")
     print(Chi_Squared_Value)
 
-    print("Best fit parameters and covariance matrix: " )
-    print(chi_arr)
+    print("The best fitting parameters and covariance matrix are: \n", chi_arr)
+    print("The covariance matrix is: \n", chi_cov)
+    print("The resulting errors on the fitting parameters are: \n", np.sqrt(np.diag(chi_cov)))
 
 
     # plt.figure(figsize = (8, 6))
