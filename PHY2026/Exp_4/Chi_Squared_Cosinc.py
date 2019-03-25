@@ -24,7 +24,7 @@ def chi_squared(funct, x, y, x_errors, y_errors, w_initial):
     def misfit_gvals(x_results):
         g_results = []
         for x_result in x_results:
-            g = (np.sinc((0.04e-3 * x_result) / (u[0] * 0.5)))**2 * (np.cos((np.pi * 0.25e-3 * x_result) / (u[0] * 0.5)))**2 # input slit width and separation here!
+            g = (np.sinc((0.04e-3 * x_result) / (u[0] * 0.5)))**2 * (np.cos((np.pi * 0.5e-3 * x_result) / (u[0] * 0.5)))**2 # input slit width and separation here!
             g_results.append(g)
         return g_results
 

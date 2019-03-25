@@ -24,7 +24,7 @@ def chi_squared(funct, x, y, x_errors, y_errors, w_initial):
     def misfit_gvals(x_results):
         g_results = []
         for x_result in x_results:
-            g = (np.sinc(((0.04e-3 * x_result) / (u[0] * 0.5))))**2 # change the slit width here!
+            g = (np.sinc(((0.02e-3 * x_result) / (u[0] * 0.5))))**2 # change the slit width here!
             g_results.append(g)
         return g_results
 
@@ -59,7 +59,7 @@ def chi_squared(funct, x, y, x_errors, y_errors, w_initial):
 
         return chi_squared
 
-     print("The best fitting parameters and covariance matrix are: \n", chi_arr)
+    print("The best fitting parameters and covariance matrix are: \n", chi_arr)
     print("The covariance matrix is: \n", chi_cov)
     print("The resulting errors on the fitting parameters are: \n", np.sqrt(np.diag(chi_cov)))
 

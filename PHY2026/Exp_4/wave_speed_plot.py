@@ -1,3 +1,4 @@
+import numpy as np
 import scipy.optimize as optimization
 from scipy.interpolate import *
 import matplotlib.pyplot as plt

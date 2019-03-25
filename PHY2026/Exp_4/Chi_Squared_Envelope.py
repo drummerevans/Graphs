@@ -12,8 +12,8 @@ def chi_squared2(funct, x, y, x_errors, y_errors, w_initial):
     plt.rcParams['axes.unicode_minus'] = False # ensures that minus signs appear on the axes scales 
     plt.rcParams["axes.linewidth"] = 1.0
 
-    chi_arr = optimization.curve_fit(funct, x, y, w_initial, y_errors) # produces the coefficient values for the 'best fit' line to data points
-    u = chi_arr[0]
+    chi_arr, chi_cov = optimization.curve_fit(funct, x, y, w_initial, y_errors, absolute_sigma=True) # produces the coefficient values for the 'best fit' line to data points
+    u = chi_arr
     print("The first coefficient of the chi squared fit is:", end = " ")
     print("{:f}" .format(u[0]))
     # print("The second coefficient of the chi squared fit is:", end = " ")
@@ -60,8 +60,9 @@ def chi_squared2(funct, x, y, x_errors, y_errors, w_initial):
 
         return chi_squared
 
-    print("Best fit parameters and covariance matrix: " )
-    print(chi_arr)
+    print("The best fitting parameters and covariance matrix are: \n", chi_arr)
+    print("The covariance matrix is: \n", chi_cov)
+    print("The resulting errors on the fitting parameters are: \n", np.sqrt(np.diag(chi_cov)))
 
     Chi_Squared_Value = misfit_chivals(y, g_vals, y_errors)
     print("\nThe value of Chi Squared is:", end = " ")
