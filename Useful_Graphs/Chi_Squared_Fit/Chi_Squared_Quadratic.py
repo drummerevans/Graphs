@@ -35,8 +35,8 @@ def chi_squared(funct, x, y, x_errors, y_errors, w_initial):
     for i in range(0, len(g_vals)):
         g_nums.append(g_vals[i] - y[i])
 
-    sigma = statistics.stdev(g_nums) # standard deviation of quantity 'g_vals - y'
-    print("Sigma for chi squared fit is: {:f}" .format(sigma))
+    # sigma = statistics.stdev(g_nums) # standard deviation of quantity 'g_vals - y'
+    # print("Sigma for chi squared fit is: {:f}" .format(sigma))
 
     arr_size = int(len(x))
     N = arr_size - 1 # N = x(arr_size - 1) # where N is the final element in the array (of x vals)
@@ -62,6 +62,10 @@ def chi_squared(funct, x, y, x_errors, y_errors, w_initial):
     Chi_Squared_Value = misfit_chivals(y, g_vals, y_errors)
     print("\nThe value of Chi Squared is:", end = " ")
     print(Chi_Squared_Value)
+
+    m = int(input("\nHow many best fit parameters are you using? "))
+    print("\nTherefore, the expected value of Chi Squared is:", end = " ")
+    print("{:d} +/- {:f}" .format(arr_size - m, np.sqrt(2 * (arr_size - m))))
 
     print("The best fitting parameters and covariance matrix are: \n", chi_arr)
     print("The covariance matrix is: \n", chi_cov)
