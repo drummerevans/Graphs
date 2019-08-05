@@ -19,7 +19,10 @@ mean_val = 0.434038; # add in the mean value here
 print_file = "Gaussian_Module_Test.pdf"
 
 def gauss(sigma, results, mean_val, print_file):
-    plt.rcParams["font.family"] = "Times New Roman" 
+    plt.rc('font', family = 'serif', serif = 'cmr10')
+    plt.rcParams['mathtext.fontset'] = "cm" 
+    # plt.rcParams["font.family"] = "Times New Roman"
+    plt.rcParams['axes.unicode_minus'] = False # ensures that minus signs appear on the axes scales  
     plt.rcParams["axes.linewidth"] = 1.0
     
     f_vals = []
