@@ -1,0 +1,1 @@
+This folder contains the 3rd year projects in term 1 (PHY3147) and term 2 (PHY3150).
