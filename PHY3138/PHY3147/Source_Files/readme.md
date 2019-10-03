@@ -26,7 +26,7 @@ gcc refractray.o nrutil.o -lm -o refractray
 // remember the .exe extension!
 ./refractray.exe
 
-// as an example input use: ./refractray.exe test.data 0.5 1e-4 
+// as an example input use: ./refractray.exe test.dat 0.5 1e-4 
 Usage refractray outfile phi0(deg) dtheta(rad)
 
 // to see all the data and press q to escape
