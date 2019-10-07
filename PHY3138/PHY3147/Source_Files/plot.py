@@ -22,7 +22,7 @@ z_vals2 = []
 # n_vals3 = [] 
 # z_vals3 = []
 
-fptr = open("dry_test.dat", "r", newline=None)
+fptr = open("0.5phi0_0RH.dat", "r", newline=None)
 
 list_of_results = fptr.readlines()
 
@@ -41,7 +41,7 @@ for result in list_of_results:
             z_vals.append(float(datum[i]))
 
 
-fptr2 = open("wet_test.dat")
+fptr2 = open("0.5phi0_100RH.dat")
 
 list_of_results2 = fptr2.readlines()
 
@@ -109,4 +109,4 @@ plt.errorbar(theta_vals2, R_vals2, fmt = "b.", capsize = 6, elinewidth = 0.8, ma
 
 
 # plt.plot(x_vals2, y_vals2, 'b+')
-plt.savefig("dry_wet_test_plot.pdf") # change the name of the output graph pdf file here!
+plt.savefig("0RH_100RH_plot.pdf") # change the name of the output graph pdf file here!
