@@ -1,28 +1,21 @@
 import numpy as np
 import os
 
-theta_vals = []
-R_vals = []
-theta_errs = []
-R_errs = [] 
-
 # filenames = os.listdir("/Users/matthewevans/Documents/cprogramming/Graphs/PHY3138/PHY3147/phi0_0.1_files") # use this for Mac
 # print(os.getcwd())
-filenames = os.listdir(os.curdir) # use this for Windows
+# filenames = os.listdir(os.curdir) # use this for Windows
 filenames = os.listdir(r"C:\Users\Matt\Documents\cprogramming\Python\Graphs\PHY3138\PHY3147\phi0_0.1_files") # use this for Windows
 file_list = []
 
-
 for filename in filenames:
     file_list.append(filename)
-    
 
 file_list.pop(101) # removing the last element of the list - which is the program itself!
-LS_val_array = [] # declaring an empty list to contain all the generated least sqaures difference values for each relative humidity (RH)
+print(int(len(file_list)))
 
 for filename in file_list:
-    fpath = os.path.join(r"C:\Users\Matt\Documents\cprogramming\Python\Graphs\PHY3138\PHY3147\phi0_0.1_files", filename)
-    fptr = open(fpath, "r", newline = None)
+    fptr = open(filename, "r", newline = None)
+
     list_of_results = fptr.readlines()
  
     data = []
@@ -49,7 +42,7 @@ for filename in file_list:
 
             chi_vals = []
             for i in range(0, len(y_results)):
-                chi_vals.append(((y_results[i] + g_results[i]) / sigma_results[i]) ** 2)
+                chi_vals.append(((y_results[i] - g_results[i]) / sigma_results[i]) ** 2)
                 # print("Value of chi squared for data point",  i + 1,  "is", chi_vals[i])
 
             chi_squared = 0
@@ -59,6 +52,7 @@ for filename in file_list:
 
             return chi_squared
     
+    LS_val_array = []
     LS_val = least_square_diff(R_vals, R_vals, R_errs)
     LS_val_array.append(LS_val)
     print(LS_val)
