@@ -5,7 +5,7 @@ import matplotlib.pyplot as plt
 import matplotlib.ticker
 import statistics
 
-def chi_squared(funct, x, y, y_errors, w_initial):
+def chi_squared(funct, x, y, x_errors, y_errors, w_initial):
     plt.rc('font', family = 'serif', serif = 'cmr10')
     plt.rcParams['mathtext.fontset'] = "cm" 
     # plt.rcParams["font.family"] = "Times New Roman" 
@@ -78,8 +78,8 @@ def chi_squared(funct, x, y, y_errors, w_initial):
     # plt.plot(x_vals, f_vals, LineWidth = 0.9, LineStyle = "-", Color = "b", label = "Least Squares Fit") # 'least sqaures line of best fit
     plt.plot(x, g_vals, LineWidth = 0.9, LineStyle = "-", Color = "m", label = "Chi Squared Fit") # 'chi squared line of best fit'
     plt.title("Chi Squared Fit", fontsize = 12, fontweight = "bold")
-    plt.xlabel("R (km)", fontsize = 12)
-    plt.ylabel("$\\theta$ (rad)", fontsize = 12)
+    plt.xlabel("$\\theta$ (rad)", fontsize = 12)
+    plt.ylabel("$R (km)", fontsize = 12)
     plt.legend(loc = "lower right", title = "Legend", fontsize = 10)
     # plt.axis([0, 5.0, 0, 12])
     # plt.xlim(0, 6)
@@ -89,4 +89,4 @@ def chi_squared(funct, x, y, y_errors, w_initial):
 
     plt.gca().tick_params(width = 1.0, labelsize = 10)
   
-    plt.savefig("Chi_Squared_Exp.pdf")
+    plt.savefig("Chi_Squared_Quad.pdf")
