@@ -6,10 +6,8 @@ R_vals = []
 theta_errs = []
 R_errs = [] 
 
-# filenames = os.listdir("/Users/matthewevans/Documents/cprogramming/Graphs/PHY3138/PHY3147/phi0_0.1_files") # use this for Mac
-# print(os.getcwd())
-filenames = os.listdir(os.curdir) # use this for Windows
-filenames = os.listdir(r"C:\Users\Matt\Documents\cprogramming\Python\Graphs\PHY3138\PHY3147\phi0_0.1_files") # use this for Windows
+filenames = os.listdir(os.curdir)
+filenames = os.listdir(r"/Users/matthewevans/Documents/cprogramming/Graphs/PHY3138/PHY3147/phi0_0.1_files") # use this for Mac
 file_list = []
 
 
@@ -18,10 +16,11 @@ for filename in filenames:
     
 
 file_list.pop(101) # removing the last element of the list - which is the program itself!
+print(file_list)
 LS_val_array = [] # declaring an empty list to contain all the generated least sqaures difference values for each relative humidity (RH)
 
 for filename in file_list:
-    fpath = os.path.join(r"C:\Users\Matt\Documents\cprogramming\Python\Graphs\PHY3138\PHY3147\phi0_0.1_files", filename)
+    fpath = os.path.join(r"/Users/matthewevans/Documents/cprogramming/Graphs/PHY3138/PHY3147/phi0_0.1_files", filename)
     fptr = open(fpath, "r", newline = None)
     list_of_results = fptr.readlines()
  
@@ -50,6 +49,7 @@ for filename in file_list:
             chi_vals = []
             for i in range(0, len(y_results)):
                 chi_vals.append(((y_results[i] + g_results[i]) / sigma_results[i]) ** 2)
+                print(y_results[i])
                 # print("Value of chi squared for data point",  i + 1,  "is", chi_vals[i])
 
             chi_squared = 0
@@ -61,14 +61,14 @@ for filename in file_list:
     
     LS_val = least_square_diff(R_vals, R_vals, R_errs)
     LS_val_array.append(LS_val)
-    print(LS_val)
+    # print(LS_val)
 
-print(LS_val_array)
+# print(LS_val_array)
 
 min_val = min(LS_val_array) # finds the smallest least squares difference value
 index_min_val = (np.argmin(LS_val_array)) # finds the element in the list for the smallest value
 
-print("The smallest least squares value is, {:f}" .format(min_val))
+print("The smallest least squares value is {:f}" .format(min_val))
 print("The relative humidity this corresponds to is {:d}%" .format(index_min_val))
 
 for filename in file_list:

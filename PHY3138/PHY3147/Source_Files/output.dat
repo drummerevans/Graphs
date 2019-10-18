@@ -1,0 +1,3032 @@
+[7.85e-06, 7.85e-06, 7.85e-06, 7.85e-06, 7.85e-06, 7.85e-06]
+['0.1phi0_000RH.dat', '0.1phi0_001RH.dat', '0.1phi0_002RH.dat', '0.1phi0_003RH.dat', '0.1phi0_004RH.dat', '0.1phi0_005RH.dat', '0.1phi0_006RH.dat', '0.1phi0_007RH.dat', '0.1phi0_008RH.dat', '0.1phi0_009RH.dat', '0.1phi0_010RH.dat', '0.1phi0_011RH.dat', '0.1phi0_012RH.dat', '0.1phi0_013RH.dat', '0.1phi0_014RH.dat', '0.1phi0_015RH.dat', '0.1phi0_016RH.dat', '0.1phi0_017RH.dat', '0.1phi0_018RH.dat', '0.1phi0_019RH.dat', '0.1phi0_020RH.dat', '0.1phi0_021RH.dat', '0.1phi0_022RH.dat', '0.1phi0_023RH.dat', '0.1phi0_024RH.dat', '0.1phi0_025RH.dat', '0.1phi0_026RH.dat', '0.1phi0_027RH.dat', '0.1phi0_028RH.dat', '0.1phi0_029RH.dat', '0.1phi0_030RH.dat', '0.1phi0_031RH.dat', '0.1phi0_032RH.dat', '0.1phi0_033RH.dat', '0.1phi0_034RH.dat', '0.1phi0_035RH.dat', '0.1phi0_036RH.dat', '0.1phi0_037RH.dat', '0.1phi0_038RH.dat', '0.1phi0_039RH.dat', '0.1phi0_040RH.dat', '0.1phi0_041RH.dat', '0.1phi0_042RH.dat', '0.1phi0_043RH.dat', '0.1phi0_044RH.dat', '0.1phi0_045RH.dat', '0.1phi0_046RH.dat', '0.1phi0_047RH.dat', '0.1phi0_048RH.dat', '0.1phi0_049RH.dat', '0.1phi0_050RH.dat', '0.1phi0_051RH.dat', '0.1phi0_052RH.dat', '0.1phi0_053RH.dat', '0.1phi0_054RH.dat', '0.1phi0_055RH.dat', '0.1phi0_056RH.dat', '0.1phi0_057RH.dat', '0.1phi0_058RH.dat', '0.1phi0_059RH.dat', '0.1phi0_060RH.dat', '0.1phi0_061RH.dat', '0.1phi0_062RH.dat', '0.1phi0_063RH.dat', '0.1phi0_064RH.dat', '0.1phi0_065RH.dat', '0.1phi0_066RH.dat', '0.1phi0_067RH.dat', '0.1phi0_068RH.dat', '0.1phi0_069RH.dat', '0.1phi0_070RH.dat', '0.1phi0_071RH.dat', '0.1phi0_072RH.dat', '0.1phi0_073RH.dat', '0.1phi0_074RH.dat', '0.1phi0_075RH.dat', '0.1phi0_076RH.dat', '0.1phi0_077RH.dat', '0.1phi0_078RH.dat', '0.1phi0_079RH.dat', '0.1phi0_080RH.dat', '0.1phi0_081RH.dat', '0.1phi0_082RH.dat', '0.1phi0_083RH.dat', '0.1phi0_084RH.dat', '0.1phi0_085RH.dat', '0.1phi0_086RH.dat', '0.1phi0_087RH.dat', '0.1phi0_088RH.dat', '0.1phi0_089RH.dat', '0.1phi0_090RH.dat', '0.1phi0_091RH.dat', '0.1phi0_092RH.dat', '0.1phi0_093RH.dat', '0.1phi0_094RH.dat', '0.1phi0_095RH.dat', '0.1phi0_096RH.dat', '0.1phi0_097RH.dat', '0.1phi0_098RH.dat', '0.1phi0_099RH.dat', '0.1phi0_100RH.dat']
+Filename is 0.1phi0_000RH.dat
+Model theta values are: 0.000500 
+Data theta value is 0.000500
+R vals data i 6365.506190
+R vals model 6365.506247
+Filename is 0.1phi0_000RH.dat
+Model theta values are: 0.010000 
+Data theta value is 0.010000
+R vals data i 6365.849975
+R vals model 6365.877753
+Filename is 0.1phi0_000RH.dat
+Model theta values are: 0.036500 
+Data theta value is 0.036500
+R vals data i 6369.164555
+R vals model 6369.482684
+Filename is 0.1phi0_000RH.dat
+Model theta values are: 0.054000 
+Data theta value is 0.054000
+R vals data i 6373.410614
+R vals model 6374.007937
+Filename is 0.1phi0_000RH.dat
+Model theta values are: 0.065300 
+Data theta value is 0.065300
+R vals data i 6377.091037
+R vals model 6377.879945
+Filename is 0.1phi0_000RH.dat
+Model theta values are: 0.069500 
+Data theta value is 0.069500
+R vals data i 6378.653494
+R vals model 6379.514907
+Filename is 0.1phi0_001RH.dat
+Model theta values are: 0.000500 
+Data theta value is 0.000500
+R vals data i 6365.506190
+R vals model 6365.506246
+Filename is 0.1phi0_001RH.dat
+Model theta values are: 0.010000 
+Data theta value is 0.010000
+R vals data i 6365.849975
+R vals model 6365.877199
+Filename is 0.1phi0_001RH.dat
+Model theta values are: 0.036500 
+Data theta value is 0.036500
+R vals data i 6369.164555
+R vals model 6369.476417
+Filename is 0.1phi0_001RH.dat
+Model theta values are: 0.054000 
+Data theta value is 0.054000
+R vals data i 6373.410614
+R vals model 6373.996277
+Filename is 0.1phi0_001RH.dat
+Model theta values are: 0.065300 
+Data theta value is 0.065300
+R vals data i 6377.091037
+R vals model 6377.864606
+Filename is 0.1phi0_001RH.dat
+Model theta values are: 0.069500 
+Data theta value is 0.069500
+R vals data i 6378.653494
+R vals model 6379.498177
+Filename is 0.1phi0_002RH.dat
+Model theta values are: 0.000500 
+Data theta value is 0.000500
+R vals data i 6365.506190
+R vals model 6365.506245
+Filename is 0.1phi0_002RH.dat
+Model theta values are: 0.010000 
+Data theta value is 0.010000
+R vals data i 6365.849975
+R vals model 6365.876644
+Filename is 0.1phi0_002RH.dat
+Model theta values are: 0.036500 
+Data theta value is 0.036500
+R vals data i 6369.164555
+R vals model 6369.470146
+Filename is 0.1phi0_002RH.dat
+Model theta values are: 0.054000 
+Data theta value is 0.054000
+R vals data i 6373.410614
+R vals model 6373.984605
+Filename is 0.1phi0_002RH.dat
+Model theta values are: 0.065300 
+Data theta value is 0.065300
+R vals data i 6377.091037
+R vals model 6377.849249
+Filename is 0.1phi0_002RH.dat
+Model theta values are: 0.069500 
+Data theta value is 0.069500
+R vals data i 6378.653494
+R vals model 6379.481427
+Filename is 0.1phi0_003RH.dat
+Model theta values are: 0.000500 
+Data theta value is 0.000500
+R vals data i 6365.506190
+R vals model 6365.506243
+Filename is 0.1phi0_003RH.dat
+Model theta values are: 0.010000 
+Data theta value is 0.010000
+R vals data i 6365.849975
+R vals model 6365.876090
+Filename is 0.1phi0_003RH.dat
+Model theta values are: 0.036500 
+Data theta value is 0.036500
+R vals data i 6369.164555
+R vals model 6369.463871
+Filename is 0.1phi0_003RH.dat
+Model theta values are: 0.054000 
+Data theta value is 0.054000
+R vals data i 6373.410614
+R vals model 6373.972922
+Filename is 0.1phi0_003RH.dat
+Model theta values are: 0.065300 
+Data theta value is 0.065300
+R vals data i 6377.091037
+R vals model 6377.833876
+Filename is 0.1phi0_003RH.dat
+Model theta values are: 0.069500 
+Data theta value is 0.069500
+R vals data i 6378.653494
+R vals model 6379.464658
+Filename is 0.1phi0_004RH.dat
+Model theta values are: 0.000500 
+Data theta value is 0.000500
+R vals data i 6365.506190
+R vals model 6365.506242
+Filename is 0.1phi0_004RH.dat
+Model theta values are: 0.010000 
+Data theta value is 0.010000
+R vals data i 6365.849975
+R vals model 6365.875535
+Filename is 0.1phi0_004RH.dat
+Model theta values are: 0.036500 
+Data theta value is 0.036500
+R vals data i 6369.164555
+R vals model 6369.457592
+Filename is 0.1phi0_004RH.dat
+Model theta values are: 0.054000 
+Data theta value is 0.054000
+R vals data i 6373.410614
+R vals model 6373.961228
+Filename is 0.1phi0_004RH.dat
+Model theta values are: 0.065300 
+Data theta value is 0.065300
+R vals data i 6377.091037
+R vals model 6377.818485
+Filename is 0.1phi0_004RH.dat
+Model theta values are: 0.069500 
+Data theta value is 0.069500
+R vals data i 6378.653494
+R vals model 6379.447869
+Filename is 0.1phi0_005RH.dat
+Model theta values are: 0.000500 
+Data theta value is 0.000500
+R vals data i 6365.506190
+R vals model 6365.506241
+Filename is 0.1phi0_005RH.dat
+Model theta values are: 0.010000 
+Data theta value is 0.010000
+R vals data i 6365.849975
+R vals model 6365.874981
+Filename is 0.1phi0_005RH.dat
+Model theta values are: 0.036500 
+Data theta value is 0.036500
+R vals data i 6369.164555
+R vals model 6369.451310
+Filename is 0.1phi0_005RH.dat
+Model theta values are: 0.054000 
+Data theta value is 0.054000
+R vals data i 6373.410614
+R vals model 6373.949523
+Filename is 0.1phi0_005RH.dat
+Model theta values are: 0.065300 
+Data theta value is 0.065300
+R vals data i 6377.091037
+R vals model 6377.803077
+Filename is 0.1phi0_005RH.dat
+Model theta values are: 0.069500 
+Data theta value is 0.069500
+R vals data i 6378.653494
+R vals model 6379.431061
+Filename is 0.1phi0_006RH.dat
+Model theta values are: 0.000500 
+Data theta value is 0.000500
+R vals data i 6365.506190
+R vals model 6365.506240
+Filename is 0.1phi0_006RH.dat
+Model theta values are: 0.010000 
+Data theta value is 0.010000
+R vals data i 6365.849975
+R vals model 6365.874426
+Filename is 0.1phi0_006RH.dat
+Model theta values are: 0.036500 
+Data theta value is 0.036500
+R vals data i 6369.164555
+R vals model 6369.445023
+Filename is 0.1phi0_006RH.dat
+Model theta values are: 0.054000 
+Data theta value is 0.054000
+R vals data i 6373.410614
+R vals model 6373.937806
+Filename is 0.1phi0_006RH.dat
+Model theta values are: 0.065300 
+Data theta value is 0.065300
+R vals data i 6377.091037
+R vals model 6377.787652
+Filename is 0.1phi0_006RH.dat
+Model theta values are: 0.069500 
+Data theta value is 0.069500
+R vals data i 6378.653494
+R vals model 6379.414233
+Filename is 0.1phi0_007RH.dat
+Model theta values are: 0.000500 
+Data theta value is 0.000500
+R vals data i 6365.506190
+R vals model 6365.506239
+Filename is 0.1phi0_007RH.dat
+Model theta values are: 0.010000 
+Data theta value is 0.010000
+R vals data i 6365.849975
+R vals model 6365.873871
+Filename is 0.1phi0_007RH.dat
+Model theta values are: 0.036500 
+Data theta value is 0.036500
+R vals data i 6369.164555
+R vals model 6369.438733
+Filename is 0.1phi0_007RH.dat
+Model theta values are: 0.054000 
+Data theta value is 0.054000
+R vals data i 6373.410614
+R vals model 6373.926078
+Filename is 0.1phi0_007RH.dat
+Model theta values are: 0.065300 
+Data theta value is 0.065300
+R vals data i 6377.091037
+R vals model 6377.772209
+Filename is 0.1phi0_007RH.dat
+Model theta values are: 0.069500 
+Data theta value is 0.069500
+R vals data i 6378.653494
+R vals model 6379.397386
+Filename is 0.1phi0_008RH.dat
+Model theta values are: 0.000500 
+Data theta value is 0.000500
+R vals data i 6365.506190
+R vals model 6365.506238
+Filename is 0.1phi0_008RH.dat
+Model theta values are: 0.010000 
+Data theta value is 0.010000
+R vals data i 6365.849975
+R vals model 6365.873317
+Filename is 0.1phi0_008RH.dat
+Model theta values are: 0.036500 
+Data theta value is 0.036500
+R vals data i 6369.164555
+R vals model 6369.432439
+Filename is 0.1phi0_008RH.dat
+Model theta values are: 0.054000 
+Data theta value is 0.054000
+R vals data i 6373.410614
+R vals model 6373.914338
+Filename is 0.1phi0_008RH.dat
+Model theta values are: 0.065300 
+Data theta value is 0.065300
+R vals data i 6377.091037
+R vals model 6377.756749
+Filename is 0.1phi0_008RH.dat
+Model theta values are: 0.069500 
+Data theta value is 0.069500
+R vals data i 6378.653494
+R vals model 6379.380518
+Filename is 0.1phi0_009RH.dat
+Model theta values are: 0.000500 
+Data theta value is 0.000500
+R vals data i 6365.506190
+R vals model 6365.506237
+Filename is 0.1phi0_009RH.dat
+Model theta values are: 0.010000 
+Data theta value is 0.010000
+R vals data i 6365.849975
+R vals model 6365.872762
+Filename is 0.1phi0_009RH.dat
+Model theta values are: 0.036500 
+Data theta value is 0.036500
+R vals data i 6369.164555
+R vals model 6369.426141
+Filename is 0.1phi0_009RH.dat
+Model theta values are: 0.054000 
+Data theta value is 0.054000
+R vals data i 6373.410614
+R vals model 6373.902587
+Filename is 0.1phi0_009RH.dat
+Model theta values are: 0.065300 
+Data theta value is 0.065300
+R vals data i 6377.091037
+R vals model 6377.741272
+Filename is 0.1phi0_009RH.dat
+Model theta values are: 0.069500 
+Data theta value is 0.069500
+R vals data i 6378.653494
+R vals model 6379.363631
+Filename is 0.1phi0_010RH.dat
+Model theta values are: 0.000500 
+Data theta value is 0.000500
+R vals data i 6365.506190
+R vals model 6365.506235
+Filename is 0.1phi0_010RH.dat
+Model theta values are: 0.010000 
+Data theta value is 0.010000
+R vals data i 6365.849975
+R vals model 6365.872207
+Filename is 0.1phi0_010RH.dat
+Model theta values are: 0.036500 
+Data theta value is 0.036500
+R vals data i 6369.164555
+R vals model 6369.419840
+Filename is 0.1phi0_010RH.dat
+Model theta values are: 0.054000 
+Data theta value is 0.054000
+R vals data i 6373.410614
+R vals model 6373.890825
+Filename is 0.1phi0_010RH.dat
+Model theta values are: 0.065300 
+Data theta value is 0.065300
+R vals data i 6377.091037
+R vals model 6377.725777
+Filename is 0.1phi0_010RH.dat
+Model theta values are: 0.069500 
+Data theta value is 0.069500
+R vals data i 6378.653494
+R vals model 6379.346725
+Filename is 0.1phi0_011RH.dat
+Model theta values are: 0.000500 
+Data theta value is 0.000500
+R vals data i 6365.506190
+R vals model 6365.506234
+Filename is 0.1phi0_011RH.dat
+Model theta values are: 0.010000 
+Data theta value is 0.010000
+R vals data i 6365.849975
+R vals model 6365.871652
+Filename is 0.1phi0_011RH.dat
+Model theta values are: 0.036500 
+Data theta value is 0.036500
+R vals data i 6369.164555
+R vals model 6369.413534
+Filename is 0.1phi0_011RH.dat
+Model theta values are: 0.054000 
+Data theta value is 0.054000
+R vals data i 6373.410614
+R vals model 6373.879051
+Filename is 0.1phi0_011RH.dat
+Model theta values are: 0.065300 
+Data theta value is 0.065300
+R vals data i 6377.091037
+R vals model 6377.710264
+Filename is 0.1phi0_011RH.dat
+Model theta values are: 0.069500 
+Data theta value is 0.069500
+R vals data i 6378.653494
+R vals model 6379.329798
+Filename is 0.1phi0_012RH.dat
+Model theta values are: 0.000500 
+Data theta value is 0.000500
+R vals data i 6365.506190
+R vals model 6365.506233
+Filename is 0.1phi0_012RH.dat
+Model theta values are: 0.010000 
+Data theta value is 0.010000
+R vals data i 6365.849975
+R vals model 6365.871097
+Filename is 0.1phi0_012RH.dat
+Model theta values are: 0.036500 
+Data theta value is 0.036500
+R vals data i 6369.164555
+R vals model 6369.407225
+Filename is 0.1phi0_012RH.dat
+Model theta values are: 0.054000 
+Data theta value is 0.054000
+R vals data i 6373.410614
+R vals model 6373.867266
+Filename is 0.1phi0_012RH.dat
+Model theta values are: 0.065300 
+Data theta value is 0.065300
+R vals data i 6377.091037
+R vals model 6377.694734
+Filename is 0.1phi0_012RH.dat
+Model theta values are: 0.069500 
+Data theta value is 0.069500
+R vals data i 6378.653494
+R vals model 6379.312852
+Filename is 0.1phi0_013RH.dat
+Model theta values are: 0.000500 
+Data theta value is 0.000500
+R vals data i 6365.506190
+R vals model 6365.506232
+Filename is 0.1phi0_013RH.dat
+Model theta values are: 0.010000 
+Data theta value is 0.010000
+R vals data i 6365.849975
+R vals model 6365.870542
+Filename is 0.1phi0_013RH.dat
+Model theta values are: 0.036500 
+Data theta value is 0.036500
+R vals data i 6369.164555
+R vals model 6369.400912
+Filename is 0.1phi0_013RH.dat
+Model theta values are: 0.054000 
+Data theta value is 0.054000
+R vals data i 6373.410614
+R vals model 6373.855469
+Filename is 0.1phi0_013RH.dat
+Model theta values are: 0.065300 
+Data theta value is 0.065300
+R vals data i 6377.091037
+R vals model 6377.679186
+Filename is 0.1phi0_013RH.dat
+Model theta values are: 0.069500 
+Data theta value is 0.069500
+R vals data i 6378.653494
+R vals model 6379.295885
+Filename is 0.1phi0_014RH.dat
+Model theta values are: 0.000500 
+Data theta value is 0.000500
+R vals data i 6365.506190
+R vals model 6365.506231
+Filename is 0.1phi0_014RH.dat
+Model theta values are: 0.010000 
+Data theta value is 0.010000
+R vals data i 6365.849975
+R vals model 6365.869987
+Filename is 0.1phi0_014RH.dat
+Model theta values are: 0.036500 
+Data theta value is 0.036500
+R vals data i 6369.164555
+R vals model 6369.394594
+Filename is 0.1phi0_014RH.dat
+Model theta values are: 0.054000 
+Data theta value is 0.054000
+R vals data i 6373.410614
+R vals model 6373.843660
+Filename is 0.1phi0_014RH.dat
+Model theta values are: 0.065300 
+Data theta value is 0.065300
+R vals data i 6377.091037
+R vals model 6377.663621
+Filename is 0.1phi0_014RH.dat
+Model theta values are: 0.069500 
+Data theta value is 0.069500
+R vals data i 6378.653494
+R vals model 6379.278898
+Filename is 0.1phi0_015RH.dat
+Model theta values are: 0.000500 
+Data theta value is 0.000500
+R vals data i 6365.506190
+R vals model 6365.506230
+Filename is 0.1phi0_015RH.dat
+Model theta values are: 0.010000 
+Data theta value is 0.010000
+R vals data i 6365.849975
+R vals model 6365.869432
+Filename is 0.1phi0_015RH.dat
+Model theta values are: 0.036500 
+Data theta value is 0.036500
+R vals data i 6369.164555
+R vals model 6369.388273
+Filename is 0.1phi0_015RH.dat
+Model theta values are: 0.054000 
+Data theta value is 0.054000
+R vals data i 6373.410614
+R vals model 6373.831840
+Filename is 0.1phi0_015RH.dat
+Model theta values are: 0.065300 
+Data theta value is 0.065300
+R vals data i 6377.091037
+R vals model 6377.648037
+Filename is 0.1phi0_015RH.dat
+Model theta values are: 0.069500 
+Data theta value is 0.069500
+R vals data i 6378.653494
+R vals model 6379.261892
+Filename is 0.1phi0_016RH.dat
+Model theta values are: 0.000500 
+Data theta value is 0.000500
+R vals data i 6365.506190
+R vals model 6365.506229
+Filename is 0.1phi0_016RH.dat
+Model theta values are: 0.010000 
+Data theta value is 0.010000
+R vals data i 6365.849975
+R vals model 6365.868877
+Filename is 0.1phi0_016RH.dat
+Model theta values are: 0.036500 
+Data theta value is 0.036500
+R vals data i 6369.164555
+R vals model 6369.381949
+Filename is 0.1phi0_016RH.dat
+Model theta values are: 0.054000 
+Data theta value is 0.054000
+R vals data i 6373.410614
+R vals model 6373.820009
+Filename is 0.1phi0_016RH.dat
+Model theta values are: 0.065300 
+Data theta value is 0.065300
+R vals data i 6377.091037
+R vals model 6377.632436
+Filename is 0.1phi0_016RH.dat
+Model theta values are: 0.069500 
+Data theta value is 0.069500
+R vals data i 6378.653494
+R vals model 6379.244865
+Filename is 0.1phi0_017RH.dat
+Model theta values are: 0.000500 
+Data theta value is 0.000500
+R vals data i 6365.506190
+R vals model 6365.506227
+Filename is 0.1phi0_017RH.dat
+Model theta values are: 0.010000 
+Data theta value is 0.010000
+R vals data i 6365.849975
+R vals model 6365.868322
+Filename is 0.1phi0_017RH.dat
+Model theta values are: 0.036500 
+Data theta value is 0.036500
+R vals data i 6369.164555
+R vals model 6369.375620
+Filename is 0.1phi0_017RH.dat
+Model theta values are: 0.054000 
+Data theta value is 0.054000
+R vals data i 6373.410614
+R vals model 6373.808165
+Filename is 0.1phi0_017RH.dat
+Model theta values are: 0.065300 
+Data theta value is 0.065300
+R vals data i 6377.091037
+R vals model 6377.616818
+Filename is 0.1phi0_017RH.dat
+Model theta values are: 0.069500 
+Data theta value is 0.069500
+R vals data i 6378.653494
+R vals model 6379.227817
+Filename is 0.1phi0_018RH.dat
+Model theta values are: 0.000500 
+Data theta value is 0.000500
+R vals data i 6365.506190
+R vals model 6365.506226
+Filename is 0.1phi0_018RH.dat
+Model theta values are: 0.010000 
+Data theta value is 0.010000
+R vals data i 6365.849975
+R vals model 6365.867767
+Filename is 0.1phi0_018RH.dat
+Model theta values are: 0.036500 
+Data theta value is 0.036500
+R vals data i 6369.164555
+R vals model 6369.369287
+Filename is 0.1phi0_018RH.dat
+Model theta values are: 0.054000 
+Data theta value is 0.054000
+R vals data i 6373.410614
+R vals model 6373.796310
+Filename is 0.1phi0_018RH.dat
+Model theta values are: 0.065300 
+Data theta value is 0.065300
+R vals data i 6377.091037
+R vals model 6377.601181
+Filename is 0.1phi0_018RH.dat
+Model theta values are: 0.069500 
+Data theta value is 0.069500
+R vals data i 6378.653494
+R vals model 6379.210750
+Filename is 0.1phi0_019RH.dat
+Model theta values are: 0.000500 
+Data theta value is 0.000500
+R vals data i 6365.506190
+R vals model 6365.506225
+Filename is 0.1phi0_019RH.dat
+Model theta values are: 0.010000 
+Data theta value is 0.010000
+R vals data i 6365.849975
+R vals model 6365.867212
+Filename is 0.1phi0_019RH.dat
+Model theta values are: 0.036500 
+Data theta value is 0.036500
+R vals data i 6369.164555
+R vals model 6369.362951
+Filename is 0.1phi0_019RH.dat
+Model theta values are: 0.054000 
+Data theta value is 0.054000
+R vals data i 6373.410614
+R vals model 6373.784444
+Filename is 0.1phi0_019RH.dat
+Model theta values are: 0.065300 
+Data theta value is 0.065300
+R vals data i 6377.091037
+R vals model 6377.585526
+Filename is 0.1phi0_019RH.dat
+Model theta values are: 0.069500 
+Data theta value is 0.069500
+R vals data i 6378.653494
+R vals model 6379.193662
+Filename is 0.1phi0_020RH.dat
+Model theta values are: 0.000500 
+Data theta value is 0.000500
+R vals data i 6365.506190
+R vals model 6365.506224
+Filename is 0.1phi0_020RH.dat
+Model theta values are: 0.010000 
+Data theta value is 0.010000
+R vals data i 6365.849975
+R vals model 6365.866656
+Filename is 0.1phi0_020RH.dat
+Model theta values are: 0.036500 
+Data theta value is 0.036500
+R vals data i 6369.164555
+R vals model 6369.356610
+Filename is 0.1phi0_020RH.dat
+Model theta values are: 0.054000 
+Data theta value is 0.054000
+R vals data i 6373.410614
+R vals model 6373.772565
+Filename is 0.1phi0_020RH.dat
+Model theta values are: 0.065300 
+Data theta value is 0.065300
+R vals data i 6377.091037
+R vals model 6377.569854
+Filename is 0.1phi0_020RH.dat
+Model theta values are: 0.069500 
+Data theta value is 0.069500
+R vals data i 6378.653494
+R vals model 6379.176554
+Filename is 0.1phi0_021RH.dat
+Model theta values are: 0.000500 
+Data theta value is 0.000500
+R vals data i 6365.506190
+R vals model 6365.506223
+Filename is 0.1phi0_021RH.dat
+Model theta values are: 0.010000 
+Data theta value is 0.010000
+R vals data i 6365.849975
+R vals model 6365.866101
+Filename is 0.1phi0_021RH.dat
+Model theta values are: 0.036500 
+Data theta value is 0.036500
+R vals data i 6369.164555
+R vals model 6369.350266
+Filename is 0.1phi0_021RH.dat
+Model theta values are: 0.054000 
+Data theta value is 0.054000
+R vals data i 6373.410614
+R vals model 6373.760675
+Filename is 0.1phi0_021RH.dat
+Model theta values are: 0.065300 
+Data theta value is 0.065300
+R vals data i 6377.091037
+R vals model 6377.554163
+Filename is 0.1phi0_021RH.dat
+Model theta values are: 0.069500 
+Data theta value is 0.069500
+R vals data i 6378.653494
+R vals model 6379.159425
+Filename is 0.1phi0_022RH.dat
+Model theta values are: 0.000500 
+Data theta value is 0.000500
+R vals data i 6365.506190
+R vals model 6365.506222
+Filename is 0.1phi0_022RH.dat
+Model theta values are: 0.010000 
+Data theta value is 0.010000
+R vals data i 6365.849975
+R vals model 6365.865546
+Filename is 0.1phi0_022RH.dat
+Model theta values are: 0.036500 
+Data theta value is 0.036500
+R vals data i 6369.164555
+R vals model 6369.343918
+Filename is 0.1phi0_022RH.dat
+Model theta values are: 0.054000 
+Data theta value is 0.054000
+R vals data i 6373.410614
+R vals model 6373.748773
+Filename is 0.1phi0_022RH.dat
+Model theta values are: 0.065300 
+Data theta value is 0.065300
+R vals data i 6377.091037
+R vals model 6377.538454
+Filename is 0.1phi0_022RH.dat
+Model theta values are: 0.069500 
+Data theta value is 0.069500
+R vals data i 6378.653494
+R vals model 6379.142276
+Filename is 0.1phi0_023RH.dat
+Model theta values are: 0.000500 
+Data theta value is 0.000500
+R vals data i 6365.506190
+R vals model 6365.506221
+Filename is 0.1phi0_023RH.dat
+Model theta values are: 0.010000 
+Data theta value is 0.010000
+R vals data i 6365.849975
+R vals model 6365.864990
+Filename is 0.1phi0_023RH.dat
+Model theta values are: 0.036500 
+Data theta value is 0.036500
+R vals data i 6369.164555
+R vals model 6369.337565
+Filename is 0.1phi0_023RH.dat
+Model theta values are: 0.054000 
+Data theta value is 0.054000
+R vals data i 6373.410614
+R vals model 6373.736859
+Filename is 0.1phi0_023RH.dat
+Model theta values are: 0.065300 
+Data theta value is 0.065300
+R vals data i 6377.091037
+R vals model 6377.522727
+Filename is 0.1phi0_023RH.dat
+Model theta values are: 0.069500 
+Data theta value is 0.069500
+R vals data i 6378.653494
+R vals model 6379.125106
+Filename is 0.1phi0_024RH.dat
+Model theta values are: 0.000500 
+Data theta value is 0.000500
+R vals data i 6365.506190
+R vals model 6365.506220
+Filename is 0.1phi0_024RH.dat
+Model theta values are: 0.010000 
+Data theta value is 0.010000
+R vals data i 6365.849975
+R vals model 6365.864435
+Filename is 0.1phi0_024RH.dat
+Model theta values are: 0.036500 
+Data theta value is 0.036500
+R vals data i 6369.164555
+R vals model 6369.331209
+Filename is 0.1phi0_024RH.dat
+Model theta values are: 0.054000 
+Data theta value is 0.054000
+R vals data i 6373.410614
+R vals model 6373.724934
+Filename is 0.1phi0_024RH.dat
+Model theta values are: 0.065300 
+Data theta value is 0.065300
+R vals data i 6377.091037
+R vals model 6377.506982
+Filename is 0.1phi0_024RH.dat
+Model theta values are: 0.069500 
+Data theta value is 0.069500
+R vals data i 6378.653494
+R vals model 6379.107915
+Filename is 0.1phi0_025RH.dat
+Model theta values are: 0.000500 
+Data theta value is 0.000500
+R vals data i 6365.506190
+R vals model 6365.506218
+Filename is 0.1phi0_025RH.dat
+Model theta values are: 0.010000 
+Data theta value is 0.010000
+R vals data i 6365.849975
+R vals model 6365.863879
+Filename is 0.1phi0_025RH.dat
+Model theta values are: 0.036500 
+Data theta value is 0.036500
+R vals data i 6369.164555
+R vals model 6369.324849
+Filename is 0.1phi0_025RH.dat
+Model theta values are: 0.054000 
+Data theta value is 0.054000
+R vals data i 6373.410614
+R vals model 6373.712996
+Filename is 0.1phi0_025RH.dat
+Model theta values are: 0.065300 
+Data theta value is 0.065300
+R vals data i 6377.091037
+R vals model 6377.491218
+Filename is 0.1phi0_025RH.dat
+Model theta values are: 0.069500 
+Data theta value is 0.069500
+R vals data i 6378.653494
+R vals model 6379.090704
+Filename is 0.1phi0_026RH.dat
+Model theta values are: 0.000500 
+Data theta value is 0.000500
+R vals data i 6365.506190
+R vals model 6365.506217
+Filename is 0.1phi0_026RH.dat
+Model theta values are: 0.010000 
+Data theta value is 0.010000
+R vals data i 6365.849975
+R vals model 6365.863324
+Filename is 0.1phi0_026RH.dat
+Model theta values are: 0.036500 
+Data theta value is 0.036500
+R vals data i 6369.164555
+R vals model 6369.318485
+Filename is 0.1phi0_026RH.dat
+Model theta values are: 0.054000 
+Data theta value is 0.054000
+R vals data i 6373.410614
+R vals model 6373.701047
+Filename is 0.1phi0_026RH.dat
+Model theta values are: 0.065300 
+Data theta value is 0.065300
+R vals data i 6377.091037
+R vals model 6377.475437
+Filename is 0.1phi0_026RH.dat
+Model theta values are: 0.069500 
+Data theta value is 0.069500
+R vals data i 6378.653494
+R vals model 6379.073472
+Filename is 0.1phi0_027RH.dat
+Model theta values are: 0.000500 
+Data theta value is 0.000500
+R vals data i 6365.506190
+R vals model 6365.506216
+Filename is 0.1phi0_027RH.dat
+Model theta values are: 0.010000 
+Data theta value is 0.010000
+R vals data i 6365.849975
+R vals model 6365.862768
+Filename is 0.1phi0_027RH.dat
+Model theta values are: 0.036500 
+Data theta value is 0.036500
+R vals data i 6369.164555
+R vals model 6369.312117
+Filename is 0.1phi0_027RH.dat
+Model theta values are: 0.054000 
+Data theta value is 0.054000
+R vals data i 6373.410614
+R vals model 6373.689085
+Filename is 0.1phi0_027RH.dat
+Model theta values are: 0.065300 
+Data theta value is 0.065300
+R vals data i 6377.091037
+R vals model 6377.459636
+Filename is 0.1phi0_027RH.dat
+Model theta values are: 0.069500 
+Data theta value is 0.069500
+R vals data i 6378.653494
+R vals model 6379.056219
+Filename is 0.1phi0_028RH.dat
+Model theta values are: 0.000500 
+Data theta value is 0.000500
+R vals data i 6365.506190
+R vals model 6365.506215
+Filename is 0.1phi0_028RH.dat
+Model theta values are: 0.010000 
+Data theta value is 0.010000
+R vals data i 6365.849975
+R vals model 6365.862212
+Filename is 0.1phi0_028RH.dat
+Model theta values are: 0.036500 
+Data theta value is 0.036500
+R vals data i 6369.164555
+R vals model 6369.305746
+Filename is 0.1phi0_028RH.dat
+Model theta values are: 0.054000 
+Data theta value is 0.054000
+R vals data i 6373.410614
+R vals model 6373.677112
+Filename is 0.1phi0_028RH.dat
+Model theta values are: 0.065300 
+Data theta value is 0.065300
+R vals data i 6377.091037
+R vals model 6377.443818
+Filename is 0.1phi0_028RH.dat
+Model theta values are: 0.069500 
+Data theta value is 0.069500
+R vals data i 6378.653494
+R vals model 6379.038945
+Filename is 0.1phi0_029RH.dat
+Model theta values are: 0.000500 
+Data theta value is 0.000500
+R vals data i 6365.506190
+R vals model 6365.506214
+Filename is 0.1phi0_029RH.dat
+Model theta values are: 0.010000 
+Data theta value is 0.010000
+R vals data i 6365.849975
+R vals model 6365.861657
+Filename is 0.1phi0_029RH.dat
+Model theta values are: 0.036500 
+Data theta value is 0.036500
+R vals data i 6369.164555
+R vals model 6369.299370
+Filename is 0.1phi0_029RH.dat
+Model theta values are: 0.054000 
+Data theta value is 0.054000
+R vals data i 6373.410614
+R vals model 6373.665127
+Filename is 0.1phi0_029RH.dat
+Model theta values are: 0.065300 
+Data theta value is 0.065300
+R vals data i 6377.091037
+R vals model 6377.427981
+Filename is 0.1phi0_029RH.dat
+Model theta values are: 0.069500 
+Data theta value is 0.069500
+R vals data i 6378.653494
+R vals model 6379.021650
+Filename is 0.1phi0_030RH.dat
+Model theta values are: 0.000500 
+Data theta value is 0.000500
+R vals data i 6365.506190
+R vals model 6365.506213
+Filename is 0.1phi0_030RH.dat
+Model theta values are: 0.010000 
+Data theta value is 0.010000
+R vals data i 6365.849975
+R vals model 6365.861101
+Filename is 0.1phi0_030RH.dat
+Model theta values are: 0.036500 
+Data theta value is 0.036500
+R vals data i 6369.164555
+R vals model 6369.292990
+Filename is 0.1phi0_030RH.dat
+Model theta values are: 0.054000 
+Data theta value is 0.054000
+R vals data i 6373.410614
+R vals model 6373.653130
+Filename is 0.1phi0_030RH.dat
+Model theta values are: 0.065300 
+Data theta value is 0.065300
+R vals data i 6377.091037
+R vals model 6377.412125
+Filename is 0.1phi0_030RH.dat
+Model theta values are: 0.069500 
+Data theta value is 0.069500
+R vals data i 6378.653494
+R vals model 6379.004334
+Filename is 0.1phi0_031RH.dat
+Model theta values are: 0.000500 
+Data theta value is 0.000500
+R vals data i 6365.506190
+R vals model 6365.506212
+Filename is 0.1phi0_031RH.dat
+Model theta values are: 0.010000 
+Data theta value is 0.010000
+R vals data i 6365.849975
+R vals model 6365.860545
+Filename is 0.1phi0_031RH.dat
+Model theta values are: 0.036500 
+Data theta value is 0.036500
+R vals data i 6369.164555
+R vals model 6369.286606
+Filename is 0.1phi0_031RH.dat
+Model theta values are: 0.054000 
+Data theta value is 0.054000
+R vals data i 6373.410614
+R vals model 6373.641120
+Filename is 0.1phi0_031RH.dat
+Model theta values are: 0.065300 
+Data theta value is 0.065300
+R vals data i 6377.091037
+R vals model 6377.396251
+Filename is 0.1phi0_031RH.dat
+Model theta values are: 0.069500 
+Data theta value is 0.069500
+R vals data i 6378.653494
+R vals model 6378.986997
+Filename is 0.1phi0_032RH.dat
+Model theta values are: 0.000500 
+Data theta value is 0.000500
+R vals data i 6365.506190
+R vals model 6365.506210
+Filename is 0.1phi0_032RH.dat
+Model theta values are: 0.010000 
+Data theta value is 0.010000
+R vals data i 6365.849975
+R vals model 6365.859989
+Filename is 0.1phi0_032RH.dat
+Model theta values are: 0.036500 
+Data theta value is 0.036500
+R vals data i 6369.164555
+R vals model 6369.280219
+Filename is 0.1phi0_032RH.dat
+Model theta values are: 0.054000 
+Data theta value is 0.054000
+R vals data i 6373.410614
+R vals model 6373.629099
+Filename is 0.1phi0_032RH.dat
+Model theta values are: 0.065300 
+Data theta value is 0.065300
+R vals data i 6377.091037
+R vals model 6377.380358
+Filename is 0.1phi0_032RH.dat
+Model theta values are: 0.069500 
+Data theta value is 0.069500
+R vals data i 6378.653494
+R vals model 6378.969639
+Filename is 0.1phi0_033RH.dat
+Model theta values are: 0.000500 
+Data theta value is 0.000500
+R vals data i 6365.506190
+R vals model 6365.506209
+Filename is 0.1phi0_033RH.dat
+Model theta values are: 0.010000 
+Data theta value is 0.010000
+R vals data i 6365.849975
+R vals model 6365.859433
+Filename is 0.1phi0_033RH.dat
+Model theta values are: 0.036500 
+Data theta value is 0.036500
+R vals data i 6369.164555
+R vals model 6369.273827
+Filename is 0.1phi0_033RH.dat
+Model theta values are: 0.054000 
+Data theta value is 0.054000
+R vals data i 6373.410614
+R vals model 6373.617065
+Filename is 0.1phi0_033RH.dat
+Model theta values are: 0.065300 
+Data theta value is 0.065300
+R vals data i 6377.091037
+R vals model 6377.364447
+Filename is 0.1phi0_033RH.dat
+Model theta values are: 0.069500 
+Data theta value is 0.069500
+R vals data i 6378.653494
+R vals model 6378.952260
+Filename is 0.1phi0_034RH.dat
+Model theta values are: 0.000500 
+Data theta value is 0.000500
+R vals data i 6365.506190
+R vals model 6365.506208
+Filename is 0.1phi0_034RH.dat
+Model theta values are: 0.010000 
+Data theta value is 0.010000
+R vals data i 6365.849975
+R vals model 6365.858877
+Filename is 0.1phi0_034RH.dat
+Model theta values are: 0.036500 
+Data theta value is 0.036500
+R vals data i 6369.164555
+R vals model 6369.267431
+Filename is 0.1phi0_034RH.dat
+Model theta values are: 0.054000 
+Data theta value is 0.054000
+R vals data i 6373.410614
+R vals model 6373.605020
+Filename is 0.1phi0_034RH.dat
+Model theta values are: 0.065300 
+Data theta value is 0.065300
+R vals data i 6377.091037
+R vals model 6377.348517
+Filename is 0.1phi0_034RH.dat
+Model theta values are: 0.069500 
+Data theta value is 0.069500
+R vals data i 6378.653494
+R vals model 6378.934859
+Filename is 0.1phi0_035RH.dat
+Model theta values are: 0.000500 
+Data theta value is 0.000500
+R vals data i 6365.506190
+R vals model 6365.506207
+Filename is 0.1phi0_035RH.dat
+Model theta values are: 0.010000 
+Data theta value is 0.010000
+R vals data i 6365.849975
+R vals model 6365.858321
+Filename is 0.1phi0_035RH.dat
+Model theta values are: 0.036500 
+Data theta value is 0.036500
+R vals data i 6369.164555
+R vals model 6369.261032
+Filename is 0.1phi0_035RH.dat
+Model theta values are: 0.054000 
+Data theta value is 0.054000
+R vals data i 6373.410614
+R vals model 6373.592962
+Filename is 0.1phi0_035RH.dat
+Model theta values are: 0.065300 
+Data theta value is 0.065300
+R vals data i 6377.091037
+R vals model 6377.332568
+Filename is 0.1phi0_035RH.dat
+Model theta values are: 0.069500 
+Data theta value is 0.069500
+R vals data i 6378.653494
+R vals model 6378.917437
+Filename is 0.1phi0_036RH.dat
+Model theta values are: 0.000500 
+Data theta value is 0.000500
+R vals data i 6365.506190
+R vals model 6365.506206
+Filename is 0.1phi0_036RH.dat
+Model theta values are: 0.010000 
+Data theta value is 0.010000
+R vals data i 6365.849975
+R vals model 6365.857765
+Filename is 0.1phi0_036RH.dat
+Model theta values are: 0.036500 
+Data theta value is 0.036500
+R vals data i 6369.164555
+R vals model 6369.254628
+Filename is 0.1phi0_036RH.dat
+Model theta values are: 0.054000 
+Data theta value is 0.054000
+R vals data i 6373.410614
+R vals model 6373.580892
+Filename is 0.1phi0_036RH.dat
+Model theta values are: 0.065300 
+Data theta value is 0.065300
+R vals data i 6377.091037
+R vals model 6377.316600
+Filename is 0.1phi0_036RH.dat
+Model theta values are: 0.069500 
+Data theta value is 0.069500
+R vals data i 6378.653494
+R vals model 6378.899993
+Filename is 0.1phi0_037RH.dat
+Model theta values are: 0.000500 
+Data theta value is 0.000500
+R vals data i 6365.506190
+R vals model 6365.506205
+Filename is 0.1phi0_037RH.dat
+Model theta values are: 0.010000 
+Data theta value is 0.010000
+R vals data i 6365.849975
+R vals model 6365.857209
+Filename is 0.1phi0_037RH.dat
+Model theta values are: 0.036500 
+Data theta value is 0.036500
+R vals data i 6369.164555
+R vals model 6369.248220
+Filename is 0.1phi0_037RH.dat
+Model theta values are: 0.054000 
+Data theta value is 0.054000
+R vals data i 6373.410614
+R vals model 6373.568810
+Filename is 0.1phi0_037RH.dat
+Model theta values are: 0.065300 
+Data theta value is 0.065300
+R vals data i 6377.091037
+R vals model 6377.300613
+Filename is 0.1phi0_037RH.dat
+Model theta values are: 0.069500 
+Data theta value is 0.069500
+R vals data i 6378.653494
+R vals model 6378.882528
+Filename is 0.1phi0_038RH.dat
+Model theta values are: 0.000500 
+Data theta value is 0.000500
+R vals data i 6365.506190
+R vals model 6365.506204
+Filename is 0.1phi0_038RH.dat
+Model theta values are: 0.010000 
+Data theta value is 0.010000
+R vals data i 6365.849975
+R vals model 6365.856653
+Filename is 0.1phi0_038RH.dat
+Model theta values are: 0.036500 
+Data theta value is 0.036500
+R vals data i 6369.164555
+R vals model 6369.241809
+Filename is 0.1phi0_038RH.dat
+Model theta values are: 0.054000 
+Data theta value is 0.054000
+R vals data i 6373.410614
+R vals model 6373.556715
+Filename is 0.1phi0_038RH.dat
+Model theta values are: 0.065300 
+Data theta value is 0.065300
+R vals data i 6377.091037
+R vals model 6377.284607
+Filename is 0.1phi0_038RH.dat
+Model theta values are: 0.069500 
+Data theta value is 0.069500
+R vals data i 6378.653494
+R vals model 6378.865041
+Filename is 0.1phi0_039RH.dat
+Model theta values are: 0.000500 
+Data theta value is 0.000500
+R vals data i 6365.506190
+R vals model 6365.506202
+Filename is 0.1phi0_039RH.dat
+Model theta values are: 0.010000 
+Data theta value is 0.010000
+R vals data i 6365.849975
+R vals model 6365.856097
+Filename is 0.1phi0_039RH.dat
+Model theta values are: 0.036500 
+Data theta value is 0.036500
+R vals data i 6369.164555
+R vals model 6369.235393
+Filename is 0.1phi0_039RH.dat
+Model theta values are: 0.054000 
+Data theta value is 0.054000
+R vals data i 6373.410614
+R vals model 6373.544608
+Filename is 0.1phi0_039RH.dat
+Model theta values are: 0.065300 
+Data theta value is 0.065300
+R vals data i 6377.091037
+R vals model 6377.268582
+Filename is 0.1phi0_039RH.dat
+Model theta values are: 0.069500 
+Data theta value is 0.069500
+R vals data i 6378.653494
+R vals model 6378.847533
+Filename is 0.1phi0_040RH.dat
+Model theta values are: 0.000500 
+Data theta value is 0.000500
+R vals data i 6365.506190
+R vals model 6365.506201
+Filename is 0.1phi0_040RH.dat
+Model theta values are: 0.010000 
+Data theta value is 0.010000
+R vals data i 6365.849975
+R vals model 6365.855541
+Filename is 0.1phi0_040RH.dat
+Model theta values are: 0.036500 
+Data theta value is 0.036500
+R vals data i 6369.164555
+R vals model 6369.228973
+Filename is 0.1phi0_040RH.dat
+Model theta values are: 0.054000 
+Data theta value is 0.054000
+R vals data i 6373.410614
+R vals model 6373.532489
+Filename is 0.1phi0_040RH.dat
+Model theta values are: 0.065300 
+Data theta value is 0.065300
+R vals data i 6377.091037
+R vals model 6377.252538
+Filename is 0.1phi0_040RH.dat
+Model theta values are: 0.069500 
+Data theta value is 0.069500
+R vals data i 6378.653494
+R vals model 6378.830003
+Filename is 0.1phi0_041RH.dat
+Model theta values are: 0.000500 
+Data theta value is 0.000500
+R vals data i 6365.506190
+R vals model 6365.506200
+Filename is 0.1phi0_041RH.dat
+Model theta values are: 0.010000 
+Data theta value is 0.010000
+R vals data i 6365.849975
+R vals model 6365.854984
+Filename is 0.1phi0_041RH.dat
+Model theta values are: 0.036500 
+Data theta value is 0.036500
+R vals data i 6369.164555
+R vals model 6369.222550
+Filename is 0.1phi0_041RH.dat
+Model theta values are: 0.054000 
+Data theta value is 0.054000
+R vals data i 6373.410614
+R vals model 6373.520358
+Filename is 0.1phi0_041RH.dat
+Model theta values are: 0.065300 
+Data theta value is 0.065300
+R vals data i 6377.091037
+R vals model 6377.236475
+Filename is 0.1phi0_041RH.dat
+Model theta values are: 0.069500 
+Data theta value is 0.069500
+R vals data i 6378.653494
+R vals model 6378.812451
+Filename is 0.1phi0_042RH.dat
+Model theta values are: 0.000500 
+Data theta value is 0.000500
+R vals data i 6365.506190
+R vals model 6365.506199
+Filename is 0.1phi0_042RH.dat
+Model theta values are: 0.010000 
+Data theta value is 0.010000
+R vals data i 6365.849975
+R vals model 6365.854428
+Filename is 0.1phi0_042RH.dat
+Model theta values are: 0.036500 
+Data theta value is 0.036500
+R vals data i 6369.164555
+R vals model 6369.216122
+Filename is 0.1phi0_042RH.dat
+Model theta values are: 0.054000 
+Data theta value is 0.054000
+R vals data i 6373.410614
+R vals model 6373.508214
+Filename is 0.1phi0_042RH.dat
+Model theta values are: 0.065300 
+Data theta value is 0.065300
+R vals data i 6377.091037
+R vals model 6377.220393
+Filename is 0.1phi0_042RH.dat
+Model theta values are: 0.069500 
+Data theta value is 0.069500
+R vals data i 6378.653494
+R vals model 6378.794878
+Filename is 0.1phi0_043RH.dat
+Model theta values are: 0.000500 
+Data theta value is 0.000500
+R vals data i 6365.506190
+R vals model 6365.506198
+Filename is 0.1phi0_043RH.dat
+Model theta values are: 0.010000 
+Data theta value is 0.010000
+R vals data i 6365.849975
+R vals model 6365.853872
+Filename is 0.1phi0_043RH.dat
+Model theta values are: 0.036500 
+Data theta value is 0.036500
+R vals data i 6369.164555
+R vals model 6369.209690
+Filename is 0.1phi0_043RH.dat
+Model theta values are: 0.054000 
+Data theta value is 0.054000
+R vals data i 6373.410614
+R vals model 6373.496058
+Filename is 0.1phi0_043RH.dat
+Model theta values are: 0.065300 
+Data theta value is 0.065300
+R vals data i 6377.091037
+R vals model 6377.204292
+Filename is 0.1phi0_043RH.dat
+Model theta values are: 0.069500 
+Data theta value is 0.069500
+R vals data i 6378.653494
+R vals model 6378.777282
+Filename is 0.1phi0_044RH.dat
+Model theta values are: 0.000500 
+Data theta value is 0.000500
+R vals data i 6365.506190
+R vals model 6365.506197
+Filename is 0.1phi0_044RH.dat
+Model theta values are: 0.010000 
+Data theta value is 0.010000
+R vals data i 6365.849975
+R vals model 6365.853315
+Filename is 0.1phi0_044RH.dat
+Model theta values are: 0.036500 
+Data theta value is 0.036500
+R vals data i 6369.164555
+R vals model 6369.203255
+Filename is 0.1phi0_044RH.dat
+Model theta values are: 0.054000 
+Data theta value is 0.054000
+R vals data i 6373.410614
+R vals model 6373.483889
+Filename is 0.1phi0_044RH.dat
+Model theta values are: 0.065300 
+Data theta value is 0.065300
+R vals data i 6377.091037
+R vals model 6377.188171
+Filename is 0.1phi0_044RH.dat
+Model theta values are: 0.069500 
+Data theta value is 0.069500
+R vals data i 6378.653494
+R vals model 6378.759665
+Filename is 0.1phi0_045RH.dat
+Model theta values are: 0.000500 
+Data theta value is 0.000500
+R vals data i 6365.506190
+R vals model 6365.506196
+Filename is 0.1phi0_045RH.dat
+Model theta values are: 0.010000 
+Data theta value is 0.010000
+R vals data i 6365.849975
+R vals model 6365.852759
+Filename is 0.1phi0_045RH.dat
+Model theta values are: 0.036500 
+Data theta value is 0.036500
+R vals data i 6369.164555
+R vals model 6369.196815
+Filename is 0.1phi0_045RH.dat
+Model theta values are: 0.054000 
+Data theta value is 0.054000
+R vals data i 6373.410614
+R vals model 6373.471708
+Filename is 0.1phi0_045RH.dat
+Model theta values are: 0.065300 
+Data theta value is 0.065300
+R vals data i 6377.091037
+R vals model 6377.172031
+Filename is 0.1phi0_045RH.dat
+Model theta values are: 0.069500 
+Data theta value is 0.069500
+R vals data i 6378.653494
+R vals model 6378.742025
+Filename is 0.1phi0_046RH.dat
+Model theta values are: 0.000500 
+Data theta value is 0.000500
+R vals data i 6365.506190
+R vals model 6365.506194
+Filename is 0.1phi0_046RH.dat
+Model theta values are: 0.010000 
+Data theta value is 0.010000
+R vals data i 6365.849975
+R vals model 6365.852202
+Filename is 0.1phi0_046RH.dat
+Model theta values are: 0.036500 
+Data theta value is 0.036500
+R vals data i 6369.164555
+R vals model 6369.190371
+Filename is 0.1phi0_046RH.dat
+Model theta values are: 0.054000 
+Data theta value is 0.054000
+R vals data i 6373.410614
+R vals model 6373.459514
+Filename is 0.1phi0_046RH.dat
+Model theta values are: 0.065300 
+Data theta value is 0.065300
+R vals data i 6377.091037
+R vals model 6377.155871
+Filename is 0.1phi0_046RH.dat
+Model theta values are: 0.069500 
+Data theta value is 0.069500
+R vals data i 6378.653494
+R vals model 6378.724363
+Filename is 0.1phi0_047RH.dat
+Model theta values are: 0.000500 
+Data theta value is 0.000500
+R vals data i 6365.506190
+R vals model 6365.506193
+Filename is 0.1phi0_047RH.dat
+Model theta values are: 0.010000 
+Data theta value is 0.010000
+R vals data i 6365.849975
+R vals model 6365.851645
+Filename is 0.1phi0_047RH.dat
+Model theta values are: 0.036500 
+Data theta value is 0.036500
+R vals data i 6369.164555
+R vals model 6369.183923
+Filename is 0.1phi0_047RH.dat
+Model theta values are: 0.054000 
+Data theta value is 0.054000
+R vals data i 6373.410614
+R vals model 6373.447308
+Filename is 0.1phi0_047RH.dat
+Model theta values are: 0.065300 
+Data theta value is 0.065300
+R vals data i 6377.091037
+R vals model 6377.139692
+Filename is 0.1phi0_047RH.dat
+Model theta values are: 0.069500 
+Data theta value is 0.069500
+R vals data i 6378.653494
+R vals model 6378.706679
+Filename is 0.1phi0_048RH.dat
+Model theta values are: 0.000500 
+Data theta value is 0.000500
+R vals data i 6365.506190
+R vals model 6365.506192
+Filename is 0.1phi0_048RH.dat
+Model theta values are: 0.010000 
+Data theta value is 0.010000
+R vals data i 6365.849975
+R vals model 6365.851089
+Filename is 0.1phi0_048RH.dat
+Model theta values are: 0.036500 
+Data theta value is 0.036500
+R vals data i 6369.164555
+R vals model 6369.177471
+Filename is 0.1phi0_048RH.dat
+Model theta values are: 0.054000 
+Data theta value is 0.054000
+R vals data i 6373.410614
+R vals model 6373.435089
+Filename is 0.1phi0_048RH.dat
+Model theta values are: 0.065300 
+Data theta value is 0.065300
+R vals data i 6377.091037
+R vals model 6377.123493
+Filename is 0.1phi0_048RH.dat
+Model theta values are: 0.069500 
+Data theta value is 0.069500
+R vals data i 6378.653494
+R vals model 6378.688973
+Filename is 0.1phi0_049RH.dat
+Model theta values are: 0.000500 
+Data theta value is 0.000500
+R vals data i 6365.506190
+R vals model 6365.506191
+Filename is 0.1phi0_049RH.dat
+Model theta values are: 0.010000 
+Data theta value is 0.010000
+R vals data i 6365.849975
+R vals model 6365.850532
+Filename is 0.1phi0_049RH.dat
+Model theta values are: 0.036500 
+Data theta value is 0.036500
+R vals data i 6369.164555
+R vals model 6369.171015
+Filename is 0.1phi0_049RH.dat
+Model theta values are: 0.054000 
+Data theta value is 0.054000
+R vals data i 6373.410614
+R vals model 6373.422858
+Filename is 0.1phi0_049RH.dat
+Model theta values are: 0.065300 
+Data theta value is 0.065300
+R vals data i 6377.091037
+R vals model 6377.107275
+Filename is 0.1phi0_049RH.dat
+Model theta values are: 0.069500 
+Data theta value is 0.069500
+R vals data i 6378.653494
+R vals model 6378.671245
+Filename is 0.1phi0_050RH.dat
+Model theta values are: 0.000500 
+Data theta value is 0.000500
+R vals data i 6365.506190
+R vals model 6365.506190
+Filename is 0.1phi0_050RH.dat
+Model theta values are: 0.010000 
+Data theta value is 0.010000
+R vals data i 6365.849975
+R vals model 6365.849975
+Filename is 0.1phi0_050RH.dat
+Model theta values are: 0.036500 
+Data theta value is 0.036500
+R vals data i 6369.164555
+R vals model 6369.164555
+Filename is 0.1phi0_050RH.dat
+Model theta values are: 0.054000 
+Data theta value is 0.054000
+R vals data i 6373.410614
+R vals model 6373.410614
+Filename is 0.1phi0_050RH.dat
+Model theta values are: 0.065300 
+Data theta value is 0.065300
+R vals data i 6377.091037
+R vals model 6377.091037
+Filename is 0.1phi0_050RH.dat
+Model theta values are: 0.069500 
+Data theta value is 0.069500
+R vals data i 6378.653494
+R vals model 6378.653494
+Filename is 0.1phi0_051RH.dat
+Model theta values are: 0.000500 
+Data theta value is 0.000500
+R vals data i 6365.506190
+R vals model 6365.506189
+Filename is 0.1phi0_051RH.dat
+Model theta values are: 0.010000 
+Data theta value is 0.010000
+R vals data i 6365.849975
+R vals model 6365.849419
+Filename is 0.1phi0_051RH.dat
+Model theta values are: 0.036500 
+Data theta value is 0.036500
+R vals data i 6369.164555
+R vals model 6369.158091
+Filename is 0.1phi0_051RH.dat
+Model theta values are: 0.054000 
+Data theta value is 0.054000
+R vals data i 6373.410614
+R vals model 6373.398357
+Filename is 0.1phi0_051RH.dat
+Model theta values are: 0.065300 
+Data theta value is 0.065300
+R vals data i 6377.091037
+R vals model 6377.074779
+Filename is 0.1phi0_051RH.dat
+Model theta values are: 0.069500 
+Data theta value is 0.069500
+R vals data i 6378.653494
+R vals model 6378.635720
+Filename is 0.1phi0_052RH.dat
+Model theta values are: 0.000500 
+Data theta value is 0.000500
+R vals data i 6365.506190
+R vals model 6365.506188
+Filename is 0.1phi0_052RH.dat
+Model theta values are: 0.010000 
+Data theta value is 0.010000
+R vals data i 6365.849975
+R vals model 6365.848862
+Filename is 0.1phi0_052RH.dat
+Model theta values are: 0.036500 
+Data theta value is 0.036500
+R vals data i 6369.164555
+R vals model 6369.151622
+Filename is 0.1phi0_052RH.dat
+Model theta values are: 0.054000 
+Data theta value is 0.054000
+R vals data i 6373.410614
+R vals model 6373.386088
+Filename is 0.1phi0_052RH.dat
+Model theta values are: 0.065300 
+Data theta value is 0.065300
+R vals data i 6377.091037
+R vals model 6377.058502
+Filename is 0.1phi0_052RH.dat
+Model theta values are: 0.069500 
+Data theta value is 0.069500
+R vals data i 6378.653494
+R vals model 6378.617924
+Filename is 0.1phi0_053RH.dat
+Model theta values are: 0.000500 
+Data theta value is 0.000500
+R vals data i 6365.506190
+R vals model 6365.506186
+Filename is 0.1phi0_053RH.dat
+Model theta values are: 0.010000 
+Data theta value is 0.010000
+R vals data i 6365.849975
+R vals model 6365.848305
+Filename is 0.1phi0_053RH.dat
+Model theta values are: 0.036500 
+Data theta value is 0.036500
+R vals data i 6369.164555
+R vals model 6369.145150
+Filename is 0.1phi0_053RH.dat
+Model theta values are: 0.054000 
+Data theta value is 0.054000
+R vals data i 6373.410614
+R vals model 6373.373806
+Filename is 0.1phi0_053RH.dat
+Model theta values are: 0.065300 
+Data theta value is 0.065300
+R vals data i 6377.091037
+R vals model 6377.042205
+Filename is 0.1phi0_053RH.dat
+Model theta values are: 0.069500 
+Data theta value is 0.069500
+R vals data i 6378.653494
+R vals model 6378.600106
+Filename is 0.1phi0_054RH.dat
+Model theta values are: 0.000500 
+Data theta value is 0.000500
+R vals data i 6365.506190
+R vals model 6365.506185
+Filename is 0.1phi0_054RH.dat
+Model theta values are: 0.010000 
+Data theta value is 0.010000
+R vals data i 6365.849975
+R vals model 6365.847748
+Filename is 0.1phi0_054RH.dat
+Model theta values are: 0.036500 
+Data theta value is 0.036500
+R vals data i 6369.164555
+R vals model 6369.138673
+Filename is 0.1phi0_054RH.dat
+Model theta values are: 0.054000 
+Data theta value is 0.054000
+R vals data i 6373.410614
+R vals model 6373.361511
+Filename is 0.1phi0_054RH.dat
+Model theta values are: 0.065300 
+Data theta value is 0.065300
+R vals data i 6377.091037
+R vals model 6377.025888
+Filename is 0.1phi0_054RH.dat
+Model theta values are: 0.069500 
+Data theta value is 0.069500
+R vals data i 6378.653494
+R vals model 6378.582265
+Filename is 0.1phi0_055RH.dat
+Model theta values are: 0.000500 
+Data theta value is 0.000500
+R vals data i 6365.506190
+R vals model 6365.506184
+Filename is 0.1phi0_055RH.dat
+Model theta values are: 0.010000 
+Data theta value is 0.010000
+R vals data i 6365.849975
+R vals model 6365.847191
+Filename is 0.1phi0_055RH.dat
+Model theta values are: 0.036500 
+Data theta value is 0.036500
+R vals data i 6369.164555
+R vals model 6369.132193
+Filename is 0.1phi0_055RH.dat
+Model theta values are: 0.054000 
+Data theta value is 0.054000
+R vals data i 6373.410614
+R vals model 6373.349204
+Filename is 0.1phi0_055RH.dat
+Model theta values are: 0.065300 
+Data theta value is 0.065300
+R vals data i 6377.091037
+R vals model 6377.009550
+Filename is 0.1phi0_055RH.dat
+Model theta values are: 0.069500 
+Data theta value is 0.069500
+R vals data i 6378.653494
+R vals model 6378.564401
+Filename is 0.1phi0_056RH.dat
+Model theta values are: 0.000500 
+Data theta value is 0.000500
+R vals data i 6365.506190
+R vals model 6365.506183
+Filename is 0.1phi0_056RH.dat
+Model theta values are: 0.010000 
+Data theta value is 0.010000
+R vals data i 6365.849975
+R vals model 6365.846634
+Filename is 0.1phi0_056RH.dat
+Model theta values are: 0.036500 
+Data theta value is 0.036500
+R vals data i 6369.164555
+R vals model 6369.125708
+Filename is 0.1phi0_056RH.dat
+Model theta values are: 0.054000 
+Data theta value is 0.054000
+R vals data i 6373.410614
+R vals model 6373.336883
+Filename is 0.1phi0_056RH.dat
+Model theta values are: 0.065300 
+Data theta value is 0.065300
+R vals data i 6377.091037
+R vals model 6376.993193
+Filename is 0.1phi0_056RH.dat
+Model theta values are: 0.069500 
+Data theta value is 0.069500
+R vals data i 6378.653494
+R vals model 6378.546514
+Filename is 0.1phi0_057RH.dat
+Model theta values are: 0.000500 
+Data theta value is 0.000500
+R vals data i 6365.506190
+R vals model 6365.506182
+Filename is 0.1phi0_057RH.dat
+Model theta values are: 0.010000 
+Data theta value is 0.010000
+R vals data i 6365.849975
+R vals model 6365.846077
+Filename is 0.1phi0_057RH.dat
+Model theta values are: 0.036500 
+Data theta value is 0.036500
+R vals data i 6369.164555
+R vals model 6369.119219
+Filename is 0.1phi0_057RH.dat
+Model theta values are: 0.054000 
+Data theta value is 0.054000
+R vals data i 6373.410614
+R vals model 6373.324550
+Filename is 0.1phi0_057RH.dat
+Model theta values are: 0.065300 
+Data theta value is 0.065300
+R vals data i 6377.091037
+R vals model 6376.976816
+Filename is 0.1phi0_057RH.dat
+Model theta values are: 0.069500 
+Data theta value is 0.069500
+R vals data i 6378.653494
+R vals model 6378.528604
+Filename is 0.1phi0_058RH.dat
+Model theta values are: 0.000500 
+Data theta value is 0.000500
+R vals data i 6365.506190
+R vals model 6365.506181
+Filename is 0.1phi0_058RH.dat
+Model theta values are: 0.010000 
+Data theta value is 0.010000
+R vals data i 6365.849975
+R vals model 6365.845520
+Filename is 0.1phi0_058RH.dat
+Model theta values are: 0.036500 
+Data theta value is 0.036500
+R vals data i 6369.164555
+R vals model 6369.112726
+Filename is 0.1phi0_058RH.dat
+Model theta values are: 0.054000 
+Data theta value is 0.054000
+R vals data i 6373.410614
+R vals model 6373.312204
+Filename is 0.1phi0_058RH.dat
+Model theta values are: 0.065300 
+Data theta value is 0.065300
+R vals data i 6377.091037
+R vals model 6376.960419
+Filename is 0.1phi0_058RH.dat
+Model theta values are: 0.069500 
+Data theta value is 0.069500
+R vals data i 6378.653494
+R vals model 6378.510671
+Filename is 0.1phi0_059RH.dat
+Model theta values are: 0.000500 
+Data theta value is 0.000500
+R vals data i 6365.506190
+R vals model 6365.506180
+Filename is 0.1phi0_059RH.dat
+Model theta values are: 0.010000 
+Data theta value is 0.010000
+R vals data i 6365.849975
+R vals model 6365.844963
+Filename is 0.1phi0_059RH.dat
+Model theta values are: 0.036500 
+Data theta value is 0.036500
+R vals data i 6369.164555
+R vals model 6369.106229
+Filename is 0.1phi0_059RH.dat
+Model theta values are: 0.054000 
+Data theta value is 0.054000
+R vals data i 6373.410614
+R vals model 6373.299845
+Filename is 0.1phi0_059RH.dat
+Model theta values are: 0.065300 
+Data theta value is 0.065300
+R vals data i 6377.091037
+R vals model 6376.944001
+Filename is 0.1phi0_059RH.dat
+Model theta values are: 0.069500 
+Data theta value is 0.069500
+R vals data i 6378.653494
+R vals model 6378.492715
+Filename is 0.1phi0_060RH.dat
+Model theta values are: 0.000500 
+Data theta value is 0.000500
+R vals data i 6365.506190
+R vals model 6365.506178
+Filename is 0.1phi0_060RH.dat
+Model theta values are: 0.010000 
+Data theta value is 0.010000
+R vals data i 6365.849975
+R vals model 6365.844405
+Filename is 0.1phi0_060RH.dat
+Model theta values are: 0.036500 
+Data theta value is 0.036500
+R vals data i 6369.164555
+R vals model 6369.099728
+Filename is 0.1phi0_060RH.dat
+Model theta values are: 0.054000 
+Data theta value is 0.054000
+R vals data i 6373.410614
+R vals model 6373.287473
+Filename is 0.1phi0_060RH.dat
+Model theta values are: 0.065300 
+Data theta value is 0.065300
+R vals data i 6377.091037
+R vals model 6376.927563
+Filename is 0.1phi0_060RH.dat
+Model theta values are: 0.069500 
+Data theta value is 0.069500
+R vals data i 6378.653494
+R vals model 6378.474737
+Filename is 0.1phi0_061RH.dat
+Model theta values are: 0.000500 
+Data theta value is 0.000500
+R vals data i 6365.506190
+R vals model 6365.506177
+Filename is 0.1phi0_061RH.dat
+Model theta values are: 0.010000 
+Data theta value is 0.010000
+R vals data i 6365.849975
+R vals model 6365.843848
+Filename is 0.1phi0_061RH.dat
+Model theta values are: 0.036500 
+Data theta value is 0.036500
+R vals data i 6369.164555
+R vals model 6369.093223
+Filename is 0.1phi0_061RH.dat
+Model theta values are: 0.054000 
+Data theta value is 0.054000
+R vals data i 6373.410614
+R vals model 6373.275088
+Filename is 0.1phi0_061RH.dat
+Model theta values are: 0.065300 
+Data theta value is 0.065300
+R vals data i 6377.091037
+R vals model 6376.911105
+Filename is 0.1phi0_061RH.dat
+Model theta values are: 0.069500 
+Data theta value is 0.069500
+R vals data i 6378.653494
+R vals model 6378.456734
+Filename is 0.1phi0_062RH.dat
+Model theta values are: 0.000500 
+Data theta value is 0.000500
+R vals data i 6365.506190
+R vals model 6365.506176
+Filename is 0.1phi0_062RH.dat
+Model theta values are: 0.010000 
+Data theta value is 0.010000
+R vals data i 6365.849975
+R vals model 6365.843291
+Filename is 0.1phi0_062RH.dat
+Model theta values are: 0.036500 
+Data theta value is 0.036500
+R vals data i 6369.164555
+R vals model 6369.086713
+Filename is 0.1phi0_062RH.dat
+Model theta values are: 0.054000 
+Data theta value is 0.054000
+R vals data i 6373.410614
+R vals model 6373.262690
+Filename is 0.1phi0_062RH.dat
+Model theta values are: 0.065300 
+Data theta value is 0.065300
+R vals data i 6377.091037
+R vals model 6376.894626
+Filename is 0.1phi0_062RH.dat
+Model theta values are: 0.069500 
+Data theta value is 0.069500
+R vals data i 6378.653494
+R vals model 6378.438709
+Filename is 0.1phi0_063RH.dat
+Model theta values are: 0.000500 
+Data theta value is 0.000500
+R vals data i 6365.506190
+R vals model 6365.506175
+Filename is 0.1phi0_063RH.dat
+Model theta values are: 0.010000 
+Data theta value is 0.010000
+R vals data i 6365.849975
+R vals model 6365.842733
+Filename is 0.1phi0_063RH.dat
+Model theta values are: 0.036500 
+Data theta value is 0.036500
+R vals data i 6369.164555
+R vals model 6369.080200
+Filename is 0.1phi0_063RH.dat
+Model theta values are: 0.054000 
+Data theta value is 0.054000
+R vals data i 6373.410614
+R vals model 6373.250279
+Filename is 0.1phi0_063RH.dat
+Model theta values are: 0.065300 
+Data theta value is 0.065300
+R vals data i 6377.091037
+R vals model 6376.878127
+Filename is 0.1phi0_063RH.dat
+Model theta values are: 0.069500 
+Data theta value is 0.069500
+R vals data i 6378.653494
+R vals model 6378.420660
+Filename is 0.1phi0_064RH.dat
+Model theta values are: 0.000500 
+Data theta value is 0.000500
+R vals data i 6365.506190
+R vals model 6365.506174
+Filename is 0.1phi0_064RH.dat
+Model theta values are: 0.010000 
+Data theta value is 0.010000
+R vals data i 6365.849975
+R vals model 6365.842176
+Filename is 0.1phi0_064RH.dat
+Model theta values are: 0.036500 
+Data theta value is 0.036500
+R vals data i 6369.164555
+R vals model 6369.073682
+Filename is 0.1phi0_064RH.dat
+Model theta values are: 0.054000 
+Data theta value is 0.054000
+R vals data i 6373.410614
+R vals model 6373.237855
+Filename is 0.1phi0_064RH.dat
+Model theta values are: 0.065300 
+Data theta value is 0.065300
+R vals data i 6377.091037
+R vals model 6376.861608
+Filename is 0.1phi0_064RH.dat
+Model theta values are: 0.069500 
+Data theta value is 0.069500
+R vals data i 6378.653494
+R vals model 6378.402588
+Filename is 0.1phi0_065RH.dat
+Model theta values are: 0.000500 
+Data theta value is 0.000500
+R vals data i 6365.506190
+R vals model 6365.506173
+Filename is 0.1phi0_065RH.dat
+Model theta values are: 0.010000 
+Data theta value is 0.010000
+R vals data i 6365.849975
+R vals model 6365.841618
+Filename is 0.1phi0_065RH.dat
+Model theta values are: 0.036500 
+Data theta value is 0.036500
+R vals data i 6369.164555
+R vals model 6369.067160
+Filename is 0.1phi0_065RH.dat
+Model theta values are: 0.054000 
+Data theta value is 0.054000
+R vals data i 6373.410614
+R vals model 6373.225417
+Filename is 0.1phi0_065RH.dat
+Model theta values are: 0.065300 
+Data theta value is 0.065300
+R vals data i 6377.091037
+R vals model 6376.845067
+Filename is 0.1phi0_065RH.dat
+Model theta values are: 0.069500 
+Data theta value is 0.069500
+R vals data i 6378.653494
+R vals model 6378.384492
+Filename is 0.1phi0_066RH.dat
+Model theta values are: 0.000500 
+Data theta value is 0.000500
+R vals data i 6365.506190
+R vals model 6365.506172
+Filename is 0.1phi0_066RH.dat
+Model theta values are: 0.010000 
+Data theta value is 0.010000
+R vals data i 6365.849975
+R vals model 6365.841061
+Filename is 0.1phi0_066RH.dat
+Model theta values are: 0.036500 
+Data theta value is 0.036500
+R vals data i 6369.164555
+R vals model 6369.060634
+Filename is 0.1phi0_066RH.dat
+Model theta values are: 0.054000 
+Data theta value is 0.054000
+R vals data i 6373.410614
+R vals model 6373.212967
+Filename is 0.1phi0_066RH.dat
+Model theta values are: 0.065300 
+Data theta value is 0.065300
+R vals data i 6377.091037
+R vals model 6376.828507
+Filename is 0.1phi0_066RH.dat
+Model theta values are: 0.069500 
+Data theta value is 0.069500
+R vals data i 6378.653494
+R vals model 6378.366373
+Filename is 0.1phi0_067RH.dat
+Model theta values are: 0.000500 
+Data theta value is 0.000500
+R vals data i 6365.506190
+R vals model 6365.506170
+Filename is 0.1phi0_067RH.dat
+Model theta values are: 0.010000 
+Data theta value is 0.010000
+R vals data i 6365.849975
+R vals model 6365.840503
+Filename is 0.1phi0_067RH.dat
+Model theta values are: 0.036500 
+Data theta value is 0.036500
+R vals data i 6369.164555
+R vals model 6369.054103
+Filename is 0.1phi0_067RH.dat
+Model theta values are: 0.054000 
+Data theta value is 0.054000
+R vals data i 6373.410614
+R vals model 6373.200503
+Filename is 0.1phi0_067RH.dat
+Model theta values are: 0.065300 
+Data theta value is 0.065300
+R vals data i 6377.091037
+R vals model 6376.811925
+Filename is 0.1phi0_067RH.dat
+Model theta values are: 0.069500 
+Data theta value is 0.069500
+R vals data i 6378.653494
+R vals model 6378.348230
+Filename is 0.1phi0_068RH.dat
+Model theta values are: 0.000500 
+Data theta value is 0.000500
+R vals data i 6365.506190
+R vals model 6365.506169
+Filename is 0.1phi0_068RH.dat
+Model theta values are: 0.010000 
+Data theta value is 0.010000
+R vals data i 6365.849975
+R vals model 6365.839946
+Filename is 0.1phi0_068RH.dat
+Model theta values are: 0.036500 
+Data theta value is 0.036500
+R vals data i 6369.164555
+R vals model 6369.047569
+Filename is 0.1phi0_068RH.dat
+Model theta values are: 0.054000 
+Data theta value is 0.054000
+R vals data i 6373.410614
+R vals model 6373.188027
+Filename is 0.1phi0_068RH.dat
+Model theta values are: 0.065300 
+Data theta value is 0.065300
+R vals data i 6377.091037
+R vals model 6376.795323
+Filename is 0.1phi0_068RH.dat
+Model theta values are: 0.069500 
+Data theta value is 0.069500
+R vals data i 6378.653494
+R vals model 6378.330064
+Filename is 0.1phi0_069RH.dat
+Model theta values are: 0.000500 
+Data theta value is 0.000500
+R vals data i 6365.506190
+R vals model 6365.506168
+Filename is 0.1phi0_069RH.dat
+Model theta values are: 0.010000 
+Data theta value is 0.010000
+R vals data i 6365.849975
+R vals model 6365.839388
+Filename is 0.1phi0_069RH.dat
+Model theta values are: 0.036500 
+Data theta value is 0.036500
+R vals data i 6369.164555
+R vals model 6369.041030
+Filename is 0.1phi0_069RH.dat
+Model theta values are: 0.054000 
+Data theta value is 0.054000
+R vals data i 6373.410614
+R vals model 6373.175537
+Filename is 0.1phi0_069RH.dat
+Model theta values are: 0.065300 
+Data theta value is 0.065300
+R vals data i 6377.091037
+R vals model 6376.778700
+Filename is 0.1phi0_069RH.dat
+Model theta values are: 0.069500 
+Data theta value is 0.069500
+R vals data i 6378.653494
+R vals model 6378.311873
+Filename is 0.1phi0_070RH.dat
+Model theta values are: 0.000500 
+Data theta value is 0.000500
+R vals data i 6365.506190
+R vals model 6365.506167
+Filename is 0.1phi0_070RH.dat
+Model theta values are: 0.010000 
+Data theta value is 0.010000
+R vals data i 6365.849975
+R vals model 6365.838830
+Filename is 0.1phi0_070RH.dat
+Model theta values are: 0.036500 
+Data theta value is 0.036500
+R vals data i 6369.164555
+R vals model 6369.034487
+Filename is 0.1phi0_070RH.dat
+Model theta values are: 0.054000 
+Data theta value is 0.054000
+R vals data i 6373.410614
+R vals model 6373.163033
+Filename is 0.1phi0_070RH.dat
+Model theta values are: 0.065300 
+Data theta value is 0.065300
+R vals data i 6377.091037
+R vals model 6376.762055
+Filename is 0.1phi0_070RH.dat
+Model theta values are: 0.069500 
+Data theta value is 0.069500
+R vals data i 6378.653494
+R vals model 6378.293659
+Filename is 0.1phi0_071RH.dat
+Model theta values are: 0.000500 
+Data theta value is 0.000500
+R vals data i 6365.506190
+R vals model 6365.506166
+Filename is 0.1phi0_071RH.dat
+Model theta values are: 0.010000 
+Data theta value is 0.010000
+R vals data i 6365.849975
+R vals model 6365.838272
+Filename is 0.1phi0_071RH.dat
+Model theta values are: 0.036500 
+Data theta value is 0.036500
+R vals data i 6369.164555
+R vals model 6369.027940
+Filename is 0.1phi0_071RH.dat
+Model theta values are: 0.054000 
+Data theta value is 0.054000
+R vals data i 6373.410614
+R vals model 6373.150517
+Filename is 0.1phi0_071RH.dat
+Model theta values are: 0.065300 
+Data theta value is 0.065300
+R vals data i 6377.091037
+R vals model 6376.745390
+Filename is 0.1phi0_071RH.dat
+Model theta values are: 0.069500 
+Data theta value is 0.069500
+R vals data i 6378.653494
+R vals model 6378.275420
+Filename is 0.1phi0_072RH.dat
+Model theta values are: 0.000500 
+Data theta value is 0.000500
+R vals data i 6365.506190
+R vals model 6365.506165
+Filename is 0.1phi0_072RH.dat
+Model theta values are: 0.010000 
+Data theta value is 0.010000
+R vals data i 6365.849975
+R vals model 6365.837715
+Filename is 0.1phi0_072RH.dat
+Model theta values are: 0.036500 
+Data theta value is 0.036500
+R vals data i 6369.164555
+R vals model 6369.021389
+Filename is 0.1phi0_072RH.dat
+Model theta values are: 0.054000 
+Data theta value is 0.054000
+R vals data i 6373.410614
+R vals model 6373.137986
+Filename is 0.1phi0_072RH.dat
+Model theta values are: 0.065300 
+Data theta value is 0.065300
+R vals data i 6377.091037
+R vals model 6376.728704
+Filename is 0.1phi0_072RH.dat
+Model theta values are: 0.069500 
+Data theta value is 0.069500
+R vals data i 6378.653494
+R vals model 6378.257158
+Filename is 0.1phi0_073RH.dat
+Model theta values are: 0.000500 
+Data theta value is 0.000500
+R vals data i 6365.506190
+R vals model 6365.506163
+Filename is 0.1phi0_073RH.dat
+Model theta values are: 0.010000 
+Data theta value is 0.010000
+R vals data i 6365.849975
+R vals model 6365.837157
+Filename is 0.1phi0_073RH.dat
+Model theta values are: 0.036500 
+Data theta value is 0.036500
+R vals data i 6369.164555
+R vals model 6369.014833
+Filename is 0.1phi0_073RH.dat
+Model theta values are: 0.054000 
+Data theta value is 0.054000
+R vals data i 6373.410614
+R vals model 6373.125443
+Filename is 0.1phi0_073RH.dat
+Model theta values are: 0.065300 
+Data theta value is 0.065300
+R vals data i 6377.091037
+R vals model 6376.711997
+Filename is 0.1phi0_073RH.dat
+Model theta values are: 0.069500 
+Data theta value is 0.069500
+R vals data i 6378.653494
+R vals model 6378.238872
+Filename is 0.1phi0_074RH.dat
+Model theta values are: 0.000500 
+Data theta value is 0.000500
+R vals data i 6365.506190
+R vals model 6365.506162
+Filename is 0.1phi0_074RH.dat
+Model theta values are: 0.010000 
+Data theta value is 0.010000
+R vals data i 6365.849975
+R vals model 6365.836599
+Filename is 0.1phi0_074RH.dat
+Model theta values are: 0.036500 
+Data theta value is 0.036500
+R vals data i 6369.164555
+R vals model 6369.008273
+Filename is 0.1phi0_074RH.dat
+Model theta values are: 0.054000 
+Data theta value is 0.054000
+R vals data i 6373.410614
+R vals model 6373.112886
+Filename is 0.1phi0_074RH.dat
+Model theta values are: 0.065300 
+Data theta value is 0.065300
+R vals data i 6377.091037
+R vals model 6376.695269
+Filename is 0.1phi0_074RH.dat
+Model theta values are: 0.069500 
+Data theta value is 0.069500
+R vals data i 6378.653494
+R vals model 6378.220561
+Filename is 0.1phi0_075RH.dat
+Model theta values are: 0.000500 
+Data theta value is 0.000500
+R vals data i 6365.506190
+R vals model 6365.506161
+Filename is 0.1phi0_075RH.dat
+Model theta values are: 0.010000 
+Data theta value is 0.010000
+R vals data i 6365.849975
+R vals model 6365.836041
+Filename is 0.1phi0_075RH.dat
+Model theta values are: 0.036500 
+Data theta value is 0.036500
+R vals data i 6369.164555
+R vals model 6369.001709
+Filename is 0.1phi0_075RH.dat
+Model theta values are: 0.054000 
+Data theta value is 0.054000
+R vals data i 6373.410614
+R vals model 6373.100316
+Filename is 0.1phi0_075RH.dat
+Model theta values are: 0.065300 
+Data theta value is 0.065300
+R vals data i 6377.091037
+R vals model 6376.678519
+Filename is 0.1phi0_075RH.dat
+Model theta values are: 0.069500 
+Data theta value is 0.069500
+R vals data i 6378.653494
+R vals model 6378.202226
+Filename is 0.1phi0_076RH.dat
+Model theta values are: 0.000500 
+Data theta value is 0.000500
+R vals data i 6365.506190
+R vals model 6365.506160
+Filename is 0.1phi0_076RH.dat
+Model theta values are: 0.010000 
+Data theta value is 0.010000
+R vals data i 6365.849975
+R vals model 6365.835483
+Filename is 0.1phi0_076RH.dat
+Model theta values are: 0.036500 
+Data theta value is 0.036500
+R vals data i 6369.164555
+R vals model 6368.995141
+Filename is 0.1phi0_076RH.dat
+Model theta values are: 0.054000 
+Data theta value is 0.054000
+R vals data i 6373.410614
+R vals model 6373.087732
+Filename is 0.1phi0_076RH.dat
+Model theta values are: 0.065300 
+Data theta value is 0.065300
+R vals data i 6377.091037
+R vals model 6376.661748
+Filename is 0.1phi0_076RH.dat
+Model theta values are: 0.069500 
+Data theta value is 0.069500
+R vals data i 6378.653494
+R vals model 6378.183866
+Filename is 0.1phi0_077RH.dat
+Model theta values are: 0.000500 
+Data theta value is 0.000500
+R vals data i 6365.506190
+R vals model 6365.506159
+Filename is 0.1phi0_077RH.dat
+Model theta values are: 0.010000 
+Data theta value is 0.010000
+R vals data i 6365.849975
+R vals model 6365.834925
+Filename is 0.1phi0_077RH.dat
+Model theta values are: 0.036500 
+Data theta value is 0.036500
+R vals data i 6369.164555
+R vals model 6368.988569
+Filename is 0.1phi0_077RH.dat
+Model theta values are: 0.054000 
+Data theta value is 0.054000
+R vals data i 6373.410614
+R vals model 6373.075135
+Filename is 0.1phi0_077RH.dat
+Model theta values are: 0.065300 
+Data theta value is 0.065300
+R vals data i 6377.091037
+R vals model 6376.644956
+Filename is 0.1phi0_077RH.dat
+Model theta values are: 0.069500 
+Data theta value is 0.069500
+R vals data i 6378.653494
+R vals model 6378.165483
+Filename is 0.1phi0_078RH.dat
+Model theta values are: 0.000500 
+Data theta value is 0.000500
+R vals data i 6365.506190
+R vals model 6365.506158
+Filename is 0.1phi0_078RH.dat
+Model theta values are: 0.010000 
+Data theta value is 0.010000
+R vals data i 6365.849975
+R vals model 6365.834366
+Filename is 0.1phi0_078RH.dat
+Model theta values are: 0.036500 
+Data theta value is 0.036500
+R vals data i 6369.164555
+R vals model 6368.981992
+Filename is 0.1phi0_078RH.dat
+Model theta values are: 0.054000 
+Data theta value is 0.054000
+R vals data i 6373.410614
+R vals model 6373.062524
+Filename is 0.1phi0_078RH.dat
+Model theta values are: 0.065300 
+Data theta value is 0.065300
+R vals data i 6377.091037
+R vals model 6376.628142
+Filename is 0.1phi0_078RH.dat
+Model theta values are: 0.069500 
+Data theta value is 0.069500
+R vals data i 6378.653494
+R vals model 6378.147074
+Filename is 0.1phi0_079RH.dat
+Model theta values are: 0.000500 
+Data theta value is 0.000500
+R vals data i 6365.506190
+R vals model 6365.506157
+Filename is 0.1phi0_079RH.dat
+Model theta values are: 0.010000 
+Data theta value is 0.010000
+R vals data i 6365.849975
+R vals model 6365.833808
+Filename is 0.1phi0_079RH.dat
+Model theta values are: 0.036500 
+Data theta value is 0.036500
+R vals data i 6369.164555
+R vals model 6368.975411
+Filename is 0.1phi0_079RH.dat
+Model theta values are: 0.054000 
+Data theta value is 0.054000
+R vals data i 6373.410614
+R vals model 6373.049900
+Filename is 0.1phi0_079RH.dat
+Model theta values are: 0.065300 
+Data theta value is 0.065300
+R vals data i 6377.091037
+R vals model 6376.611307
+Filename is 0.1phi0_079RH.dat
+Model theta values are: 0.069500 
+Data theta value is 0.069500
+R vals data i 6378.653494
+R vals model 6378.128641
+Filename is 0.1phi0_080RH.dat
+Model theta values are: 0.000500 
+Data theta value is 0.000500
+R vals data i 6365.506190
+R vals model 6365.506155
+Filename is 0.1phi0_080RH.dat
+Model theta values are: 0.010000 
+Data theta value is 0.010000
+R vals data i 6365.849975
+R vals model 6365.833250
+Filename is 0.1phi0_080RH.dat
+Model theta values are: 0.036500 
+Data theta value is 0.036500
+R vals data i 6369.164555
+R vals model 6368.968826
+Filename is 0.1phi0_080RH.dat
+Model theta values are: 0.054000 
+Data theta value is 0.054000
+R vals data i 6373.410614
+R vals model 6373.037261
+Filename is 0.1phi0_080RH.dat
+Model theta values are: 0.065300 
+Data theta value is 0.065300
+R vals data i 6377.091037
+R vals model 6376.594450
+Filename is 0.1phi0_080RH.dat
+Model theta values are: 0.069500 
+Data theta value is 0.069500
+R vals data i 6378.653494
+R vals model 6378.110184
+Filename is 0.1phi0_081RH.dat
+Model theta values are: 0.000500 
+Data theta value is 0.000500
+R vals data i 6365.506190
+R vals model 6365.506154
+Filename is 0.1phi0_081RH.dat
+Model theta values are: 0.010000 
+Data theta value is 0.010000
+R vals data i 6365.849975
+R vals model 6365.832692
+Filename is 0.1phi0_081RH.dat
+Model theta values are: 0.036500 
+Data theta value is 0.036500
+R vals data i 6369.164555
+R vals model 6368.962236
+Filename is 0.1phi0_081RH.dat
+Model theta values are: 0.054000 
+Data theta value is 0.054000
+R vals data i 6373.410614
+R vals model 6373.024610
+Filename is 0.1phi0_081RH.dat
+Model theta values are: 0.065300 
+Data theta value is 0.065300
+R vals data i 6377.091037
+R vals model 6376.577571
+Filename is 0.1phi0_081RH.dat
+Model theta values are: 0.069500 
+Data theta value is 0.069500
+R vals data i 6378.653494
+R vals model 6378.091701
+Filename is 0.1phi0_082RH.dat
+Model theta values are: 0.000500 
+Data theta value is 0.000500
+R vals data i 6365.506190
+R vals model 6365.506153
+Filename is 0.1phi0_082RH.dat
+Model theta values are: 0.010000 
+Data theta value is 0.010000
+R vals data i 6365.849975
+R vals model 6365.832133
+Filename is 0.1phi0_082RH.dat
+Model theta values are: 0.036500 
+Data theta value is 0.036500
+R vals data i 6369.164555
+R vals model 6368.955643
+Filename is 0.1phi0_082RH.dat
+Model theta values are: 0.054000 
+Data theta value is 0.054000
+R vals data i 6373.410614
+R vals model 6373.011944
+Filename is 0.1phi0_082RH.dat
+Model theta values are: 0.065300 
+Data theta value is 0.065300
+R vals data i 6377.091037
+R vals model 6376.560671
+Filename is 0.1phi0_082RH.dat
+Model theta values are: 0.069500 
+Data theta value is 0.069500
+R vals data i 6378.653494
+R vals model 6378.073194
+Filename is 0.1phi0_083RH.dat
+Model theta values are: 0.000500 
+Data theta value is 0.000500
+R vals data i 6365.506190
+R vals model 6365.506152
+Filename is 0.1phi0_083RH.dat
+Model theta values are: 0.010000 
+Data theta value is 0.010000
+R vals data i 6365.849975
+R vals model 6365.831575
+Filename is 0.1phi0_083RH.dat
+Model theta values are: 0.036500 
+Data theta value is 0.036500
+R vals data i 6369.164555
+R vals model 6368.949045
+Filename is 0.1phi0_083RH.dat
+Model theta values are: 0.054000 
+Data theta value is 0.054000
+R vals data i 6373.410614
+R vals model 6372.999265
+Filename is 0.1phi0_083RH.dat
+Model theta values are: 0.065300 
+Data theta value is 0.065300
+R vals data i 6377.091037
+R vals model 6376.543749
+Filename is 0.1phi0_083RH.dat
+Model theta values are: 0.069500 
+Data theta value is 0.069500
+R vals data i 6378.653494
+R vals model 6378.054662
+Filename is 0.1phi0_084RH.dat
+Model theta values are: 0.000500 
+Data theta value is 0.000500
+R vals data i 6365.506190
+R vals model 6365.506151
+Filename is 0.1phi0_084RH.dat
+Model theta values are: 0.010000 
+Data theta value is 0.010000
+R vals data i 6365.849975
+R vals model 6365.831016
+Filename is 0.1phi0_084RH.dat
+Model theta values are: 0.036500 
+Data theta value is 0.036500
+R vals data i 6369.164555
+R vals model 6368.942442
+Filename is 0.1phi0_084RH.dat
+Model theta values are: 0.054000 
+Data theta value is 0.054000
+R vals data i 6373.410614
+R vals model 6372.986572
+Filename is 0.1phi0_084RH.dat
+Model theta values are: 0.065300 
+Data theta value is 0.065300
+R vals data i 6377.091037
+R vals model 6376.526805
+Filename is 0.1phi0_084RH.dat
+Model theta values are: 0.069500 
+Data theta value is 0.069500
+R vals data i 6378.653494
+R vals model 6378.036104
+Filename is 0.1phi0_085RH.dat
+Model theta values are: 0.000500 
+Data theta value is 0.000500
+R vals data i 6365.506190
+R vals model 6365.506150
+Filename is 0.1phi0_085RH.dat
+Model theta values are: 0.010000 
+Data theta value is 0.010000
+R vals data i 6365.849975
+R vals model 6365.830458
+Filename is 0.1phi0_085RH.dat
+Model theta values are: 0.036500 
+Data theta value is 0.036500
+R vals data i 6369.164555
+R vals model 6368.935836
+Filename is 0.1phi0_085RH.dat
+Model theta values are: 0.054000 
+Data theta value is 0.054000
+R vals data i 6373.410614
+R vals model 6372.973865
+Filename is 0.1phi0_085RH.dat
+Model theta values are: 0.065300 
+Data theta value is 0.065300
+R vals data i 6377.091037
+R vals model 6376.509839
+Filename is 0.1phi0_085RH.dat
+Model theta values are: 0.069500 
+Data theta value is 0.069500
+R vals data i 6378.653494
+R vals model 6378.017522
+Filename is 0.1phi0_086RH.dat
+Model theta values are: 0.000500 
+Data theta value is 0.000500
+R vals data i 6365.506190
+R vals model 6365.506149
+Filename is 0.1phi0_086RH.dat
+Model theta values are: 0.010000 
+Data theta value is 0.010000
+R vals data i 6365.849975
+R vals model 6365.829899
+Filename is 0.1phi0_086RH.dat
+Model theta values are: 0.036500 
+Data theta value is 0.036500
+R vals data i 6369.164555
+R vals model 6368.929225
+Filename is 0.1phi0_086RH.dat
+Model theta values are: 0.054000 
+Data theta value is 0.054000
+R vals data i 6373.410614
+R vals model 6372.961144
+Filename is 0.1phi0_086RH.dat
+Model theta values are: 0.065300 
+Data theta value is 0.065300
+R vals data i 6377.091037
+R vals model 6376.492852
+Filename is 0.1phi0_086RH.dat
+Model theta values are: 0.069500 
+Data theta value is 0.069500
+R vals data i 6378.653494
+R vals model 6377.998914
+Filename is 0.1phi0_087RH.dat
+Model theta values are: 0.000500 
+Data theta value is 0.000500
+R vals data i 6365.506190
+R vals model 6365.506147
+Filename is 0.1phi0_087RH.dat
+Model theta values are: 0.010000 
+Data theta value is 0.010000
+R vals data i 6365.849975
+R vals model 6365.829341
+Filename is 0.1phi0_087RH.dat
+Model theta values are: 0.036500 
+Data theta value is 0.036500
+R vals data i 6369.164555
+R vals model 6368.922609
+Filename is 0.1phi0_087RH.dat
+Model theta values are: 0.054000 
+Data theta value is 0.054000
+R vals data i 6373.410614
+R vals model 6372.948410
+Filename is 0.1phi0_087RH.dat
+Model theta values are: 0.065300 
+Data theta value is 0.065300
+R vals data i 6377.091037
+R vals model 6376.475842
+Filename is 0.1phi0_087RH.dat
+Model theta values are: 0.069500 
+Data theta value is 0.069500
+R vals data i 6378.653494
+R vals model 6377.980281
+Filename is 0.1phi0_088RH.dat
+Model theta values are: 0.000500 
+Data theta value is 0.000500
+R vals data i 6365.506190
+R vals model 6365.506146
+Filename is 0.1phi0_088RH.dat
+Model theta values are: 0.010000 
+Data theta value is 0.010000
+R vals data i 6365.849975
+R vals model 6365.828782
+Filename is 0.1phi0_088RH.dat
+Model theta values are: 0.036500 
+Data theta value is 0.036500
+R vals data i 6369.164555
+R vals model 6368.915990
+Filename is 0.1phi0_088RH.dat
+Model theta values are: 0.054000 
+Data theta value is 0.054000
+R vals data i 6373.410614
+R vals model 6372.935661
+Filename is 0.1phi0_088RH.dat
+Model theta values are: 0.065300 
+Data theta value is 0.065300
+R vals data i 6377.091037
+R vals model 6376.458810
+Filename is 0.1phi0_088RH.dat
+Model theta values are: 0.069500 
+Data theta value is 0.069500
+R vals data i 6378.653494
+R vals model 6377.961623
+Filename is 0.1phi0_089RH.dat
+Model theta values are: 0.000500 
+Data theta value is 0.000500
+R vals data i 6365.506190
+R vals model 6365.506145
+Filename is 0.1phi0_089RH.dat
+Model theta values are: 0.010000 
+Data theta value is 0.010000
+R vals data i 6365.849975
+R vals model 6365.828223
+Filename is 0.1phi0_089RH.dat
+Model theta values are: 0.036500 
+Data theta value is 0.036500
+R vals data i 6369.164555
+R vals model 6368.909366
+Filename is 0.1phi0_089RH.dat
+Model theta values are: 0.054000 
+Data theta value is 0.054000
+R vals data i 6373.410614
+R vals model 6372.922899
+Filename is 0.1phi0_089RH.dat
+Model theta values are: 0.065300 
+Data theta value is 0.065300
+R vals data i 6377.091037
+R vals model 6376.441755
+Filename is 0.1phi0_089RH.dat
+Model theta values are: 0.069500 
+Data theta value is 0.069500
+R vals data i 6378.653494
+R vals model 6377.942939
+Filename is 0.1phi0_090RH.dat
+Model theta values are: 0.000500 
+Data theta value is 0.000500
+R vals data i 6365.506190
+R vals model 6365.506144
+Filename is 0.1phi0_090RH.dat
+Model theta values are: 0.010000 
+Data theta value is 0.010000
+R vals data i 6365.849975
+R vals model 6365.827665
+Filename is 0.1phi0_090RH.dat
+Model theta values are: 0.036500 
+Data theta value is 0.036500
+R vals data i 6369.164555
+R vals model 6368.902738
+Filename is 0.1phi0_090RH.dat
+Model theta values are: 0.054000 
+Data theta value is 0.054000
+R vals data i 6373.410614
+R vals model 6372.910123
+Filename is 0.1phi0_090RH.dat
+Model theta values are: 0.065300 
+Data theta value is 0.065300
+R vals data i 6377.091037
+R vals model 6376.424679
+Filename is 0.1phi0_090RH.dat
+Model theta values are: 0.069500 
+Data theta value is 0.069500
+R vals data i 6378.653494
+R vals model 6377.924230
+Filename is 0.1phi0_091RH.dat
+Model theta values are: 0.000500 
+Data theta value is 0.000500
+R vals data i 6365.506190
+R vals model 6365.506143
+Filename is 0.1phi0_091RH.dat
+Model theta values are: 0.010000 
+Data theta value is 0.010000
+R vals data i 6365.849975
+R vals model 6365.827106
+Filename is 0.1phi0_091RH.dat
+Model theta values are: 0.036500 
+Data theta value is 0.036500
+R vals data i 6369.164555
+R vals model 6368.896105
+Filename is 0.1phi0_091RH.dat
+Model theta values are: 0.054000 
+Data theta value is 0.054000
+R vals data i 6373.410614
+R vals model 6372.897332
+Filename is 0.1phi0_091RH.dat
+Model theta values are: 0.065300 
+Data theta value is 0.065300
+R vals data i 6377.091037
+R vals model 6376.407580
+Filename is 0.1phi0_091RH.dat
+Model theta values are: 0.069500 
+Data theta value is 0.069500
+R vals data i 6378.653494
+R vals model 6377.905495
+Filename is 0.1phi0_092RH.dat
+Model theta values are: 0.000500 
+Data theta value is 0.000500
+R vals data i 6365.506190
+R vals model 6365.506142
+Filename is 0.1phi0_092RH.dat
+Model theta values are: 0.010000 
+Data theta value is 0.010000
+R vals data i 6365.849975
+R vals model 6365.826547
+Filename is 0.1phi0_092RH.dat
+Model theta values are: 0.036500 
+Data theta value is 0.036500
+R vals data i 6369.164555
+R vals model 6368.889468
+Filename is 0.1phi0_092RH.dat
+Model theta values are: 0.054000 
+Data theta value is 0.054000
+R vals data i 6373.410614
+R vals model 6372.884528
+Filename is 0.1phi0_092RH.dat
+Model theta values are: 0.065300 
+Data theta value is 0.065300
+R vals data i 6377.091037
+R vals model 6376.390459
+Filename is 0.1phi0_092RH.dat
+Model theta values are: 0.069500 
+Data theta value is 0.069500
+R vals data i 6378.653494
+R vals model 6377.886735
+Filename is 0.1phi0_093RH.dat
+Model theta values are: 0.000500 
+Data theta value is 0.000500
+R vals data i 6365.506190
+R vals model 6365.506141
+Filename is 0.1phi0_093RH.dat
+Model theta values are: 0.010000 
+Data theta value is 0.010000
+R vals data i 6365.849975
+R vals model 6365.825988
+Filename is 0.1phi0_093RH.dat
+Model theta values are: 0.036500 
+Data theta value is 0.036500
+R vals data i 6369.164555
+R vals model 6368.882827
+Filename is 0.1phi0_093RH.dat
+Model theta values are: 0.054000 
+Data theta value is 0.054000
+R vals data i 6373.410614
+R vals model 6372.871709
+Filename is 0.1phi0_093RH.dat
+Model theta values are: 0.065300 
+Data theta value is 0.065300
+R vals data i 6377.091037
+R vals model 6376.373315
+Filename is 0.1phi0_093RH.dat
+Model theta values are: 0.069500 
+Data theta value is 0.069500
+R vals data i 6378.653494
+R vals model 6377.867948
+Filename is 0.1phi0_094RH.dat
+Model theta values are: 0.000500 
+Data theta value is 0.000500
+R vals data i 6365.506190
+R vals model 6365.506139
+Filename is 0.1phi0_094RH.dat
+Model theta values are: 0.010000 
+Data theta value is 0.010000
+R vals data i 6365.849975
+R vals model 6365.825429
+Filename is 0.1phi0_094RH.dat
+Model theta values are: 0.036500 
+Data theta value is 0.036500
+R vals data i 6369.164555
+R vals model 6368.876182
+Filename is 0.1phi0_094RH.dat
+Model theta values are: 0.054000 
+Data theta value is 0.054000
+R vals data i 6373.410614
+R vals model 6372.858876
+Filename is 0.1phi0_094RH.dat
+Model theta values are: 0.065300 
+Data theta value is 0.065300
+R vals data i 6377.091037
+R vals model 6376.356149
+Filename is 0.1phi0_094RH.dat
+Model theta values are: 0.069500 
+Data theta value is 0.069500
+R vals data i 6378.653494
+R vals model 6377.849136
+Filename is 0.1phi0_095RH.dat
+Model theta values are: 0.000500 
+Data theta value is 0.000500
+R vals data i 6365.506190
+R vals model 6365.506138
+Filename is 0.1phi0_095RH.dat
+Model theta values are: 0.010000 
+Data theta value is 0.010000
+R vals data i 6365.849975
+R vals model 6365.824870
+Filename is 0.1phi0_095RH.dat
+Model theta values are: 0.036500 
+Data theta value is 0.036500
+R vals data i 6369.164555
+R vals model 6368.869532
+Filename is 0.1phi0_095RH.dat
+Model theta values are: 0.054000 
+Data theta value is 0.054000
+R vals data i 6373.410614
+R vals model 6372.846029
+Filename is 0.1phi0_095RH.dat
+Model theta values are: 0.065300 
+Data theta value is 0.065300
+R vals data i 6377.091037
+R vals model 6376.338960
+Filename is 0.1phi0_095RH.dat
+Model theta values are: 0.069500 
+Data theta value is 0.069500
+R vals data i 6378.653494
+R vals model 6377.830298
+Filename is 0.1phi0_096RH.dat
+Model theta values are: 0.000500 
+Data theta value is 0.000500
+R vals data i 6365.506190
+R vals model 6365.506137
+Filename is 0.1phi0_096RH.dat
+Model theta values are: 0.010000 
+Data theta value is 0.010000
+R vals data i 6365.849975
+R vals model 6365.824311
+Filename is 0.1phi0_096RH.dat
+Model theta values are: 0.036500 
+Data theta value is 0.036500
+R vals data i 6369.164555
+R vals model 6368.862878
+Filename is 0.1phi0_096RH.dat
+Model theta values are: 0.054000 
+Data theta value is 0.054000
+R vals data i 6373.410614
+R vals model 6372.833168
+Filename is 0.1phi0_096RH.dat
+Model theta values are: 0.065300 
+Data theta value is 0.065300
+R vals data i 6377.091037
+R vals model 6376.321748
+Filename is 0.1phi0_096RH.dat
+Model theta values are: 0.069500 
+Data theta value is 0.069500
+R vals data i 6378.653494
+R vals model 6377.811434
+Filename is 0.1phi0_097RH.dat
+Model theta values are: 0.000500 
+Data theta value is 0.000500
+R vals data i 6365.506190
+R vals model 6365.506136
+Filename is 0.1phi0_097RH.dat
+Model theta values are: 0.010000 
+Data theta value is 0.010000
+R vals data i 6365.849975
+R vals model 6365.823752
+Filename is 0.1phi0_097RH.dat
+Model theta values are: 0.036500 
+Data theta value is 0.036500
+R vals data i 6369.164555
+R vals model 6368.856219
+Filename is 0.1phi0_097RH.dat
+Model theta values are: 0.054000 
+Data theta value is 0.054000
+R vals data i 6373.410614
+R vals model 6372.820293
+Filename is 0.1phi0_097RH.dat
+Model theta values are: 0.065300 
+Data theta value is 0.065300
+R vals data i 6377.091037
+R vals model 6376.304514
+Filename is 0.1phi0_097RH.dat
+Model theta values are: 0.069500 
+Data theta value is 0.069500
+R vals data i 6378.653494
+R vals model 6377.792543
+Filename is 0.1phi0_098RH.dat
+Model theta values are: 0.000500 
+Data theta value is 0.000500
+R vals data i 6365.506190
+R vals model 6365.506135
+Filename is 0.1phi0_098RH.dat
+Model theta values are: 0.010000 
+Data theta value is 0.010000
+R vals data i 6365.849975
+R vals model 6365.823193
+Filename is 0.1phi0_098RH.dat
+Model theta values are: 0.036500 
+Data theta value is 0.036500
+R vals data i 6369.164555
+R vals model 6368.849556
+Filename is 0.1phi0_098RH.dat
+Model theta values are: 0.054000 
+Data theta value is 0.054000
+R vals data i 6373.410614
+R vals model 6372.807403
+Filename is 0.1phi0_098RH.dat
+Model theta values are: 0.065300 
+Data theta value is 0.065300
+R vals data i 6377.091037
+R vals model 6376.287256
+Filename is 0.1phi0_098RH.dat
+Model theta values are: 0.069500 
+Data theta value is 0.069500
+R vals data i 6378.653494
+R vals model 6377.773626
+Filename is 0.1phi0_099RH.dat
+Model theta values are: 0.000500 
+Data theta value is 0.000500
+R vals data i 6365.506190
+R vals model 6365.506134
+Filename is 0.1phi0_099RH.dat
+Model theta values are: 0.010000 
+Data theta value is 0.010000
+R vals data i 6365.849975
+R vals model 6365.822633
+Filename is 0.1phi0_099RH.dat
+Model theta values are: 0.036500 
+Data theta value is 0.036500
+R vals data i 6369.164555
+R vals model 6368.842888
+Filename is 0.1phi0_099RH.dat
+Model theta values are: 0.054000 
+Data theta value is 0.054000
+R vals data i 6373.410614
+R vals model 6372.794499
+Filename is 0.1phi0_099RH.dat
+Model theta values are: 0.065300 
+Data theta value is 0.065300
+R vals data i 6377.091037
+R vals model 6376.269976
+Filename is 0.1phi0_099RH.dat
+Model theta values are: 0.069500 
+Data theta value is 0.069500
+R vals data i 6378.653494
+R vals model 6377.754683
+Filename is 0.1phi0_100RH.dat
+Model theta values are: 0.000500 
+Data theta value is 0.000500
+R vals data i 6365.506190
+R vals model 6365.506133
+Filename is 0.1phi0_100RH.dat
+Model theta values are: 0.010000 
+Data theta value is 0.010000
+R vals data i 6365.849975
+R vals model 6365.822074
+Filename is 0.1phi0_100RH.dat
+Model theta values are: 0.036500 
+Data theta value is 0.036500
+R vals data i 6369.164555
+R vals model 6368.836217
+Filename is 0.1phi0_100RH.dat
+Model theta values are: 0.054000 
+Data theta value is 0.054000
+R vals data i 6373.410614
+R vals model 6372.781580
+Filename is 0.1phi0_100RH.dat
+Model theta values are: 0.065300 
+Data theta value is 0.065300
+R vals data i 6377.091037
+R vals model 6376.252673
+Filename is 0.1phi0_100RH.dat
+Model theta values are: 0.069500 
+Data theta value is 0.069500
+R vals data i 6378.653494
+R vals model 6377.735714
