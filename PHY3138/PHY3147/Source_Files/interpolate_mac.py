@@ -24,7 +24,7 @@ for result in data_result_list:
             R_errs_data.append(8e-3) # initially setting the y-error bars equal to 1
 
 data_fptr.close()
-print(theta_errs_data)
+# print(theta_errs_data)
 filenames = os.listdir(os.curdir)
 filenames = os.listdir(r"/Users/matthewevans/Documents/cprogramming/Graphs/PHY3138/PHY3147/phi0_0.1_files") # use this for Mac
 file_list = []
@@ -35,8 +35,10 @@ for filename in filenames:
     
 
 file_list.pop(101) # removing the last element of the list - which is the program itself!
-print(file_list)
+# print(file_list)
 LS_val_array = [] # declaring an empty list to contain all the generated least sqaures difference values for each relative humidity (RH)
+
+R_model_vals = [] # a list of interpolated R values
 
 for filename in file_list:
     fpath = os.path.join(r"/Users/matthewevans/Documents/cprogramming/Graphs/PHY3138/PHY3147/phi0_0.1_files", filename) # reads files from another directory
@@ -44,7 +46,6 @@ for filename in file_list:
     list_of_results = fptr.readlines()
  
     data = []
-    R_model = [] # a list of interpolated R values
     theta_vals = []
     R_vals = []
     theta_errs = []
@@ -63,20 +64,30 @@ for filename in file_list:
                 R_errs.append(8e-3) # initially setting the y-error bars equal to 1
         
     fptr.close()
-
-
       
     for i in range(0, len(theta_vals_data)):
         found_flag = 0
+        R_model = 0
         for j in range(0, len(theta_vals)):
             if theta_vals[j] >= theta_vals_data[i] and found_flag == 0:
-                print("Filename is", filename)                
-                print("Model theta values either side are: {:f} " .format(theta_vals[j-1]) .format(theta_vals[j]))
-                print("Data theta value is {:f}" .format(theta_vals_data[i]))
-                print("R vals data i {:f}" .format(R_vals_data[i]))
-                print("R vals model {:f}" .format(R_vals[j]))
+                # print("Filename is", filename)                
+                # print("Model theta values either side are: {:f} {:f}" .format(theta_vals[j-1], theta_vals[j]))
+                # print("Data theta value is {:f}" .format(theta_vals_data[i]))
+                # print("R vals data i {:f}" .format(R_vals_data[i]))
+                # print("R vals model {:f}" .format(R_vals[j]))
 
-                # R_model = R[j-1] + ((R[j] - R[j-1]) / (theta[j] - theta[j-1])) * (theta[i] - theta[j-1])
-
+                R_model = R_vals[j-1] + ((R_vals[j] - R_vals[j-1]) / (theta_vals[j] - theta_vals[j-1])) * (theta_vals_data[i] - theta_vals[j-1])
+                R_model_vals.append(R_model)
+               
                 found_flag = 1
-        
+
+my_file = open("file.txt", "w")
+counter = 0
+for number in R_model_vals:
+    if counter % 6 == 0:
+        my_file.write("\n")
+    my_file.write(str(number))
+    my_file.write(" ")
+    counter += 1
+
+my_file.close() 

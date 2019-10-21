@@ -137,9 +137,9 @@ plt.rcParams['mathtext.fontset'] = "cm"
 plt.rcParams["axes.linewidth"] = 1.0
 
 # plt.axis([-0.1, 2.5, 12.4, 11.4])
-# plt.xlim(-0.5, 3.0)
+plt.xlim(-0.005, 0.075)
 # plt.gca().xaxis.set_major_locator(matplotlib.ticker.MultipleLocator(0.5))
-# plt.ylim(12.5, 11.5)
+plt.ylim(6365, 6380)
 # plt.gca().yaxis.set_major_locator(matplotlib.ticker.MultipleLocator(0.5))
 plt.gca().tick_params(width = 1.0, labelsize = 9)
 
