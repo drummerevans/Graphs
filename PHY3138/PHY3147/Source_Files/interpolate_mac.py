@@ -6,7 +6,8 @@ R_vals_data = []
 theta_errs_data = []
 R_errs_data = []
 
-data_fptr = open("test_data.dat", "r", newline=None) # opening the file with the observed data
+data_values = input("Input the data file you wish to read in: ")
+data_fptr = open(data_values, "r", newline=None) # opening the file with the observed data e.g. 'test_data.dat'
 
 data_result_list = data_fptr.readlines() # creating a list containing observed data results
 
@@ -82,8 +83,9 @@ for filename in file_list:
                 found_flag = 1
 
 N = len(data_result_list)
-print(N)
-my_file = open("test_model.txt", "w")
+
+model_data = input("Enter in the file with the RH model data: ")
+my_file = open(model_data, "w") # opening the interpolated R values e.g. 'test_model.txt'
 counter = 0
 for number in R_model_vals:
     if counter % N == 0:

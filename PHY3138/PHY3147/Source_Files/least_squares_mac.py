@@ -6,7 +6,8 @@ R_vals_data = []
 n_vals_data = []
 z_vals_data = [] 
 
-fptr = open("test_data.dat", "r", newline=None) # opening the R data values
+data_values = input("Input the data file you wish to read in: ")
+fptr = open(data_values, "r", newline=None) # opening the R data values 'test_data.dat'
 
 list_of_results = fptr.readlines()
 
@@ -29,7 +30,8 @@ fptr.close()
 
 R_vals_model = []
 
-fptr2 = open("test_model.txt", "r", newline=None) # opening the interpolated R values
+model_data = input("Enter in the file with the RH model data: ")
+fptr2 = open(model_data, "r", newline=None) # opening the interpolated R values 'test_model.txt'
 
 list_of_results2 = fptr2.readlines()
 
@@ -63,13 +65,21 @@ for i in range(0, len(model_values)):
             ls_values.append(ls_value)
 
 
-print(ls_values)
-print(len(ls_values))
+min_value = min(ls_values)
 
-my_file = open("ls_test.txt", "w")
+# min_values = ([(i, (float(ls_values[i]))) for i in range(0, len(ls_values)) if ls_values[i] == min_value])
+# print("The RH and corresponding minimum value is:", min_values)
+
+for i in range(0, len(ls_values)): # prints out the minimum values and index number
+    if ls_values[i] == min_value:
+        print("The minimum value is: {:f} " .format(ls_values[i]))
+        print("The corresponding (index number) RH is: {:d} " .format(i))
+
+output_file = input("Enter in the file name you wish to write to: ") # e.g. 'ls_test.txt'
+my_file = open(output_file, "w")
 
 for number in ls_values:
     my_file.write(str(number))
     my_file.write("\n")
     
-my_file.close() 
+my_file.close()
