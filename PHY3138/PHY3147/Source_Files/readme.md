@@ -88,3 +88,14 @@ To run use:
 ```bash
 python humidity_compare.py
 ```
+
+## temp_gradient_plot.py
+
+This program generates a plot showing how the temperature varies with alitude above the sea level for different atmospheric stratifactions.
+Uses data from 1993, Manual of the ICAO Standard Atmosphere, Third Edition, pages 7 - 14.
+
+To run use:
+
+```bash
+python temp_gradient_plot.py
+```
