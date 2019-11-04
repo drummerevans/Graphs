@@ -1,2 +1,0 @@
-gcc -c *.c
-gcc refractray.o nrutil.o -lm -o refractray

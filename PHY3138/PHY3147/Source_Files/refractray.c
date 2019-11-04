@@ -112,7 +112,7 @@ char **argv;
             }
 
       gp=fopen(outfile,"w");
-      fprintf(gp,"#theta R n z T P_w\n");
+      // fprintf(gp,"#theta R n z T P_w\n");
       for (j=0;j<ntheta;j++)
          {
             fprintf(gp,"%.16g %.16g %.16g %.16g %.16g %.16g\n",theta[j],rray[j],n[j],phi[j]-theta[j],T[j],P_w[j]);

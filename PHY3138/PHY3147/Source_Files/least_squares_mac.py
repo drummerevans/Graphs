@@ -3,8 +3,8 @@ import os
 
 theta_vals_data = []
 R_vals_data = []
-n_vals_data = []
-z_vals_data = [] 
+theta_errs_data = []
+R_errs_data = [] 
 
 data_values = input("Input the data file you wish to read in: ")
 fptr = open(data_values, "r", newline=None) # opening the R data values 'test_data.dat'
@@ -21,9 +21,9 @@ for result in list_of_results:
         elif i == 1:
             R_vals_data.append(float(datum[i]))
         elif i == 2:
-            n_vals_data.append(float(datum[i]))
+            theta_errs_data.append(float(datum[i]))
         elif i == 3:
-            z_vals_data.append(float(datum[i]))
+            R_errs_data.append(float(datum[i]))
 
 
 fptr.close()
@@ -31,7 +31,7 @@ fptr.close()
 R_vals_model = []
 
 model_data = input("Enter in the file with the RH model data: ")
-fptr2 = open(model_data, "r", newline=None) # opening the interpolated R values 'test_model.txt'
+fptr2 = open(model_data, "r", newline=None) # opening the interpolated R values 'test_model.dat'
 
 list_of_results2 = fptr2.readlines()
 
@@ -45,8 +45,10 @@ for result in list_of_results2:
 fptr2.close()
 
 
-data_values = np.array(R_vals_data) # creating an array for the data values
+data_values = np.array(R_vals_data) # creating an array for the R data values
 N = len(data_values)
+
+data_errors = np.array(R_errs_data) # creating an array for the R errors
 
 model = np.array(R_vals_model) # creating a 2D array for the model (interpolated) values
 shape = (101, N)
@@ -75,7 +77,7 @@ for i in range(0, len(ls_values)): # prints out the minimum values and index num
         print("The minimum value is: {:f} " .format(ls_values[i]))
         print("The corresponding (index number) RH is: {:d} " .format(i))
 
-output_file = input("Enter in the file name you wish to write to: ") # e.g. 'ls_test.txt'
+output_file = input("Enter in the file name you wish to write to: ") # e.g. 'ls_test.dat'
 my_file = open(output_file, "w")
 
 for number in ls_values:

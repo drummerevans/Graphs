@@ -34,7 +34,13 @@ R_vals5 = []
 n_vals5 = [] 
 z_vals5 = []
 
-fptr = open("0.1phi0_0RH.dat", "r", newline=None)
+# declaring empty lists for the data values
+theta_data = []
+R_data = []
+theta_errs = [] 
+R_errs = []
+
+fptr = open("0.5phi0_0RH.dat", "r", newline=None)
 
 list_of_results = fptr.readlines()
 
@@ -53,7 +59,7 @@ for result in list_of_results:
             z_vals.append(float(datum[i]))
 
 
-fptr2 = open("0.1phi0_100RH.dat")
+fptr2 = open("0.5phi0_100RH.dat")
 
 list_of_results2 = fptr2.readlines()
 
@@ -71,64 +77,83 @@ for result in list_of_results2:
         elif i == 3:
             z_vals2.append(float(datum[i]))
 
-fptr3 = open("0.1phi0_25RH.dat")
+# fptr3 = open("0.1phi0_25RH.dat")
 
-list_of_results3 = fptr3.readlines()
+# list_of_results3 = fptr3.readlines()
 
-data3  = []
+# data3  = []
 
-for result in list_of_results3:
+# for result in list_of_results3:
+#     datum = result.split( )
+#     for i in range(0, len(datum)):
+#         if i == 0:
+#             theta_vals3.append(float(datum[i]))
+#         elif i == 1:
+#             R_vals3.append(float(datum[i]))
+#         elif i == 2:
+#             n_vals3.append(float(datum[i]))
+#         elif i == 3:
+#             z_vals3.append(float(datum[i]))
+
+# fptr4 = open("0.1phi0_50RH.dat")
+
+# list_of_results4 = fptr4.readlines()
+
+# data4  = []
+
+# for result in list_of_results4:
+#     datum = result.split( )
+#     for i in range(0, len(datum)):
+#         if i == 0:
+#             theta_vals4.append(float(datum[i]))
+#         elif i == 1:
+#             R_vals4.append(float(datum[i]))
+#         elif i == 2:
+#             n_vals4.append(float(datum[i]))
+#         elif i == 3:
+#             z_vals4.append(float(datum[i]))
+
+
+# fptr5 = open("0.1phi0_75RH.dat")
+
+# list_of_results5 = fptr5.readlines()
+
+# data5  = []
+
+# for result in list_of_results5:
+#     datum = result.split( )
+#     for i in range(0, len(datum)):
+#         if i == 0:
+#             theta_vals5.append(float(datum[i]))
+#         elif i == 1:
+#             R_vals5.append(float(datum[i]))
+#         elif i == 2:
+#             n_vals5.append(float(datum[i]))
+#         elif i == 3:
+#             z_vals5.append(float(datum[i]))
+
+fptr6 = open("test_r_theta_data.dat")
+
+list_of_results6 = fptr6.readlines()
+
+data6  = []
+
+for result in list_of_results6:
     datum = result.split( )
     for i in range(0, len(datum)):
         if i == 0:
-            theta_vals3.append(float(datum[i]))
+            theta_data.append(float(datum[i]))
         elif i == 1:
-            R_vals3.append(float(datum[i]))
+            R_data.append(float(datum[i]))
         elif i == 2:
-            n_vals3.append(float(datum[i]))
+            theta_errs.append(float(datum[i]))
         elif i == 3:
-            z_vals3.append(float(datum[i]))
+            R_errs.append(float(datum[i]))
 
-fptr4 = open("0.1phi0_50RH.dat")
-
-list_of_results4 = fptr4.readlines()
-
-data4  = []
-
-for result in list_of_results4:
-    datum = result.split( )
-    for i in range(0, len(datum)):
-        if i == 0:
-            theta_vals4.append(float(datum[i]))
-        elif i == 1:
-            R_vals4.append(float(datum[i]))
-        elif i == 2:
-            n_vals4.append(float(datum[i]))
-        elif i == 3:
-            z_vals4.append(float(datum[i]))
-
-
-fptr5 = open("0.1phi0_75RH.dat")
-
-list_of_results5 = fptr5.readlines()
-
-data5  = []
-
-for result in list_of_results5:
-    datum = result.split( )
-    for i in range(0, len(datum)):
-        if i == 0:
-            theta_vals5.append(float(datum[i]))
-        elif i == 1:
-            R_vals5.append(float(datum[i]))
-        elif i == 2:
-            n_vals5.append(float(datum[i]))
-        elif i == 3:
-            z_vals5.append(float(datum[i]))
-
-fptr5.close()
-fptr4.close()
-fptr3.close()
+fptr6.close()
+# fptr5.close()
+# fptr4.close()
+# fptr3.close()
 fptr2.close()
 fptr.close()
 
@@ -139,15 +164,16 @@ plt.rcParams["axes.linewidth"] = 1.0
 # plt.axis([-0.1, 2.5, 12.4, 11.4])
 plt.xlim(-0.005, 0.075)
 # plt.gca().xaxis.set_major_locator(matplotlib.ticker.MultipleLocator(0.5))
-plt.ylim(6365, 6380)
-# plt.gca().yaxis.set_major_locator(matplotlib.ticker.MultipleLocator(0.5))
+plt.ylim(6365, 6384)
+plt.gca().yaxis.set_major_locator(matplotlib.ticker.MultipleLocator(3))
 plt.gca().tick_params(width = 1.0, labelsize = 9)
 
 plt.plot(theta_vals, R_vals, Marker = ".", color = "r", markeredgewidth = 0.3, markerfacecolor = "k", markersize = 4.5, LineStyle = "none", label = "0% RH")
-plt.plot(theta_vals2, R_vals3, Marker = ".", color = "m", markeredgewidth = 0.3, markerfacecolor = "k", markersize = 4.5, LineStyle = "none", label = "25% RH")
-plt.plot(theta_vals2, R_vals4, Marker = ".", color = "g", markeredgewidth = 0.3, markerfacecolor = "k", markersize = 4.5, LineStyle = "none", label = "50% RH")
-plt.plot(theta_vals2, R_vals5, Marker = ".", color = "c", markeredgewidth = 0.3, markerfacecolor = "k", markersize = 4.5, LineStyle = "none", label = "75% RH")
+# plt.plot(theta_vals3, R_vals3, Marker = ".", color = "m", markeredgewidth = 0.3, markerfacecolor = "k", markersize = 4.5, LineStyle = "none", label = "25% RH")
+# plt.plot(theta_vals4, R_vals4, Marker = ".", color = "g", markeredgewidth = 0.3, markerfacecolor = "k", markersize = 4.5, LineStyle = "none", label = "50% RH")
+# plt.plot(theta_vals5, R_vals5, Marker = ".", color = "c", markeredgewidth = 0.3, markerfacecolor = "k", markersize = 4.5, LineStyle = "none", label = "75% RH")
 plt.plot(theta_vals2, R_vals2, Marker = ".", color = "b", markeredgewidth = 0.3, markerfacecolor = "k", markersize = 4.5, LineStyle = "none", label = "100% RH")
+plt.plot(theta_data, R_data, Marker = ".", color = "k", markeredgewidth = 0.3, markerfacecolor = "k", markersize = 4.5, LineStyle = "none", label = "Data Values")
 
 plt.xlabel("$\\theta$ (rad)", fontsize = 12)
 plt.ylabel("R (km)", fontsize = 12)
@@ -155,4 +181,4 @@ plt.legend(loc = "lower right", title = "Legend", fontsize = 10)
 # plt.title("XX Cygni Calibrated Magnitudes", fontsize = 12, fontweight = "bold")
 
 # plt.plot(x_vals2, y_vals2, 'b+')
-plt.savefig("phi0_0.1_Combo__plot.pdf") # change the name of the output graph pdf file here!
+plt.savefig("phi0_0.5_plot_data.pdf") # change the name of the output graph pdf file here!

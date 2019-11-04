@@ -27,22 +27,19 @@ for result in data_result_list:
 data_fptr.close()
 # print(theta_errs_data)
 filenames = os.listdir(os.curdir)
-filenames = os.listdir(r"/Users/matthewevans/Documents/cprogramming/Graphs/PHY3138/PHY3147/phi0_0.1_files") # use this for Mac
+filenames = os.listdir(r"/Users/matthewevans/Documents/cprogramming/Graphs/PHY3138/PHY3147/phi0_0.5_files") # use this for Mac
 file_list = []
 
+[file_list.append(filename) for filename in filenames]
 
-for filename in filenames:
-    file_list.append(filename)
-    
-
-file_list.pop(101) # removing the last element of the list - which is the program itself!
+# file_list.pop(101) # removing the last element of the list - which is the program itself!
 # print(file_list)
 LS_val_array = [] # declaring an empty list to contain all the generated least sqaures difference values for each relative humidity (RH)
 
 R_model_vals = [] # a list of interpolated R values
 
 for filename in file_list:
-    fpath = os.path.join(r"/Users/matthewevans/Documents/cprogramming/Graphs/PHY3138/PHY3147/phi0_0.1_files", filename) # reads files from another directory
+    fpath = os.path.join(r"/Users/matthewevans/Documents/cprogramming/Graphs/PHY3138/PHY3147/phi0_0.5_files", filename) # reads files from another directory
     fptr = open(fpath, "r", newline = None)
     list_of_results = fptr.readlines()
  
@@ -84,11 +81,11 @@ for filename in file_list:
 
 N = len(data_result_list)
 
-model_data = input("Enter in the file with the RH model data: ")
-my_file = open(model_data, "w") # opening the interpolated R values e.g. 'test_model.txt'
+model_data = input("Enter in the file where the RH interpolated values should be stored: ")
+my_file = open(model_data, "w") # opening the interpolated R values data file e.g. 'test_model.dat'
 counter = 0
 for number in R_model_vals:
-    if counter % N == 0:
+    if counter % N == 0 and counter != 0:
         my_file.write("\n")
     my_file.write(str(number))
     my_file.write(" ")
