@@ -44,15 +44,15 @@ char **argv;
       phi0 = input_phi0;
       dtheta = input_dtheta;
 
-      sprintf(outfile, "%.1fphi0_%03dRH.dat", phi0, i); /* output file name */
+      sprintf(outfile, "%.3fphi0_%03dRH.dat", phi0, i); /* output file name */
       files[i] = fopen(outfile, "w"); /* list of output files with output file name given above */
 
 
       pi=acos(-1.0);
       phi0=pi/2.0-phi0*pi/180.0;
-      beta = -6.5; // temp gradient in K(Km^-1)
-      Pb = 1013.25; // sea-level pressure in hPa
-      Tb = 288.15; // sea-level temp in K
+      beta = -6.5; // temp gradient in K(km^-1)
+      Pb = 1019; // sea-level pressure in hPa (1013.25)
+      Tb = 297.15; // sea-level temp in K (288.15)
       grav = 9.80665;
       R = 8.31432;
       M_0 = 0.028964420; // in kg(mol)^-1

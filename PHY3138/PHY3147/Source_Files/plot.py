@@ -40,7 +40,7 @@ R_data = []
 theta_errs = [] 
 R_errs = []
 
-fptr = open("0.5phi0_0RH.dat", "r", newline=None)
+fptr = open("0.505phi0_000RH.dat", "r", newline=None)
 
 list_of_results = fptr.readlines()
 
@@ -59,7 +59,7 @@ for result in list_of_results:
             z_vals.append(float(datum[i]))
 
 
-fptr2 = open("0.5phi0_100RH.dat")
+fptr2 = open("0.505phi0_100RH.dat")
 
 list_of_results2 = fptr2.readlines()
 
@@ -132,7 +132,7 @@ for result in list_of_results2:
 #         elif i == 3:
 #             z_vals5.append(float(datum[i]))
 
-fptr6 = open("test_r_theta_data.dat")
+fptr6 = open("aug26_data.dat")
 
 list_of_results6 = fptr6.readlines()
 
@@ -181,4 +181,4 @@ plt.legend(loc = "lower right", title = "Legend", fontsize = 10)
 # plt.title("XX Cygni Calibrated Magnitudes", fontsize = 12, fontweight = "bold")
 
 # plt.plot(x_vals2, y_vals2, 'b+')
-plt.savefig("phi0_0.5_plot_data.pdf") # change the name of the output graph pdf file here!
+plt.savefig("aug26_plot.pdf") # change the name of the output graph pdf file here!
