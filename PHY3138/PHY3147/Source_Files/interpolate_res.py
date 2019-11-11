@@ -86,13 +86,13 @@ for filename in file_list:
                 found_flag = 1
 
 N = len(data_result_list)
+print(N)
 
 
-
-df = pd.DataFrame(list(zip(theta_model_vals, R_model_vals)), columns = ["theta Vals", "R interp Vals"]) # zip 'matches' the elements from list 1 and 2 together
+df = pd.DataFrame(list(zip(theta_model_vals, R_model_vals)), columns = ["theta", "R_interp"]) # zip 'matches' the elements from list 1 and 2 together
 
 model_data = input("Enter in the csv file where the theta and R interpolated values should be stored: ")
-df.to_csv(model_data, sep = "\t", header = False, index = False)
+df.to_csv(model_data, sep = "\t", index = False)
 
 # new_vals = pd.read_csv(model_data, delim_whitespace=True) # a test to read in values from a csv with spaces (not commas)
 # # print(new_vals)

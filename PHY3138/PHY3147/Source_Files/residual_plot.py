@@ -6,10 +6,7 @@ import statistics
 
 # declaring empty lists for the dry 0.00 values
 theta_vals = []
-R_vals = []
-n_vals = [] 
-z_vals = []
-
+residuals = []
 # declaring empty lists for the residuals
 residuals = []
 
@@ -27,33 +24,14 @@ for result in list_of_results:
         if i == 0:
             theta_vals.append(float(datum[i]))
         elif i == 1:
-            R_vals.append(float(datum[i]))
-        elif i == 2:
-            n_vals.append(float(datum[i]))
-        elif i == 3:
-            z_vals.append(float(datum[i]))
+            residuals.append(float(datum[i]))
 
 fptr.close()
-
-file2 = input("Enter in the first file you would like to read the residuals from: ")
-fptr2 = open(file2, "r", newline=None)
-
-list_of_results2 = fptr2.readlines()
-
-data2  = []
-
-for result2 in list_of_results2:
-    datum = result.split( )
-    for i in range(0, len(datum)):
-        if i == 0:
-            residuals.append(float(datum[i]))
-       
-
-fptr2.close()
 
 plt.rc('font', family = 'serif', serif = 'cmr10') 
 plt.rcParams['mathtext.fontset'] = "cm" 
 plt.rcParams["axes.linewidth"] = 1.0
+plt.rcParams['axes.unicode_minus'] = False # ensures that minus signs appear on the axes scales
 
 # plt.axis([-0.1, 2.5, 12.4, 11.4])
 # plt.xlim(-0.005, 0.075)
@@ -63,7 +41,7 @@ plt.rcParams["axes.linewidth"] = 1.0
 plt.gca().tick_params(width = 1.0, labelsize = 9)
 
 
-plt.plot(residuals, Marker = ".", color = "k", markeredgewidth = 0.3, markerfacecolor = "k", markersize = 4.5, LineStyle = "none", label = "Residuals")
+plt.plot(theta_vals, residuals, Marker = ".", color = "k", markeredgewidth = 0.3, markerfacecolor = "k", markersize = 4.5, LineStyle = "none", label = "Residuals")
 
 plt.xlabel("$\\theta$ (rad)", fontsize = 12)
 plt.ylabel("data - model", fontsize = 12)
