@@ -4,7 +4,7 @@ import os
 theta_vals_data = []
 R_vals_data = []
 theta_errs_data = []
-R_errs_data = [] 
+R_errs_data = []
 
 data_values = input("Input the data file you wish to read in: ")
 fptr = open(data_values, "r", newline=None) # opening the R data values 'test_data.dat'
@@ -55,15 +55,19 @@ shape = (101, N)
 model_values = model.reshape(shape) 
 
 
+residual_values = []
 ls_values = []
 for i in range(0, len(model_values)):
 
+    residual = 0
     ls_value = 0
     for j in range(0, N):
         # print(data_values[j])
         # print(model_values[i][j])
-        ls_value += ((data_values[j] - model_values[i][j]) ** 2) # remember to divide by errors when we get data!
+        residual = data_values[j] - model_values[i][j]
+        ls_value += (residual ** 2) # remember to divide by errors when we get data!
         if j == (N - 1):
+            residual_values.append(residual)
             ls_values.append(ls_value)
 
 
@@ -77,11 +81,19 @@ for i in range(0, len(ls_values)): # prints out the minimum values and index num
         print("The minimum value is: {:f} " .format(ls_values[i]))
         print("The corresponding (index number) RH is: {:d} " .format(i))
 
-output_file = input("Enter in the file name you wish to write to: ") # e.g. 'ls_test.dat'
+output_file = input("Enter in the file name you wish to write ls values to: ") # e.g. 'ls_test.dat'
 my_file = open(output_file, "w")
 
 for number in ls_values:
     my_file.write(str(number))
     my_file.write("\n")
+
+output_file2 = input("Enter in the file name you wish to write residuals to: ")
+my_file2 = open(output_file2, "w")
+
+for res in residual_values:
+    my_file2.write(str(res))
+    my_file2.write("\n")
     
 my_file.close()
+my_file2.close()
