@@ -34,9 +34,9 @@ plt.rcParams["axes.linewidth"] = 1.0
 plt.rcParams['axes.unicode_minus'] = False # ensures that minus signs appear on the axes scales
 
 # plt.axis([-0.1, 2.5, 12.4, 11.4])
-# plt.xlim(-0.005, 0.075)
+plt.xlim(0.02, 0.07)
 # plt.gca().xaxis.set_major_locator(matplotlib.ticker.MultipleLocator(0.5))
-# plt.ylim(6365, 6384)
+plt.ylim(-1.5, 1.5)
 # plt.gca().yaxis.set_major_locator(matplotlib.ticker.MultipleLocator(3))
 plt.gca().tick_params(width = 1.0, labelsize = 9)
 
@@ -45,7 +45,7 @@ plt.plot(theta_vals, residuals, Marker = ".", color = "k", markeredgewidth = 0.3
 
 plt.xlabel("$\\theta$ (rad)", fontsize = 12)
 plt.ylabel("data - model", fontsize = 12)
-plt.legend(loc = "lower right", title = "Legend", fontsize = 10)
+plt.legend(loc = "lower right", title = None, fontsize = 10)
 # plt.title("XX Cygni Calibrated Magnitudes", fontsize = 12, fontweight = "bold")
 
 # plt.plot(x_vals2, y_vals2, 'b+')

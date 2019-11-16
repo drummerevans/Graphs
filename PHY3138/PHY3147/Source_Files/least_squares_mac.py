@@ -98,7 +98,7 @@ for number in ls_values:
     my_file.write(str(number))
     my_file.write("\n")
 
-
+my_file.close()
 
 
 

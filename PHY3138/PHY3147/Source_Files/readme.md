@@ -67,8 +67,9 @@ python interpolate_mac.py
 
 This program should be used on Linux machines only i.e. Mac.
 
-This reads in data generated from the 'interpolate_mac.py' program and should be used in conjunction with this.
+This reads in data generated from the 'interpolate_mac.py' (or 'interpolated_res_mac.py') program and should be used in conjunction with this.
 It then finds the least squares difference between these interpolated (R model) values and the actual data (R data) values. 
+It has also been updated so, at the bottom of the script, it finds the residuals between the R data and R (best fit) model for each theta value. This is an optional part of the program.
 
 Generates and writes a list of 101 LS values for each relative humidity to a data/text file.
 
@@ -98,4 +99,14 @@ To run use:
 
 ```bash
 python temp_gradient_plot.py
+```
+
+## interpolate_res_mac.py
+
+Updated from 'interpolate_mac.py' as this outputs a csv file with the theta values for the corresponding R interpolated values. 
+
+To run use:
+
+```bash
+python interpolate_res_mac.py
 ```
