@@ -17,6 +17,8 @@ names = sort_by_age["Name"].tolist()
 print(age_values)
 print(names)
 
+# below is to be used with the "bankhol.csv" file
+
 # for i in range(0, len(age_values)):
 #     if age_values[i] > 20 and age_values[i] < 29:
 #         print(age_values[i], names[i])
