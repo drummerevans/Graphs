@@ -43,4 +43,4 @@ print("The error on the mean of the selected observed angle is: {:f}" .format(me
 
 
 df2 = pd.DataFrame(list(zip(selected_theta_vals, selected_r_vals)), columns = ["theta", "r"])
-df2.to_csv("aug26_0.5_late.csv", sep = "\t", header = False, index = False)
+df2.to_csv("aug26_0.1_late.csv", sep = "\t", header = False, index = False)

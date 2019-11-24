@@ -58,7 +58,7 @@ char **argv;
       M_0 = 0.028964420; // in kg(mol)^-1
       r0=6365.5; 
 
-      ntheta=(int)4.0*pi/180.0/dtheta;
+      ntheta=(int)5.0*pi/180.0/dtheta;
 
 
       phi=dvector(0,ntheta-1);
