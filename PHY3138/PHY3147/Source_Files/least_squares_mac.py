@@ -87,7 +87,7 @@ for i in range(0, len(ls_values)): # prints out the minimum values and index num
 
         lowest_res = 0
         for j in range(0, N):
-            print(i)
+            # print(i)
             lowest_res = data_values[j] - model_values[i][j]
             lowest_res_vals.append(lowest_res)
 
@@ -114,17 +114,19 @@ my_file.close()
 # my_file.close()
 # my_file2.close()
 
-new_vals = pd.read_csv("aug26_interp_res.csv", delim_whitespace=True) # a test to read in values from a csv with spaces (not commas)
-# print(new_vals)
-theta_new = new_vals["theta"].tolist()
-R_new = new_vals["R_interp"].tolist()
+# below is for calculating residues
 
-theta_res_vals = []
-for i in range(0, N):
-    theta_res_vals.append(theta_new[i])
+# new_vals = pd.read_csv("aug26_interp_res.csv", delim_whitespace=True) # a test to read in values from a csv with spaces (not commas)
+# # print(new_vals)
+# theta_new = new_vals["theta"].tolist()
+# R_new = new_vals["R_interp"].tolist()
 
-print(theta_res_vals)
+# theta_res_vals = []
+# for i in range(0, N):
+#     theta_res_vals.append(theta_new[i])
 
-df = pd.DataFrame(list(zip(theta_res_vals, lowest_res_vals)), columns = ["theta Vals", "R interp Vals"]) # zip 'matches' the elements from list 1 and 2 together
-model_data = input("Enter in the csv file where the theta and R interpolated values should be stored: ")
-df.to_csv(model_data, sep = "\t", header = False, index = False)
+# print(theta_res_vals)
+
+# df = pd.DataFrame(list(zip(theta_res_vals, lowest_res_vals)), columns = ["theta Vals", "R interp Vals"]) # zip 'matches' the elements from list 1 and 2 together
+# model_data = input("Enter in the csv file where the theta and R interpolated values should be stored: ")
+# df.to_csv(model_data, sep = "\t", header = False, index = False)

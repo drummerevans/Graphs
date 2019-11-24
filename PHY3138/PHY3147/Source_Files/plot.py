@@ -78,23 +78,23 @@ for result in list_of_results2:
         elif i == 3:
             z_vals2.append(float(datum[i]))
 
-fptr3 = open("0.575phi0_067RH.dat")
+# fptr3 = open("0.505phi0_038RH.dat")
 
-list_of_results3 = fptr3.readlines()
+# list_of_results3 = fptr3.readlines()
 
-data3  = []
+# data3  = []
 
-for result in list_of_results3:
-    datum = result.split( )
-    for i in range(0, len(datum)):
-        if i == 0:
-            theta_vals3.append(float(datum[i]))
-        elif i == 1:
-            R_vals3.append(float(datum[i]))
-        elif i == 2:
-            n_vals3.append(float(datum[i]))
-        elif i == 3:
-            z_vals3.append(float(datum[i]))
+# for result in list_of_results3:
+#     datum = result.split( )
+#     for i in range(0, len(datum)):
+#         if i == 0:
+#             theta_vals3.append(float(datum[i]))
+#         elif i == 1:
+#             R_vals3.append(float(datum[i]))
+#         elif i == 2:
+#             n_vals3.append(float(datum[i]))
+#         elif i == 3:
+#             z_vals3.append(float(datum[i]))
 
 # fptr4 = open("0.1phi0_50RH.dat")
 
@@ -155,7 +155,7 @@ for result in list_of_results6:
 fptr6.close()
 # fptr5.close()
 # fptr4.close()
-fptr3.close()
+# fptr3.close()
 fptr2.close()
 fptr.close()
 
@@ -171,7 +171,7 @@ plt.gca().yaxis.set_major_locator(matplotlib.ticker.MultipleLocator(3))
 plt.gca().tick_params(width = 1.0, labelsize = 9)
 
 plt.plot(theta_vals, R_vals, Marker = ".", color = "r", markeredgewidth = 0.3, markerfacecolor = "k", markersize = 4.5, LineStyle = "none", label = "0% RH")
-plt.plot(theta_vals3, R_vals3, Marker = ".", color = "g", markeredgewidth = 0.3, markerfacecolor = "k", markersize = 4.5, LineStyle = "none", label = "67% RH")
+# plt.plot(theta_vals3, R_vals3, Marker = ".", color = "g", markeredgewidth = 0.3, markerfacecolor = "k", markersize = 4.5, LineStyle = "none", label = "38% RH")
 # plt.plot(theta_vals4, R_vals4, Marker = ".", color = "g", markeredgewidth = 0.3, markerfacecolor = "k", markersize = 4.5, LineStyle = "none", label = "50% RH")
 # plt.plot(theta_vals5, R_vals5, Marker = ".", color = "c", markeredgewidth = 0.3, markerfacecolor = "k", markersize = 4.5, LineStyle = "none", label = "75% RH")
 plt.plot(theta_vals2, R_vals2, Marker = ".", color = "b", markeredgewidth = 0.3, markerfacecolor = "k", markersize = 4.5, LineStyle = "none", label = "100% RH")
@@ -183,4 +183,4 @@ plt.legend(loc = "lower right", title = None, fontsize = 10)
 # plt.title("XX Cygni Calibrated Magnitudes", fontsize = 12, fontweight = "bold")
 
 # plt.plot(x_vals2, y_vals2, 'b+')
-plt.savefig("aug26_0.575_phi0_plot.pdf") # change the name of the output graph pdf file here!
+plt.savefig("aug26_0.505_late.pdf") # change the name of the output graph pdf file here!

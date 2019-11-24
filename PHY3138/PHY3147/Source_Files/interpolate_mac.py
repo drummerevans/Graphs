@@ -19,15 +19,15 @@ for result in data_result_list:
             theta_vals_data.append(float(datum[i]))
         elif i == 1:
             R_vals_data.append(float(datum[i]))
-        elif i == 2:
-            theta_errs_data.append(7.85e-6) # initially setting the x-error bars equal to 7.85e-3
-        elif i == 3:
-            R_errs_data.append(8e-3) # initially setting the y-error bars equal to 1
+        # elif i == 2:
+        #     theta_errs_data.append(7.85e-6) # initially setting the x-error bars equal to 7.85e-3
+        # elif i == 3:
+        #     R_errs_data.append(8e-3) # initially setting the y-error bars equal to 1
 
 data_fptr.close()
 # print(theta_errs_data)
 filenames = os.listdir(os.curdir)
-filenames = os.listdir(r"/Users/matthewevans/Documents/cprogramming/Graphs/PHY3138/PHY3147/phi0_0.575_files") # use this for Mac
+filenames = os.listdir(r"/Users/matthewevans/Documents/cprogramming/Graphs/PHY3138/PHY3147/phi0_0.505_late") # use this for Mac
 file_list = []
 
 [file_list.append(filename) for filename in filenames]
@@ -39,8 +39,9 @@ LS_val_array = [] # declaring an empty list to contain all the generated least s
 R_model_vals = [] # a list of interpolated R values
 
 for filename in file_list:
-    fpath = os.path.join(r"/Users/matthewevans/Documents/cprogramming/Graphs/PHY3138/PHY3147/phi0_0.575_files", filename) # reads files from another directory
+    fpath = os.path.join(r"/Users/matthewevans/Documents/cprogramming/Graphs/PHY3138/PHY3147/phi0_0.505_late", filename) # reads files from another directory
     fptr = open(fpath, "r", newline = None)
+    # print(filename)
     list_of_results = fptr.readlines()
  
     data = []
@@ -56,10 +57,10 @@ for filename in file_list:
                 theta_vals.append(float(data[i]))
             elif i == 1:
                 R_vals.append(float(data[i]))
-            elif i == 2:
-                theta_errs.append(7.85e-6) # initially setting the x-error bars equal to 7.85e-3
-            elif i == 3:
-                R_errs.append(8e-3) # initially setting the y-error bars equal to 1
+            # elif i == 2:
+            #     theta_errs.append(7.85e-6) # initially setting the x-error bars equal to 7.85e-3
+            # elif i == 3:
+            #     R_errs.append(8e-3) # initially setting the y-error bars equal to 1
         
     fptr.close()
       

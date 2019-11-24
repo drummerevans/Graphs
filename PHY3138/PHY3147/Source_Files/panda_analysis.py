@@ -26,7 +26,8 @@ selected_r_vals = []
 selected_theta_vals = []
 selected_obs_vals = []
 for i in range(0, len(times)):
-    if (times[i] <= 11340) and (obs1 <= obs_vals[i] <= obs2):
+    # if (obs1 <= obs_vals[i] <= obs2):
+    if (times[i] >= 25000) and (obs1 <= obs_vals[i] <= obs2):
         selected_r_vals.append(r_vals[i])
         selected_theta_vals.append(theta_vals[i])
         selected_obs_vals.append(obs_vals[i])
@@ -42,4 +43,4 @@ print("The error on the mean of the selected observed angle is: {:f}" .format(me
 
 
 df2 = pd.DataFrame(list(zip(selected_theta_vals, selected_r_vals)), columns = ["theta", "r"])
-df2.to_csv("aug26_0.5_data.csv", sep = "\t", header = False, index = False)
+df2.to_csv("aug26_0.5_late.csv", sep = "\t", header = False, index = False)
