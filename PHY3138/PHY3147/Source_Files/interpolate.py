@@ -27,7 +27,7 @@ for result in data_result_list:
 data_fptr.close()
 # print(theta_errs_data)
 filenames = os.listdir(os.curdir)
-filenames = os.listdir(r"C:\Users\Matt\Documents\cprogramming\Python\Graphs\PHY3138\PHY3147\phi0_0.105_late") # use this for Mac
+filenames = os.listdir(r"C:\Users\Matt\Documents\cprogramming\Python\Graphs\PHY3138\PHY3147\phi0_0.105err_early") # use this for Mac
 file_list = []
 
 [file_list.append(filename) for filename in filenames]
@@ -39,7 +39,7 @@ LS_val_array = [] # declaring an empty list to contain all the generated least s
 R_model_vals = [] # a list of interpolated R values
 
 for filename in file_list:
-    fpath = os.path.join(r"C:\Users\Matt\Documents\cprogramming\Python\Graphs\PHY3138\PHY3147\phi0_0.105_late", filename) # reads files from another directory
+    fpath = os.path.join(r"C:\Users\Matt\Documents\cprogramming\Python\Graphs\PHY3138\PHY3147\phi0_0.105err_early", filename) # reads files from another directory
     fptr = open(fpath, "r", newline = None)
     list_of_results = fptr.readlines()
  

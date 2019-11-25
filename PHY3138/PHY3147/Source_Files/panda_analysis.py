@@ -12,6 +12,8 @@ times = aug26_data["TIMESTAMP"].tolist()
 sin_obs = aug26_data["obs"].tolist()
 r_vals = aug26_data["r"].tolist()
 theta_vals = aug26_data["ARCANG"].tolist()
+# longtiude = aug26_data["LONGITUDE"].tolist()
+# latitude = aug26_data["LATITUDE"].tolist()
 
 obs_vals = []
 for i in range(0, len(sin_obs)):
@@ -25,12 +27,16 @@ obs2 = float(input("Now enter in the upper bound of observed angle: "))
 selected_r_vals = []
 selected_theta_vals = []
 selected_obs_vals = []
+# selected_lat_vals = []
+# selected_long_vals = []
 for i in range(0, len(times)):
     # if (obs1 <= obs_vals[i] <= obs2):
-    if (times[i] >= 25000) and (obs1 <= obs_vals[i] <= obs2):
+    if (times[i] <= 5000) and (obs1 <= obs_vals[i] <= obs2):
         selected_r_vals.append(r_vals[i])
         selected_theta_vals.append(theta_vals[i])
         selected_obs_vals.append(obs_vals[i])
+        # selected_long_vals.append(longtiude[i])
+        # selected_lat_vals.append(latitude[i])
 
 average = np.mean(selected_obs_vals)
 print("The mean of the selected observed angle range is: {:f}" .format(average))
@@ -43,4 +49,4 @@ print("The error on the mean of the selected observed angle is: {:f}" .format(me
 
 
 df2 = pd.DataFrame(list(zip(selected_theta_vals, selected_r_vals)), columns = ["theta", "r"])
-df2.to_csv("aug26_0.1_late.csv", sep = "\t", header = False, index = False)
+df2.to_csv("aug26_0.1_lat_long.csv", sep = "\t", header = False, index = False)

@@ -51,8 +51,8 @@ char **argv;
       pi=acos(-1.0);
       phi0=pi/2.0-phi0*pi/180.0;
       beta = -6.5; // temp gradient in K(km^-1)
-      Pb = 1023; // sea-level pressure in hPa (1013.25)
-      Tb = 301.65; // sea-level temp in K (288.15)
+      Pb = 1022; // sea-level pressure in hPa (1013.25)
+      Tb = 300.15; // sea-level temp in K (288.15)
       grav = 9.80665;
       R = 8.31432;
       M_0 = 0.028964420; // in kg(mol)^-1
