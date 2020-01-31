@@ -45,4 +45,4 @@ plt.legend(loc = "lower right", title = None, fontsize = 10)
 # plt.title("XX Cygni Calibrated Magnitudes", fontsize = 12, fontweight = "bold")
 
 # plt.plot(x_vals2, y_vals2, 'b+')
-plt.savefig("long_lat.pdf") # change the name of the output graph pdf file here!
+plt.savefig("long_lat2.pdf") # change the name of the output graph pdf file here!
