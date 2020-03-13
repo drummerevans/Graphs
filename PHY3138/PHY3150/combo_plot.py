@@ -60,9 +60,9 @@ plt.rcParams["axes.linewidth"] = 1.0
 plt.rcParams["axes.unicode_minus"] = False
 
 # plt.axis([-0.1, 2.5, 12.4, 11.4])
-# plt.xlim(-250, 50)
+plt.xlim(-1000, 50)
 # plt.gca().xaxis.set_major_locator(matplotlib.ticker.MultipleLocator(0.5))
-# plt.ylim(0, 2500)
+plt.ylim(0, 10000)
 # plt.gca().yaxis.set_major_locator(matplotlib.ticker.MultipleLocator(2))
 #plt.gca().tick_params(width = 1.0, labelsize = 9)
 
@@ -74,7 +74,7 @@ plt.plot(timestamp5, altitude5, Marker = ".", color = "k", markeredgewidth = 0.3
 
 plt.xlabel("Timestamp $(s)$", fontsize = 12)
 plt.ylabel("Altitude $(')$", fontsize = 12)
-plt.legend(loc = "lower right", title = None, fontsize = 10)
+plt.legend(loc = "lower left", title = None, fontsize = 10)
 # plt.title("XX Cygni Calibrated Magnitudes", fontsize = 12, fontweight = "bold")
 
 # plt.plot(x_vals2, y_vals2, 'b+')
