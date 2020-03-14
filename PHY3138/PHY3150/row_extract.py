@@ -40,8 +40,8 @@ y1c = []
 x2c = []
 y2c = []
 for i in range(0, len(f1)):
-    times1.append(f1[i]/10)
-    times2.append(f2[i]/10)
+    times1.append(f1[i]/25)
+    times2.append(f2[i]/25)
     x1c.append(x1[i] + w1[i] / 2)
     y1c.append(y1[i] - h1[i] / 2)
     x2c.append(x2[i] + w2[i] / 2)
