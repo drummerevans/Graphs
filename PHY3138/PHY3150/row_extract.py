@@ -1,7 +1,7 @@
 import pandas as pd
 import numpy as np
 
-data = pd.read_csv("optical_data8.csv", index_col = False) # optical data
+data = pd.read_csv("optical_data7.csv", index_col = False) # optical data
 radio_data = pd.read_csv("tom3kmA.csv", index_col = False) # ADS-B data
 
 # optical assignments
@@ -65,5 +65,5 @@ new_rows1.to_csv("left_wing.csv", sep = "\t", header = False, index = False)
 new_rows2.to_csv("right_wing.csv", sep = "\t", header = False, index = False)
 
 frame_roll = pd.DataFrame(list(zip(times1, roll)), columns = ["time", "roll"])
-frame_roll.to_csv("optical_roll8.csv", sep = "\t", header = False, index = False)
+frame_roll.to_csv("optical_roll7.csv", sep = "\t", header = False, index = False)
 

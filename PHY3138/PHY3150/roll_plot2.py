@@ -62,8 +62,8 @@ plt.plot(long_radio, lat_radio, Marker = None, color = "g", markeredgewidth = 0.
 
 plt.xlabel("Time (s)", fontsize = 12)
 plt.ylabel("Roll Angle ($\\degree$)", fontsize = 12)
-plt.legend(loc = "upper right", title = None, fontsize = 10)
+plt.legend(loc = "lower right", title = None, fontsize = 10)
 # plt.title("XX Cygni Calibrated Magnitudes", fontsize = 12, fontweight = "bold")
 
 # plt.plot(x_vals2, y_vals2, 'b+')
-plt.savefig("TOM3KM_combined_roll8.pdf") # change the name of the output graph pdf file here!r
+plt.savefig("TOM3KM_total_roll7.pdf") # change the name of the output graph pdf file here!r
