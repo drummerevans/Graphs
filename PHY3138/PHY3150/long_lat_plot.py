@@ -31,13 +31,13 @@ plt.rcParams["axes.linewidth"] = 1.0
 plt.rcParams["axes.unicode_minus"] = False
 
 # plt.axis([-0.25, 2.5, 46.0, 50.0])
-# plt.xlim(-2.5, 1.5)
+plt.xlim(-3.45, -3.05)
 #plt.gca().xaxis.set_major_locator(matplotlib.ticker.MultipleLocator(0.5))
-#plt.ylim(46.0, 50.0)
+plt.ylim(50.35, 50.80)
 #plt.gca().yaxis.set_major_locator(matplotlib.ticker.MultipleLocator(0.5))
 #plt.gca().tick_params(width = 1.0, labelsize = 9)
 
-plt.plot(long_data, lat_data, Marker = ".", color = "k", markeredgewidth = 0.3, markerfacecolor = "k", markersize = 4.5, LineStyle = "none", label = "Data Values")
+plt.plot(long_data, lat_data, Marker = ".", color = "g", markeredgewidth = 0.3, markerfacecolor = "g", markersize = 2, LineStyle = "none", label = "ADS-B Data")
 
 plt.xlabel("Longitude ($\\degree$)", fontsize = 12)
 plt.ylabel("Latitude ($\\degree$)", fontsize = 12)
@@ -45,4 +45,4 @@ plt.legend(loc = "lower right", title = None, fontsize = 10)
 # plt.title("XX Cygni Calibrated Magnitudes", fontsize = 12, fontweight = "bold")
 
 # plt.plot(x_vals2, y_vals2, 'b+')
-plt.savefig("EXS6KA_long_lat.pdf") # change the name of the output graph pdf file here!
+plt.savefig("long_lat.pdf") # change the name of the output graph pdf file here!

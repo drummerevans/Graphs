@@ -51,19 +51,19 @@ plt.rcParams["axes.linewidth"] = 1.0
 plt.rcParams["axes.unicode_minus"] = False
 
 # plt.axis([-0.25, 2.5, 46.0, 50.0])
-# plt.xlim(-2.5, 1.5)
+plt.xlim(-10, 60)
 #plt.gca().xaxis.set_major_locator(matplotlib.ticker.MultipleLocator(0.5))
-#plt.ylim(46.0, 50.0)
+plt.ylim(-1.0, 1.25)
 #plt.gca().yaxis.set_major_locator(matplotlib.ticker.MultipleLocator(0.5))
 #plt.gca().tick_params(width = 1.0, labelsize = 9)
 
 plt.plot(long_data, lat_data, Marker = None, color = "r", markeredgewidth = 0.3, markerfacecolor = "r", markersize = None, LineStyle = "-", linewidth ="0.5", label = "Optical Data")
-plt.plot(long_radio, lat_radio, Marker = None, color = "g", markeredgewidth = 0.3, markerfacecolor = "r", markersize = None, LineStyle = "-", linewidth ="0.5", label = "Radio Data")
+plt.plot(long_radio, lat_radio, Marker = None, color = "g", markeredgewidth = 0.3, markerfacecolor = "r", markersize = None, LineStyle = "-", linewidth ="0.5", label = "ADS-B Data")
 
-plt.xlabel("Time (s)", fontsize = 12)
-plt.ylabel("Roll Angle ($\\degree$)", fontsize = 12)
+plt.xlabel("Time, $t$ (s)", fontsize = 12)
+plt.ylabel("Roll Angle, $\\phi$ ($\\degree$)", fontsize = 12)
 plt.legend(loc = "lower right", title = None, fontsize = 10)
 # plt.title("XX Cygni Calibrated Magnitudes", fontsize = 12, fontweight = "bold")
 
 # plt.plot(x_vals2, y_vals2, 'b+')
-plt.savefig("TOM3KM_total_roll7.pdf") # change the name of the output graph pdf file here!r
+plt.savefig("TOM3KM_combined_roll7.pdf") # change the name of the output graph pdf file here!r
